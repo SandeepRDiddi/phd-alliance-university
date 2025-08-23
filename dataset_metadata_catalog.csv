@@ -1,0 +1,38 @@
+dataset,field,datatype,description
+EHR,patient_id,string,Unique patient identifier
+EHR,age,integer,Age of the patient in years
+EHR,gender,string,Gender of the patient
+EHR,diagnosis,string,Primary diagnosis of the patient
+EHR,treatment,string,Treatment administered
+EHR,visit_date,date,Date of hospital visit
+EHR,lab_result,float,Numeric result of a lab test
+EHR,outcome,string,Health outcome after treatment
+Clinical Trials,trial_id,string,Unique trial identifier (NCT ID)
+Clinical Trials,title,string,Title of the clinical trial
+Clinical Trials,condition,string,Medical condition under study
+Clinical Trials,intervention,string,Treatment or intervention tested
+Clinical Trials,phase,string,Trial phase (I-IV)
+Clinical Trials,status,string,Current status of trial
+Clinical Trials,start_date,date,Trial start date
+Clinical Trials,end_date,date,Trial end date
+Clinical Trials,location,string,Geographic trial location
+Clinical Trials,sponsor,string,Sponsoring organization
+Drug Safety,report_id,string,Unique report identifier
+Drug Safety,drug_name,string,Name of the suspected drug
+Drug Safety,adverse_event,string,Adverse event observed
+Drug Safety,serious,string,Seriousness of the event
+Drug Safety,outcome,string,Patient outcome after adverse event
+Drug Safety,report_date,date,Date of the safety report
+Drug Safety,age,integer,Age of the patient
+Drug Safety,gender,string,Gender of the patient
+Drug Safety,country,string,Country of report origin
+Drug Safety,source,string,"Reporter type (Physician, Consumer, etc.)"
+Drug Ontology,drug_id,string,Unique drug identifier (DrugBank style)
+Drug Ontology,drug_name,string,Systematic drug name
+Drug Ontology,generic_name,string,Generic drug name
+Drug Ontology,drug_class,string,Pharmacological class
+Drug Ontology,mechanism_of_action,string,Mechanism of action
+Drug Ontology,route_of_administration,string,"Route (Oral, Injection, etc.)"
+Drug Ontology,atc_code,string,ATC classification code
+Drug Ontology,approved,string,Approval status
+Drug Ontology,synonyms,string,Synonyms of the drug
