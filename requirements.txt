@@ -1,4 +1,5 @@
 pandas
 torch
 transformers
+psycopg2-binary
 scikit-learn

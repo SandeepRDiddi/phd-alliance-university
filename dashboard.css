@@ -1,0 +1,172 @@
+/* Custom styles for Healthcare Research Dashboard */
+
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --success-color: #28a745;
+  --info-color: #17a2b8;
+  --warning-color: #ffc107;
+  --danger-color: #dc3545;
+  --light-color: #f8f9fa;
+  --dark-color: #343a40;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.kpi-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+  height: 100%;
+  border: none;
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+}
+
+.kpi-card:hover {
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  transform: translateY(-2px);
+}
+
+.kpi-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: var(--primary-color);
+}
+
+.kpi-value {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 10px 0;
+  color: var(--dark-color);
+}
+
+.kpi-title {
+  font-size: 1rem;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.chart-container {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.section-title {
+  border-bottom: 3px solid var(--primary-color);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: var(--dark-color);
+  font-weight: 600;
+}
+
+.table-responsive {
+  max-height: 400px;
+  overflow-y: auto;
+  border-radius: 5px;
+}
+
+.table th {
+  background-color: var(--primary-color);
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+.status-badge {
+  font-size: 0.8rem;
+  padding: 5px 10px;
+}
+
+footer {
+  background-color: var(--dark-color);
+  color: white;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.metric-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.metric-title {
+  font-size: 1.1rem;
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+}
+
+.metric-value {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.progress {
+  height: 10px;
+  margin-top: 10px;
+}
+
+.text-primary { color: var(--primary-color); }
+.text-success { color: var(--success-color); }
+.text-warning { color: var(--warning-color); }
+.text-danger { color: var(--danger-color); }
+.text-info { color: var(--info-color); }
+
+.bg-primary { background-color: var(--primary-color); }
+.bg-success { background-color: var(--success-color); }
+.bg-warning { background-color: var(--warning-color); }
+.bg-danger { background-color: var(--danger-color); }
+.bg-info { background-color: var(--info-color); }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .kpi-value {
+    font-size: 1.5rem;
+  }
+  
+  .chart-container {
+    height: 250px;
+  }
+  
+  .table-responsive {
+    max-height: 300px;
+  }
+}
+
+/* Animation for loading */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.card {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.card-header {
+  background-color: white;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  border-radius: 10px 10px 0 0 !important;
+  font-weight: 600;
+  color: var(--dark-color);
+}
