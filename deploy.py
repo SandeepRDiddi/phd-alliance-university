@@ -43,7 +43,8 @@ def copy_files_to_docs():
         "index.html",
         "dashboard.css",
         "dashboard_data.json",
-        "README.md"
+        "README.md",
+        "reporting_queries.sql"
     ]
     
     for file in files_to_copy:

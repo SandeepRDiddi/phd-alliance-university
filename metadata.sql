@@ -44,20 +44,20 @@ WITH (FORMAT csv, HEADER true, DELIMITER ',', NULL '');
 SELECT COUNT(*) as total_metadata_records FROM dataset_metadata_catalog;
 
 -- Verify all datasets are present
-SELECT dataset, COUNT(*) as field_count 
-FROM dataset_metadata_catalog 
-GROUP BY dataset 
+SELECT dataset, COUNT(*) as field_count
+FROM dataset_metadata_catalog
+GROUP BY dataset
 ORDER BY dataset;
 
 -- Check data types distribution
-SELECT datatype, COUNT(*) as field_count 
-FROM dataset_metadata_catalog 
-GROUP BY datatype 
+SELECT datatype, COUNT(*) as field_count
+FROM dataset_metadata_catalog
+GROUP BY datatype
 ORDER BY field_count DESC;
 
 -- Look for any missing descriptions
-SELECT dataset, field, datatype 
-FROM dataset_metadata_catalog 
+SELECT dataset, field, datatype
+FROM dataset_metadata_catalog
 WHERE description IS NULL OR description = '';
 
 -- =====================================================
@@ -65,32 +65,32 @@ WHERE description IS NULL OR description = '';
 -- =====================================================
 
 -- Get all fields for a specific dataset
-SELECT field, datatype, description 
-FROM dataset_metadata_catalog 
+SELECT field, datatype, description
+FROM dataset_metadata_catalog
 WHERE dataset = 'EHR'
 ORDER BY field;
 
 -- Find all string fields across datasets
-SELECT dataset, field, description 
-FROM dataset_metadata_catalog 
+SELECT dataset, field, description
+FROM dataset_metadata_catalog
 WHERE datatype = 'string'
 ORDER BY dataset, field;
 
 -- Find all date fields (useful for temporal analysis)
-SELECT dataset, field, description 
-FROM dataset_metadata_catalog 
+SELECT dataset, field, description
+FROM dataset_metadata_catalog
 WHERE datatype = 'date'
 ORDER BY dataset, field;
 
 -- Get metadata summary by dataset
-SELECT 
+SELECT
     dataset,
     COUNT(*) as total_fields,
     COUNT(CASE WHEN datatype = 'string' THEN 1 END) as string_fields,
     COUNT(CASE WHEN datatype = 'integer' THEN 1 END) as integer_fields,
     COUNT(CASE WHEN datatype = 'float' THEN 1 END) as float_fields,
     COUNT(CASE WHEN datatype = 'date' THEN 1 END) as date_fields
-FROM dataset_metadata_catalog 
+FROM dataset_metadata_catalog
 GROUP BY dataset
 ORDER BY dataset;
 
@@ -103,7 +103,7 @@ CREATE OR REPLACE FUNCTION field_exists(dataset_name VARCHAR, field_name VARCHAR
 RETURNS BOOLEAN AS $$
 BEGIN
     RETURN EXISTS (
-        SELECT 1 FROM dataset_metadata_catalog 
+        SELECT 1 FROM dataset_metadata_catalog
         WHERE dataset = dataset_name AND field = field_name
     );
 END;

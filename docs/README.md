@@ -109,7 +109,7 @@ Open `index.html` in your web browser to view the dashboard.
 ├── requirements.txt        # Python dependencies
 ├── load-data-db.sql        # Database schema and data loading scripts
 ├── metadata.sql            # Dataset metadata catalog
-├── repoting_queries.sql    # Analytical SQL queries
+├── reporting_queries.sql   # Analytical SQL queries
 ├── dashboard_data.json     # Generated data (after running db_connector.py)
 ├── Datasets/               # CSV data files
 │   ├── clinical_trials_50k.csv
@@ -123,7 +123,7 @@ Open `index.html` in your web browser to view the dashboard.
 
 ### Modifying Queries
 
-To modify the analytical queries, edit `repoting_queries.sql` and update the `queries` dictionary in `db_connector.py` accordingly.
+To modify the analytical queries, edit `reporting_queries.sql` and update the `queries` dictionary in `db_connector.py` accordingly.
 
 ### Styling
 

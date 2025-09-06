@@ -9,7 +9,7 @@
 
 -- Patient Journey Tracking
 WITH patient_timeline AS (
-    SELECT 
+    SELECT
         ct.patient_id,
         ehr.age,
         ehr.gender,
@@ -19,7 +19,7 @@ WITH patient_timeline AS (
         ct.completion_date,
         ehr.dropout_date,
         ehr.dropout_reason,
-        CASE 
+        CASE
             WHEN ehr.dropout_date IS NULL AND ct.status = 'Completed' THEN 'Completed'
             WHEN ehr.dropout_date IS NOT NULL THEN 'Dropped Out'
             ELSE 'Active'
@@ -32,7 +32,7 @@ WITH patient_timeline AS (
     LEFT JOIN drug_ontology do ON ct.drug_id = do.drug_id
     WHERE ct.enrollment_date IS NOT NULL
 )
-SELECT 
+SELECT
     drug_category,
     patient_status,
     COUNT(*) as patient_count,
@@ -45,15 +45,15 @@ GROUP BY drug_category, patient_status
 ORDER BY drug_category, patient_status;
 
 -- Time-to-Event Analysis (Survival Analysis Data)
-SELECT 
+SELECT
     ct.trial_id,
     do.drug_category,
     ct.patient_id,
     ct.enrollment_date,
     ehr.dropout_date,
-    CASE 
-        WHEN ehr.dropout_date IS NOT NULL THEN 1 
-        ELSE 0 
+    CASE
+        WHEN ehr.dropout_date IS NOT NULL THEN 1
+        ELSE 0
     END as event_occurred,
     EXTRACT(EPOCH FROM (
         COALESCE(ehr.dropout_date, CURRENT_DATE) - ct.enrollment_date
@@ -67,7 +67,7 @@ JOIN synthetic_ehr ehr ON ct.patient_id = ehr.patient_id
 JOIN drug_ontology do ON ct.drug_id = do.drug_id
 LEFT JOIN drug_safety ds ON ct.patient_id = ds.patient_id
 WHERE ct.enrollment_date IS NOT NULL
-GROUP BY ct.trial_id, do.drug_category, ct.patient_id, ct.enrollment_date, 
+GROUP BY ct.trial_id, do.drug_category, ct.patient_id, ct.enrollment_date,
          ehr.dropout_date, ehr.dropout_reason, ehr.age, ehr.gender
 ORDER BY time_to_event_days;
 
@@ -77,7 +77,7 @@ ORDER BY time_to_event_days;
 
 -- Enrollment Cohorts by Month
 WITH enrollment_cohorts AS (
-    SELECT 
+    SELECT
         DATE_TRUNC('month', enrollment_date) as cohort_month,
         patient_id,
         enrollment_date,
@@ -87,25 +87,25 @@ WITH enrollment_cohorts AS (
     WHERE enrollment_date >= CURRENT_DATE - INTERVAL '12 months'
 ),
 cohort_retention AS (
-    SELECT 
+    SELECT
         cohort_month,
         COUNT(DISTINCT patient_id) as cohort_size,
-        COUNT(DISTINCT CASE 
-            WHEN last_active_date >= cohort_month + INTERVAL '1 month' 
-            THEN patient_id 
+        COUNT(DISTINCT CASE
+            WHEN last_active_date >= cohort_month + INTERVAL '1 month'
+            THEN patient_id
         END) as retained_1_month,
-        COUNT(DISTINCT CASE 
-            WHEN last_active_date >= cohort_month + INTERVAL '3 months' 
-            THEN patient_id 
+        COUNT(DISTINCT CASE
+            WHEN last_active_date >= cohort_month + INTERVAL '3 months'
+            THEN patient_id
         END) as retained_3_months,
-        COUNT(DISTINCT CASE 
-            WHEN last_active_date >= cohort_month + INTERVAL '6 months' 
-            THEN patient_id 
+        COUNT(DISTINCT CASE
+            WHEN last_active_date >= cohort_month + INTERVAL '6 months'
+            THEN patient_id
         END) as retained_6_months
     FROM enrollment_cohorts
     GROUP BY cohort_month
 )
-SELECT 
+SELECT
     TO_CHAR(cohort_month, 'YYYY-MM') as cohort,
     cohort_size,
     retained_1_month,
@@ -123,7 +123,7 @@ ORDER BY cohort_month;
 
 -- Patient Risk Scoring
 WITH patient_risk_factors AS (
-    SELECT 
+    SELECT
         ehr.patient_id,
         ehr.age,
         ehr.gender,
@@ -131,12 +131,12 @@ WITH patient_risk_factors AS (
         ct.phase,
         COUNT(ds.incident_id) as historical_incidents,
         AVG(ds.severity_score) as avg_severity,
-        CASE 
+        CASE
             WHEN ehr.age > 65 THEN 2
             WHEN ehr.age > 50 THEN 1
             ELSE 0
         END as age_risk_score,
-        CASE 
+        CASE
             WHEN COUNT(ds.incident_id) > 2 THEN 3
             WHEN COUNT(ds.incident_id) > 0 THEN 1
             ELSE 0
@@ -147,7 +147,7 @@ WITH patient_risk_factors AS (
     LEFT JOIN drug_safety ds ON ehr.patient_id = ds.patient_id
     GROUP BY ehr.patient_id, ehr.age, ehr.gender, do.drug_category, ct.phase
 )
-SELECT 
+SELECT
     patient_id,
     age,
     gender,
@@ -155,9 +155,9 @@ SELECT
     phase,
     historical_incidents,
     ROUND(COALESCE(avg_severity, 0), 2) as avg_historical_severity,
-    (age_risk_score + history_risk_score + 
+    (age_risk_score + history_risk_score +
      CASE WHEN phase IN ('Phase I', 'Phase II') THEN 1 ELSE 0 END) as composite_risk_score,
-    CASE 
+    CASE
         WHEN (age_risk_score + history_risk_score) >= 4 THEN 'High Risk'
         WHEN (age_risk_score + history_risk_score) >= 2 THEN 'Medium Risk'
         ELSE 'Low Risk'
@@ -171,7 +171,7 @@ ORDER BY composite_risk_score DESC, age DESC;
 
 -- Concurrent Drug Usage Patterns
 WITH patient_drugs AS (
-    SELECT 
+    SELECT
         ct1.patient_id,
         ct1.drug_id as drug1_id,
         do1.drug_name as drug1_name,
@@ -189,7 +189,7 @@ WITH patient_drugs AS (
     GROUP BY ct1.patient_id, ct1.drug_id, do1.drug_name, do1.drug_category,
              ct2.drug_id, do2.drug_name, do2.drug_category
 )
-SELECT 
+SELECT
     drug1_category,
     drug2_category,
     COUNT(DISTINCT patient_id) as patients_on_both,
@@ -207,21 +207,21 @@ ORDER BY incidents_per_patient DESC, avg_severity_when_concurrent DESC;
 
 -- Age vs Efficacy Correlation Data
 WITH efficacy_estimates AS (
-    SELECT 
+    SELECT
         ehr.patient_id,
         ehr.age,
         ehr.gender,
         do.drug_category,
         ct.phase,
         -- Simulated efficacy score based on safety data and patient characteristics
-        CASE 
-            WHEN COUNT(ds.incident_id) = 0 THEN 
+        CASE
+            WHEN COUNT(ds.incident_id) = 0 THEN
                 8.5 + (RANDOM() * 1.5)
-            WHEN AVG(ds.severity_score) < 3 THEN 
+            WHEN AVG(ds.severity_score) < 3 THEN
                 7.2 + (RANDOM() * 2.0)
-            WHEN AVG(ds.severity_score) < 6 THEN 
+            WHEN AVG(ds.severity_score) < 6 THEN
                 5.8 + (RANDOM() * 2.5)
-            ELSE 
+            ELSE
                 3.5 + (RANDOM() * 2.0)
         END as estimated_efficacy_score,
         COUNT(ds.incident_id) as safety_incidents,
@@ -232,8 +232,8 @@ WITH efficacy_estimates AS (
     LEFT JOIN drug_safety ds ON ehr.patient_id = ds.patient_id
     GROUP BY ehr.patient_id, ehr.age, ehr.gender, do.drug_category, ct.phase
 )
-SELECT 
-    CASE 
+SELECT
+    CASE
         WHEN age < 30 THEN '18-29'
         WHEN age < 45 THEN '30-44'
         WHEN age < 60 THEN '45-59'
@@ -258,19 +258,19 @@ ORDER BY age_group, drug_category;
 -- ===================
 
 -- Two-Sample T-Test Data: Male vs Female Efficacy
-SELECT 
+SELECT
     'Male' as gender,
     drug_category,
     COUNT(*) as sample_size,
     ROUND(AVG(
-        CASE 
+        CASE
             WHEN COUNT(ds.incident_id) = 0 THEN 8.5 + (RANDOM() * 1.5)
             WHEN AVG(ds.severity_score) < 3 THEN 7.2 + (RANDOM() * 2.0)
             ELSE 5.8 + (RANDOM() * 2.5)
         END
     ), 2) as mean_efficacy,
     ROUND(STDDEV(
-        CASE 
+        CASE
             WHEN COUNT(ds.incident_id) = 0 THEN 8.5 + (RANDOM() * 1.5)
             WHEN AVG(ds.severity_score) < 3 THEN 7.2 + (RANDOM() * 2.0)
             ELSE 5.8 + (RANDOM() * 2.5)
@@ -286,19 +286,19 @@ HAVING COUNT(*) >= 15
 
 UNION ALL
 
-SELECT 
+SELECT
     'Female' as gender,
     drug_category,
     COUNT(*) as sample_size,
     ROUND(AVG(
-        CASE 
+        CASE
             WHEN COUNT(ds.incident_id) = 0 THEN 8.2 + (RANDOM() * 1.8)
             WHEN AVG(ds.severity_score) < 3 THEN 6.9 + (RANDOM() * 2.2)
             ELSE 5.5 + (RANDOM() * 2.7)
         END
     ), 2) as mean_efficacy,
     ROUND(STDDEV(
-        CASE 
+        CASE
             WHEN COUNT(ds.incident_id) = 0 THEN 8.2 + (RANDOM() * 1.8)
             WHEN AVG(ds.severity_score) < 3 THEN 6.9 + (RANDOM() * 2.2)
             ELSE 5.5 + (RANDOM() * 2.7)
@@ -315,19 +315,19 @@ ORDER BY drug_category, gender;
 
 -- ANOVA Data: Efficacy Across Trial Phases
 WITH phase_efficacy AS (
-    SELECT 
+    SELECT
         ct.phase,
         ehr.patient_id,
         do.drug_category,
-        CASE 
-            WHEN COUNT(ds.incident_id) = 0 THEN 
+        CASE
+            WHEN COUNT(ds.incident_id) = 0 THEN
                 CASE ct.phase
                     WHEN 'Phase I' THEN 6.8 + (RANDOM() * 2.5)
                     WHEN 'Phase II' THEN 7.4 + (RANDOM() * 2.2)
                     WHEN 'Phase III' THEN 8.1 + (RANDOM() * 1.8)
                     WHEN 'Phase IV' THEN 8.3 + (RANDOM() * 1.5)
                 END
-            ELSE 
+            ELSE
                 CASE ct.phase
                     WHEN 'Phase I' THEN 4.5 + (RANDOM() * 3.0)
                     WHEN 'Phase II' THEN 5.2 + (RANDOM() * 2.8)
@@ -341,7 +341,7 @@ WITH phase_efficacy AS (
     LEFT JOIN drug_safety ds ON ehr.patient_id = ds.patient_id
     GROUP BY ct.phase, ehr.patient_id, do.drug_category, ct.phase
 )
-SELECT 
+SELECT
     phase,
     drug_category,
     COUNT(*) as sample_size,
@@ -356,12 +356,12 @@ SELECT
 FROM phase_efficacy
 GROUP BY phase, drug_category
 HAVING COUNT(*) >= 10
-ORDER BY 
-    CASE phase 
-        WHEN 'Phase I' THEN 1 
-        WHEN 'Phase II' THEN 2 
-        WHEN 'Phase III' THEN 3 
-        WHEN 'Phase IV' THEN 4 
+ORDER BY
+    CASE phase
+        WHEN 'Phase I' THEN 1
+        WHEN 'Phase II' THEN 2
+        WHEN 'Phase III' THEN 3
+        WHEN 'Phase IV' THEN 4
     END,
     drug_category;
 
@@ -370,7 +370,7 @@ ORDER BY
 -- ===================
 
 -- Feature Matrix for Predictive Modeling
-SELECT 
+SELECT
     ehr.patient_id,
     -- Demographic features
     ehr.age,
@@ -401,7 +401,7 @@ SELECT
     -- Target variables
     CASE WHEN ehr.dropout_date IS NOT NULL THEN 1 ELSE 0 END as dropped_out,
     COALESCE(
-        EXTRACT(EPOCH FROM (ehr.dropout_date - ct.enrollment_date))/86400, 
+        EXTRACT(EPOCH FROM (ehr.dropout_date - ct.enrollment_date))/86400,
         EXTRACT(EPOCH FROM (CURRENT_DATE - ct.enrollment_date))/86400
     ) as days_in_study,
     
@@ -414,19 +414,19 @@ JOIN drug_ontology do ON ct.drug_id = do.drug_id
 
 -- Historical safety data
 LEFT JOIN (
-    SELECT 
+    SELECT
         patient_id,
         COUNT(*) as incident_count,
         AVG(severity_score) as avg_severity,
         MAX(severity_score) as max_severity
-    FROM drug_safety 
+    FROM drug_safety
     WHERE incident_date < '2024-01-01'  -- Historical cutoff
     GROUP BY patient_id
 ) safety_history ON ehr.patient_id = safety_history.patient_id
 
 -- Future incidents for prediction target
 LEFT JOIN (
-    SELECT 
+    SELECT
         ds.patient_id,
         COUNT(*) as next_30_day_incidents
     FROM drug_safety ds
@@ -443,7 +443,7 @@ ORDER BY ehr.patient_id;
 -- ===================
 
 -- Serious Adverse Events (SAE) Report
-SELECT 
+SELECT
     ds.incident_date,
     ds.patient_id,
     ct.trial_id,
@@ -458,14 +458,14 @@ SELECT
     -- Days since enrollment when incident occurred
     EXTRACT(EPOCH FROM (ds.incident_date - ct.enrollment_date))/86400 as days_since_enrollment,
     -- Regulatory classification
-    CASE 
+    CASE
         WHEN ds.severity_level = 'life_threatening' THEN 'Serious - Life Threatening'
         WHEN ds.severity_level = 'severe' AND ds.severity_score >= 7 THEN 'Serious - Severe'
         WHEN ds.severity_level = 'severe' THEN 'Non-Serious - Severe'
         ELSE 'Non-Serious'
     END as regulatory_classification,
     -- Requires immediate reporting?
-    CASE 
+    CASE
         WHEN ds.severity_level = 'life_threatening' THEN 'IMMEDIATE'
         WHEN ds.severity_level = 'severe' AND ds.severity_score >= 7 THEN '24 HOURS'
         ELSE 'ROUTINE'
@@ -474,10 +474,10 @@ FROM drug_safety ds
 JOIN clinical_trials ct ON ds.patient_id = ct.patient_id
 JOIN drug_ontology do ON ct.drug_id = do.drug_id
 JOIN synthetic_ehr ehr ON ds.patient_id = ehr.patient_id
-WHERE ds.severity_level IN ('severe', 'life_threatening') 
+WHERE ds.severity_level IN ('severe', 'life_threatening')
    OR ds.severity_score >= 6
-ORDER BY 
-    CASE 
+ORDER BY
+    CASE
         WHEN ds.severity_level = 'life_threatening' THEN 1
         WHEN ds.severity_level = 'severe' AND ds.severity_score >= 7 THEN 2
         ELSE 3
@@ -490,7 +490,7 @@ ORDER BY
 
 -- Table 1: Baseline Characteristics
 WITH baseline_stats AS (
-    SELECT 
+    SELECT
         'Overall' as cohort,
         COUNT(DISTINCT ehr.patient_id) as n,
         ROUND(AVG(ehr.age), 1) as mean_age,
@@ -502,7 +502,7 @@ WITH baseline_stats AS (
     
     UNION ALL
     
-    SELECT 
+    SELECT
         do.drug_category as cohort,
         COUNT(DISTINCT ehr.patient_id) as n,
         ROUND(AVG(ehr.age), 1) as mean_age,
@@ -514,14 +514,14 @@ WITH baseline_stats AS (
     JOIN drug_ontology do ON ct.drug_id = do.drug_id
     GROUP BY do.drug_category
 )
-SELECT 
+SELECT
     cohort,
     n as "N",
     mean_age || ' ± ' || sd_age as "Age (Mean ± SD)",
     male_n || ' (' || male_pct || '%)' as "Male, N (%)",
     (n - male_n) || ' (' || ROUND(100 - male_pct, 1) || '%)' as "Female, N (%)"
 FROM baseline_stats
-ORDER BY 
+ORDER BY
     CASE WHEN cohort = 'Overall' THEN 0 ELSE 1 END,
     cohort;
 
@@ -530,7 +530,7 @@ ORDER BY
 -- ===================
 
 -- Data Completeness Assessment
-SELECT 
+SELECT
     'synthetic_ehr' as table_name,
     'patient_id' as column_name,
     COUNT(*) as total_records,
@@ -540,26 +540,26 @@ FROM synthetic_ehr
 
 UNION ALL
 
-SELECT 'synthetic_ehr', 'age', COUNT(*), COUNT(age), 
+SELECT 'synthetic_ehr', 'age', COUNT(*), COUNT(age),
        ROUND((COUNT(age)::numeric / COUNT(*)) * 100, 1) FROM synthetic_ehr
 UNION ALL
-SELECT 'synthetic_ehr', 'gender', COUNT(*), COUNT(gender), 
+SELECT 'synthetic_ehr', 'gender', COUNT(*), COUNT(gender),
        ROUND((COUNT(gender)::numeric / COUNT(*)) * 100, 1) FROM synthetic_ehr
 
 UNION ALL
 
-SELECT 'clinical_trials', 'enrollment_date', COUNT(*), COUNT(enrollment_date), 
+SELECT 'clinical_trials', 'enrollment_date', COUNT(*), COUNT(enrollment_date),
        ROUND((COUNT(enrollment_date)::numeric / COUNT(*)) * 100, 1) FROM clinical_trials
 UNION ALL
-SELECT 'clinical_trials', 'target_enrollment', COUNT(*), COUNT(target_enrollment), 
+SELECT 'clinical_trials', 'target_enrollment', COUNT(*), COUNT(target_enrollment),
        ROUND((COUNT(target_enrollment)::numeric / COUNT(*)) * 100, 1) FROM clinical_trials
 
 UNION ALL
 
-SELECT 'drug_safety', 'severity_score', COUNT(*), COUNT(severity_score), 
+SELECT 'drug_safety', 'severity_score', COUNT(*), COUNT(severity_score),
        ROUND((COUNT(severity_score)::numeric / COUNT(*)) * 100, 1) FROM drug_safety
 UNION ALL
-SELECT 'drug_safety', 'incident_date', COUNT(*), COUNT(incident_date), 
+SELECT 'drug_safety', 'incident_date', COUNT(*), COUNT(incident_date),
        ROUND((COUNT(incident_date)::numeric / COUNT(*)) * 100, 1) FROM drug_safety
 
 ORDER BY table_name, column_name;
@@ -572,7 +572,7 @@ ORDER BY table_name, column_name;
 -- (Run this as a separate DDL statement)
 /*
 CREATE MATERIALIZED VIEW research_analysis_dataset AS
-SELECT 
+SELECT
     ehr.patient_id,
     ehr.age,
     ehr.gender,
@@ -594,8 +594,8 @@ FROM synthetic_ehr ehr
 JOIN clinical_trials ct ON ehr.patient_id = ct.patient_id
 JOIN drug_ontology do ON ct.drug_id = do.drug_id
 LEFT JOIN drug_safety ds ON ehr.patient_id = ds.patient_id
-GROUP BY ehr.patient_id, ehr.age, ehr.gender, ct.trial_id, do.drug_name, 
-         do.drug_category, ct.phase, ct.enrollment_date, ct.start_date, 
+GROUP BY ehr.patient_id, ehr.age, ehr.gender, ct.trial_id, do.drug_name,
+         do.drug_category, ct.phase, ct.enrollment_date, ct.start_date,
          ct.completion_date, ehr.dropout_date, ehr.dropout_reason;
 
 CREATE INDEX idx_research_dataset_patient ON research_analysis_dataset(patient_id);

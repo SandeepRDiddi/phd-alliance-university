@@ -41,7 +41,7 @@ def run_all_queries():
     # Define queries with names for dashboard sections
     queries = {
         "kpi_total_patients": """
-            -- Using updated logic from repoting_queries.sql
+            -- Using updated logic from reporting_queries.sql
             SELECT
                 COUNT(DISTINCT patient_id) as total_patients,
                 'All Time' as period
@@ -55,7 +55,7 @@ def run_all_queries():
         """,
         
         "kpi_active_trials": """
-            -- Using updated logic from repoting_queries.sql
+            -- Using updated logic from reporting_queries.sql
             SELECT
                 COUNT(*) as active_trials,
                 COUNT(CASE WHEN phase = 'Phase I' THEN 1 END) as phase_1,
@@ -67,7 +67,7 @@ def run_all_queries():
         """,
         
         "kpi_safety_incidents": """
-            -- Using updated logic from repoting_queries.sql
+            -- Using updated logic from reporting_queries.sql
             SELECT
                 COUNT(*) as total_incidents,
                 COUNT(CASE WHEN serious = false THEN 1 END) as mild_incidents,
@@ -80,7 +80,7 @@ def run_all_queries():
         """,
         
         "kpi_drug_portfolio": """
-            -- Using updated logic from Query 6: Comprehensive Drug Portfolio Analysis in repoting_queries.sql
+            -- Using updated logic from Query 6: Comprehensive Drug Portfolio Analysis in reporting_queries.sql
             SELECT
                 COUNT(DISTINCT don.drug_name) as total_drugs_studied,
                 COUNT(DISTINCT don.drug_class) as drug_categories,
@@ -129,104 +129,94 @@ def run_all_queries():
         """,
         
         "safety_timeline": """
-            -- Using updated logic from Query 8: Time-based Trend Analysis in repoting_queries.sql
+            -- Using updated logic from Query 8: Time-based Trend Analysis in reporting_queries.sql
             SELECT
-                DATE_TRUNC('quarter', ds.report_date) as incident_week,
-                TO_CHAR(DATE_TRUNC('quarter', ds.report_date), 'YYYY-Q') as week_label,
+                DATE_TRUNC('quarter', report_date) as incident_week,
+                TO_CHAR(DATE_TRUNC('quarter', report_date), 'YYYY-Q') as week_label,
                 COUNT(*) as total_incidents,
-                COUNT(CASE WHEN ds.serious = false THEN 1 END) as mild_events,
-                COUNT(CASE WHEN ds.serious = true THEN 1 END) as moderate_events,
-                COUNT(CASE WHEN ds.serious = true THEN 1 END) as severe_events,
+                COUNT(CASE WHEN serious = false THEN 1 END) as mild_events,
+                COUNT(CASE WHEN serious = true THEN 1 END) as moderate_events,
+                COUNT(CASE WHEN serious = true THEN 1 END) as severe_events,
                 0 as critical_events,
-                ROUND(AVG(CASE WHEN ds.serious = true THEN 8 ELSE 2 END), 2) as weekly_avg_severity
-            FROM drug_safety ds
-            INNER JOIN conditions c ON ds.condition_id = c.condition_id
-            WHERE ds.report_date IS NOT NULL
-                AND ds.report_date >= '2020-01-01'
-            GROUP BY DATE_TRUNC('quarter', ds.report_date)
+                ROUND(AVG(CASE WHEN serious = true THEN 8 ELSE 2 END), 2) as weekly_avg_severity
+            FROM drug_safety
+            WHERE report_date IS NOT NULL
+                AND report_date >= '2020-01-01'
+            GROUP BY DATE_TRUNC('quarter', report_date)
             ORDER BY incident_week
         """,
         
         "recent_trials": """
             -- Keeping existing logic as there's no direct equivalent in repoting_queries.sql
-            SELECT DISTINCT ON (ct.trial_id)
-                ct.trial_id,
-                d.drug_name,
-                ct.phase,
-                ct.status,
-                COUNT(*) as enrolled_patients,
-                CASE WHEN ct.phase = 'Phase I' THEN 150 WHEN ct.phase = 'Phase II' THEN 200 WHEN ct.phase = 'Phase III' THEN 250 WHEN ct.phase = 'Phase IV' THEN 500 ELSE 100 END as target_enrollment,
-                ROUND(
-                    COUNT(*)::numeric / NULLIF(CASE WHEN ct.phase = 'Phase I' THEN 150 WHEN ct.phase = 'Phase II' THEN 200 WHEN ct.phase = 'Phase III' THEN 250 WHEN ct.phase = 'Phase IV' THEN 500 ELSE 100 END, 0) * 100,
-                    0
-                ) as enrollment_progress,
-                ct.start_date,
-                ct.end_date as expected_completion_date,
+            SELECT DISTINCT ON (trial_id)
+                trial_id,
+                intervention as drug_name,
+                phase,
+                status,
+                0 as enrolled_patients,
+                CASE WHEN phase = 'Phase I' THEN 150 WHEN phase = 'Phase II' THEN 200 WHEN phase = 'Phase III' THEN 250 WHEN phase = 'Phase IV' THEN 500 ELSE 100 END as target_enrollment,
+                0 as enrollment_progress,
+                start_date,
+                end_date as expected_completion_date,
                 CASE
-                    WHEN ct.status = 'Active' THEN 'success'
-                    WHEN ct.status = 'Completed' THEN 'info'
-                    WHEN ct.status = 'Suspended' THEN 'warning'
-                    WHEN ct.status = 'Terminated' THEN 'danger'
+                    WHEN status = 'Active' THEN 'success'
+                    WHEN status = 'Completed' THEN 'info'
+                    WHEN status = 'Suspended' THEN 'warning'
+                    WHEN status = 'Terminated' THEN 'danger'
                     ELSE 'secondary'
                 END as status_class
-            FROM clinical_trials ct
-            LEFT JOIN drug_ontology d ON ct.intervention = d.generic_name
-            GROUP BY ct.trial_id, d.drug_name, ct.phase, ct.status, ct.phase,
-                     ct.start_date, ct.end_date
-            ORDER BY ct.trial_id, ct.start_date DESC
+            FROM clinical_trials
+            ORDER BY trial_id, start_date DESC
         """,
         
         "recent_incidents": """
-            -- Using updated logic from Query 5: Drug Safety Red Flags in repoting_queries.sql
+            -- Using updated logic from Query 5: Drug Safety Red Flags in reporting_queries.sql
             SELECT
-                ds.report_date as incident_date,
-                ds.drug_name,
-                CASE WHEN ds.serious = false THEN 'mild' ELSE 'moderate' END as severity_level,
-                ds.serious as severity_score,
-                ds.adverse_event as incident_description,
-                c.condition_name as phase,
+                report_date as incident_date,
+                drug_name,
+                CASE WHEN serious = false THEN 'mild' ELSE 'moderate' END as severity_level,
+                serious as severity_score,
+                adverse_event as incident_description,
+                adverse_event as phase,
                 CASE
-                    WHEN ds.serious = false THEN 'success'
-                    WHEN ds.serious = true THEN 'warning'
+                    WHEN serious = false THEN 'success'
+                    WHEN serious = true THEN 'warning'
                     ELSE 'secondary'
                 END as severity_class
-            FROM drug_safety ds
-            INNER JOIN drug_ontology don ON ds.drug_id = don.drug_id
-            INNER JOIN conditions c ON ds.condition_id = c.condition_id
-            WHERE ds.adverse_event IN ('Death', 'Liver Damage', 'Heart Attack', 'Stroke')
-            ORDER BY ds.report_date DESC
+            FROM drug_safety
+            WHERE adverse_event IN ('Death', 'Liver Damage', 'Heart Attack', 'Stroke')
+            ORDER BY report_date DESC
             LIMIT 15
         """,
         
         "demographics": """
-            -- Using updated logic from Query 7: Patient Demographics and Outcomes by Condition in repoting_queries.sql
+            -- Using updated logic from Query 7: Patient Demographics and Outcomes by Condition in reporting_queries.sql
             SELECT
                 CASE
-                    WHEN se.age < 18 THEN 'Pediatric'
-                    WHEN se.age BETWEEN 18 AND 65 THEN 'Adult'
+                    WHEN age < 18 THEN 'Pediatric'
+                    WHEN age BETWEEN 18 AND 65 THEN 'Adult'
                     ELSE 'Elderly'
                 END as age_group,
-                se.gender,
+                gender,
                 COUNT(*) as patient_count,
                 ROUND(COUNT(*)::numeric / SUM(COUNT(*)) OVER() * 100, 1) as percentage,
-                ROUND(AVG(se.age), 1) as avg_age_in_group
-            FROM synthetic_ehr se
-            INNER JOIN conditions c ON se.condition_id = c.condition_id
-            WHERE se.age IS NOT NULL AND se.gender IS NOT NULL
+                ROUND(AVG(age), 1) as avg_age_in_group
+            FROM synthetic_ehr
+            WHERE age IS NOT NULL AND gender IS NOT NULL
             GROUP BY
                 CASE
-                    WHEN se.age < 18 THEN 'Pediatric'
-                    WHEN se.age BETWEEN 18 AND 65 THEN 'Adult'
+                    WHEN age < 18 THEN 'Pediatric'
+                    WHEN age BETWEEN 18 AND 65 THEN 'Adult'
                     ELSE 'Elderly'
                 END,
-                se.gender
+                gender
             ORDER BY
                 CASE
-                    WHEN se.age < 18 THEN 'Pediatric'
-                    WHEN se.age BETWEEN 18 AND 65 THEN 'Adult'
+                    WHEN age < 18 THEN 'Pediatric'
+                    WHEN age BETWEEN 18 AND 65 THEN 'Adult'
                     ELSE 'Elderly'
                 END,
-                se.gender
+                gender
         """
     }
     

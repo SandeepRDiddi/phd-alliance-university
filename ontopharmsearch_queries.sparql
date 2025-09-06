@@ -1,0 +1,90 @@
+##########################################################
+# OntoPharmSearch SPARQL Query Pack
+# PhD Project – Semantic Search with Ontologies
+##########################################################
+
+# 1. List all triples (sanity check)
+
+SELECT ?s ?p ?o 
+WHERE { ?s ?p ?o }
+LIMIT 20 ;
+
+##########################################################
+
+# 2. Find all datasets represented
+SELECT DISTINCT ?dataset
+WHERE {
+  ?entry <https://phd-alliance-university.edu/catalog#datasetType> ?dataset .
+} ;
+
+##########################################################
+
+# 3. Get all fields mapped to Dublin Core
+SELECT DISTINCT ?original ?dcField
+WHERE {
+  ?entry <https://phd-alliance-university.edu/catalog#originalField> ?original ;
+         <https://phd-alliance-university.edu/catalog#dublinCoreField> ?dcField .
+}
+LIMIT 50 ;
+
+##########################################################
+
+# 4. Retrieve all concepts normalized to SNOMED CT
+SELECT ?entry ?value ?concept
+WHERE {
+  ?entry <https://phd-alliance-university.edu/catalog#sampleValue> ?value ;
+         <https://phd-alliance-university.edu/catalog#ontologySourceName> "SNOMED CT" ;
+         <https://phd-alliance-university.edu/catalog#normalizedConcept> ?concept .
+}
+LIMIT 20 ;
+
+##########################################################
+
+# 5. Find all drugs linked to RxNorm
+SELECT ?entry ?drug ?rx
+WHERE {
+  ?entry <https://phd-alliance-university.edu/catalog#sampleValue> ?drug ;
+         <https://phd-alliance-university.edu/catalog#ontologySourceName> "RxNorm" ;
+         <https://phd-alliance-university.edu/catalog#ontologySource> ?rx .
+}
+LIMIT 20 ;
+
+##########################################################
+
+# 6. Query EHR diagnoses (subject field)
+SELECT ?patient ?diagnosis ?concept
+WHERE {
+  ?entry <https://phd-alliance-university.edu/catalog#datasetType> "EHR" ;
+         <https://phd-alliance-university.edu/catalog#originalField> "diagnosis" ;
+         <https://phd-alliance-university.edu/catalog#sampleValue> ?diagnosis ;
+         <https://phd-alliance-university.edu/catalog#normalizedConcept> ?concept .
+  BIND(REPLACE(STR(?entry), "^.*entry_", "Patient_") AS ?patient)
+}
+LIMIT 20 ;
+
+##########################################################
+
+# 7. Find potential adverse events for a given drug
+SELECT ?drug ?adverseEvent ?concept
+WHERE {
+  ?entry <https://phd-alliance-university.edu/catalog#datasetType> "Drug Safety" ;
+         <https://phd-alliance-university.edu/catalog#originalField> "adverse_event" ;
+         <https://phd-alliance-university.edu/catalog#sampleValue> ?adverseEvent ;
+         <https://phd-alliance-university.edu/catalog#normalizedConcept> ?concept .
+  OPTIONAL { ?entry <https://phd-alliance-university.edu/catalog#ontologySourceName> ?drugOntology }
+  BIND("Atorvastatin" AS ?drug)
+}
+LIMIT 20 ;
+
+##########################################################
+
+# 8. Crosswalk: Clinical trial conditions → SNOMED
+SELECT ?trial ?condition ?concept
+WHERE {
+  ?entry <https://phd-alliance-university.edu/catalog#datasetType> "Clinical Trials" ;
+         <https://phd-alliance-university.edu/catalog#originalField> "condition" ;
+         <https://phd-alliance-university.edu/catalog#sampleValue> ?condition ;
+         <https://phd-alliance-university.edu/catalog#normalizedConcept> ?concept .
+  BIND(REPLACE(STR(?entry), "^.*entry_", "Trial_") AS ?trial)
+}
+LIMIT 20 ;

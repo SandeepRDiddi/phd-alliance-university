@@ -17,7 +17,7 @@ def check_files():
         "db_connector.py",
         "requirements.txt",
         "load-data-db.sql",
-        "repoting_queries.sql",
+        "reporting_queries.sql",
         "README.md",
         "deploy.py",
         ".github/workflows/deploy.yml"

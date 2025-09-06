@@ -1,0 +1,4996 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix snomed: <http://snomed.info/id/> .
+@prefix rxnorm: <http://purl.bioontology.org/ontology/RXNORM/> .
+@prefix catalog: <https://phd-alliance-university.edu/catalog#> .
+@prefix dataset: <https://phd-alliance-university.edu/dataset/> .
+@prefix concept: <https://phd-alliance-university.edu/concept/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dataset:entry_0002 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000001" ;
+    .
+
+dataset:entry_0003 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000002" ;
+    .
+
+dataset:entry_0004 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000003" ;
+    .
+
+dataset:entry_0005 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000004" ;
+    .
+
+dataset:entry_0006 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000005" ;
+    .
+
+dataset:entry_0007 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000006" ;
+    .
+
+dataset:entry_0008 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000007" ;
+    .
+
+dataset:entry_0009 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000008" ;
+    .
+
+dataset:entry_0010 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000009" ;
+    .
+
+dataset:entry_0011 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000010" ;
+    .
+
+dataset:entry_0012 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000011" ;
+    .
+
+dataset:entry_0013 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000012" ;
+    .
+
+dataset:entry_0014 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000013" ;
+    .
+
+dataset:entry_0015 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000014" ;
+    .
+
+dataset:entry_0016 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000015" ;
+    .
+
+dataset:entry_0017 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000016" ;
+    .
+
+dataset:entry_0018 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000017" ;
+    .
+
+dataset:entry_0019 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000018" ;
+    .
+
+dataset:entry_0020 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000019" ;
+    .
+
+dataset:entry_0021 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000020" ;
+    .
+
+dataset:entry_0022 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000021" ;
+    .
+
+dataset:entry_0023 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000022" ;
+    .
+
+dataset:entry_0024 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000023" ;
+    .
+
+dataset:entry_0025 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000024" ;
+    .
+
+dataset:entry_0026 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000025" ;
+    .
+
+dataset:entry_0027 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000026" ;
+    .
+
+dataset:entry_0028 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000027" ;
+    .
+
+dataset:entry_0029 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000028" ;
+    .
+
+dataset:entry_0030 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000029" ;
+    .
+
+dataset:entry_0031 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000030" ;
+    .
+
+dataset:entry_0032 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000031" ;
+    .
+
+dataset:entry_0033 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000032" ;
+    .
+
+dataset:entry_0034 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000033" ;
+    .
+
+dataset:entry_0035 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000034" ;
+    .
+
+dataset:entry_0036 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000035" ;
+    .
+
+dataset:entry_0037 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000036" ;
+    .
+
+dataset:entry_0038 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000037" ;
+    .
+
+dataset:entry_0039 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000038" ;
+    .
+
+dataset:entry_0040 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000039" ;
+    .
+
+dataset:entry_0041 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000040" ;
+    .
+
+dataset:entry_0042 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000041" ;
+    .
+
+dataset:entry_0043 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000042" ;
+    .
+
+dataset:entry_0044 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000043" ;
+    .
+
+dataset:entry_0045 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000044" ;
+    .
+
+dataset:entry_0046 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000045" ;
+    .
+
+dataset:entry_0047 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000046" ;
+    .
+
+dataset:entry_0048 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000047" ;
+    .
+
+dataset:entry_0049 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000048" ;
+    .
+
+dataset:entry_0050 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000049" ;
+    .
+
+dataset:entry_0051 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "patient_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "P000050" ;
+    .
+
+dataset:entry_0052 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "diagnosis" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "Diabetes" ;
+    catalog:normalizedConcept "44054006" ;
+    catalog:ontologySource snomed:44054006 ;
+    catalog:ontologySourceName "SNOMED CT" ;
+    .
+
+dataset:entry_0053 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "diagnosis" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "Cancer" ;
+    catalog:normalizedConcept "363346000" ;
+    catalog:ontologySource snomed:363346000 ;
+    catalog:ontologySourceName "SNOMED CT" ;
+    .
+
+dataset:entry_0054 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "diagnosis" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "Hypertension" ;
+    catalog:normalizedConcept "38341003" ;
+    catalog:ontologySource snomed:38341003 ;
+    catalog:ontologySourceName "SNOMED CT" ;
+    .
+
+dataset:entry_0055 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "diagnosis" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "Heart Failure" ;
+    .
+
+dataset:entry_0056 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "diagnosis" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "COPD" ;
+    .
+
+dataset:entry_0057 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "diagnosis" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "Stroke" ;
+    .
+
+dataset:entry_0058 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "diagnosis" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "Asthma" ;
+    catalog:normalizedConcept "195967001" ;
+    catalog:ontologySource snomed:195967001 ;
+    catalog:ontologySourceName "SNOMED CT" ;
+    .
+
+dataset:entry_0059 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "treatment" ;
+    catalog:dublinCoreField "description" ;
+    catalog:sampleValue "Metformin" ;
+    catalog:normalizedConcept "860975" ;
+    catalog:ontologySource rxnorm:860975 ;
+    catalog:ontologySourceName "RxNorm" ;
+    .
+
+dataset:entry_0060 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "treatment" ;
+    catalog:dublinCoreField "description" ;
+    catalog:sampleValue "Beta Blocker" ;
+    .
+
+dataset:entry_0061 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "treatment" ;
+    catalog:dublinCoreField "description" ;
+    catalog:sampleValue "Chemotherapy" ;
+    .
+
+dataset:entry_0062 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "treatment" ;
+    catalog:dublinCoreField "description" ;
+    catalog:sampleValue "Amlodipine" ;
+    .
+
+dataset:entry_0063 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "treatment" ;
+    catalog:dublinCoreField "description" ;
+    catalog:sampleValue "Insulin" ;
+    catalog:normalizedConcept "28518" ;
+    catalog:ontologySource rxnorm:28518 ;
+    catalog:ontologySourceName "RxNorm" ;
+    .
+
+dataset:entry_0064 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "treatment" ;
+    catalog:dublinCoreField "description" ;
+    catalog:sampleValue "Inhaler" ;
+    .
+
+dataset:entry_0065 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "treatment" ;
+    catalog:dublinCoreField "description" ;
+    catalog:sampleValue "Radiation Therapy" ;
+    .
+
+dataset:entry_0066 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2020-03-11"^^xsd:date ;
+    .
+
+dataset:entry_0067 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2023-12-05"^^xsd:date ;
+    .
+
+dataset:entry_0068 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2015-01-07"^^xsd:date ;
+    .
+
+dataset:entry_0069 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2023-02-02"^^xsd:date ;
+    .
+
+dataset:entry_0070 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2016-03-26"^^xsd:date ;
+    .
+
+dataset:entry_0071 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2022-07-20"^^xsd:date ;
+    .
+
+dataset:entry_0072 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2017-06-04"^^xsd:date ;
+    .
+
+dataset:entry_0073 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2021-05-02"^^xsd:date ;
+    .
+
+dataset:entry_0074 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2016-09-10"^^xsd:date ;
+    .
+
+dataset:entry_0075 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2019-08-26"^^xsd:date ;
+    .
+
+dataset:entry_0076 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2022-09-18"^^xsd:date ;
+    .
+
+dataset:entry_0077 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2021-07-17"^^xsd:date ;
+    .
+
+dataset:entry_0078 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2024-06-04"^^xsd:date ;
+    .
+
+dataset:entry_0079 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2021-10-27"^^xsd:date ;
+    .
+
+dataset:entry_0080 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2017-05-15"^^xsd:date ;
+    .
+
+dataset:entry_0081 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2015-09-24"^^xsd:date ;
+    .
+
+dataset:entry_0082 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2023-05-20"^^xsd:date ;
+    .
+
+dataset:entry_0083 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2016-03-27"^^xsd:date ;
+    .
+
+dataset:entry_0084 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2019-12-24"^^xsd:date ;
+    .
+
+dataset:entry_0085 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2017-07-07"^^xsd:date ;
+    .
+
+dataset:entry_0086 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2015-02-28"^^xsd:date ;
+    .
+
+dataset:entry_0087 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2019-01-14"^^xsd:date ;
+    .
+
+dataset:entry_0088 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2020-03-25"^^xsd:date ;
+    .
+
+dataset:entry_0089 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2024-08-05"^^xsd:date ;
+    .
+
+dataset:entry_0090 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2024-06-01"^^xsd:date ;
+    .
+
+dataset:entry_0091 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2016-05-22"^^xsd:date ;
+    .
+
+dataset:entry_0092 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2023-08-03"^^xsd:date ;
+    .
+
+dataset:entry_0093 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2024-08-10"^^xsd:date ;
+    .
+
+dataset:entry_0094 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2018-07-08"^^xsd:date ;
+    .
+
+dataset:entry_0095 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2020-02-09"^^xsd:date ;
+    .
+
+dataset:entry_0096 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2018-11-01"^^xsd:date ;
+    .
+
+dataset:entry_0097 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2023-01-17"^^xsd:date ;
+    .
+
+dataset:entry_0098 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2015-05-07"^^xsd:date ;
+    .
+
+dataset:entry_0099 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2015-04-24"^^xsd:date ;
+    .
+
+dataset:entry_0100 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2016-09-19"^^xsd:date ;
+    .
+
+dataset:entry_0101 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2021-01-10"^^xsd:date ;
+    .
+
+dataset:entry_0102 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2019-12-20"^^xsd:date ;
+    .
+
+dataset:entry_0103 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2015-10-21"^^xsd:date ;
+    .
+
+dataset:entry_0104 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2024-05-21"^^xsd:date ;
+    .
+
+dataset:entry_0105 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2020-11-13"^^xsd:date ;
+    .
+
+dataset:entry_0106 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2024-05-29"^^xsd:date ;
+    .
+
+dataset:entry_0107 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2021-04-30"^^xsd:date ;
+    .
+
+dataset:entry_0108 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2021-10-07"^^xsd:date ;
+    .
+
+dataset:entry_0109 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2020-02-14"^^xsd:date ;
+    .
+
+dataset:entry_0110 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2022-12-13"^^xsd:date ;
+    .
+
+dataset:entry_0111 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2018-07-31"^^xsd:date ;
+    .
+
+dataset:entry_0112 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2016-03-31"^^xsd:date ;
+    .
+
+dataset:entry_0113 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2017-03-10"^^xsd:date ;
+    .
+
+dataset:entry_0114 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2016-08-25"^^xsd:date ;
+    .
+
+dataset:entry_0115 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "visit_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2022-04-14"^^xsd:date ;
+    .
+
+dataset:entry_0116 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "outcome" ;
+    catalog:dublinCoreField "coverage" ;
+    catalog:sampleValue "Recovered" ;
+    .
+
+dataset:entry_0117 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "outcome" ;
+    catalog:dublinCoreField "coverage" ;
+    catalog:sampleValue "Improved" ;
+    .
+
+dataset:entry_0118 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "outcome" ;
+    catalog:dublinCoreField "coverage" ;
+    catalog:sampleValue "Deceased" ;
+    .
+
+dataset:entry_0119 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "outcome" ;
+    catalog:dublinCoreField "coverage" ;
+    catalog:sampleValue "Stable" ;
+    .
+
+dataset:entry_0120 a catalog:MetadataEntry ;
+    catalog:datasetType "EHR" ;
+    catalog:originalField "outcome" ;
+    catalog:dublinCoreField "coverage" ;
+    catalog:sampleValue "Deteriorated" ;
+    .
+
+dataset:entry_0121 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100000" ;
+    .
+
+dataset:entry_0122 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100001" ;
+    .
+
+dataset:entry_0123 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100002" ;
+    .
+
+dataset:entry_0124 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100003" ;
+    .
+
+dataset:entry_0125 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100004" ;
+    .
+
+dataset:entry_0126 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100005" ;
+    .
+
+dataset:entry_0127 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100006" ;
+    .
+
+dataset:entry_0128 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100007" ;
+    .
+
+dataset:entry_0129 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100008" ;
+    .
+
+dataset:entry_0130 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100009" ;
+    .
+
+dataset:entry_0131 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100010" ;
+    .
+
+dataset:entry_0132 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100011" ;
+    .
+
+dataset:entry_0133 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100012" ;
+    .
+
+dataset:entry_0134 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100013" ;
+    .
+
+dataset:entry_0135 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100014" ;
+    .
+
+dataset:entry_0136 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100015" ;
+    .
+
+dataset:entry_0137 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100016" ;
+    .
+
+dataset:entry_0138 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100017" ;
+    .
+
+dataset:entry_0139 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100018" ;
+    .
+
+dataset:entry_0140 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100019" ;
+    .
+
+dataset:entry_0141 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100020" ;
+    .
+
+dataset:entry_0142 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100021" ;
+    .
+
+dataset:entry_0143 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100022" ;
+    .
+
+dataset:entry_0144 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100023" ;
+    .
+
+dataset:entry_0145 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100024" ;
+    .
+
+dataset:entry_0146 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100025" ;
+    .
+
+dataset:entry_0147 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100026" ;
+    .
+
+dataset:entry_0148 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100027" ;
+    .
+
+dataset:entry_0149 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100028" ;
+    .
+
+dataset:entry_0150 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100029" ;
+    .
+
+dataset:entry_0151 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100030" ;
+    .
+
+dataset:entry_0152 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100031" ;
+    .
+
+dataset:entry_0153 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100032" ;
+    .
+
+dataset:entry_0154 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100033" ;
+    .
+
+dataset:entry_0155 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100034" ;
+    .
+
+dataset:entry_0156 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100035" ;
+    .
+
+dataset:entry_0157 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100036" ;
+    .
+
+dataset:entry_0158 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100037" ;
+    .
+
+dataset:entry_0159 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100038" ;
+    .
+
+dataset:entry_0160 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100039" ;
+    .
+
+dataset:entry_0161 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100040" ;
+    .
+
+dataset:entry_0162 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100041" ;
+    .
+
+dataset:entry_0163 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100042" ;
+    .
+
+dataset:entry_0164 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100043" ;
+    .
+
+dataset:entry_0165 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100044" ;
+    .
+
+dataset:entry_0166 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100045" ;
+    .
+
+dataset:entry_0167 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100046" ;
+    .
+
+dataset:entry_0168 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100047" ;
+    .
+
+dataset:entry_0169 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100048" ;
+    .
+
+dataset:entry_0170 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "trial_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "NCT100049" ;
+    .
+
+dataset:entry_0171 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Breast Cancer with Vaccine X" ;
+    .
+
+dataset:entry_0172 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Alzheimer's with Drug A" ;
+    .
+
+dataset:entry_0173 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Breast Cancer with Drug A" ;
+    .
+
+dataset:entry_0174 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Breast Cancer with Placebo" ;
+    .
+
+dataset:entry_0175 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Alzheimer's with Insulin" ;
+    .
+
+dataset:entry_0176 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Hypertension with Insulin" ;
+    .
+
+dataset:entry_0177 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on COVID-19 with Insulin" ;
+    .
+
+dataset:entry_0178 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Asthma with Radiation Therapy" ;
+    .
+
+dataset:entry_0179 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Hypertension with Vaccine X" ;
+    .
+
+dataset:entry_0180 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Alzheimer's with Placebo" ;
+    .
+
+dataset:entry_0181 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Diabetes with Drug B" ;
+    .
+
+dataset:entry_0182 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on COVID-19 with Radiation Therapy" ;
+    .
+
+dataset:entry_0183 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on HIV with Radiation Therapy" ;
+    .
+
+dataset:entry_0184 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Breast Cancer with Insulin" ;
+    .
+
+dataset:entry_0185 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Hypertension with Placebo" ;
+    .
+
+dataset:entry_0186 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Asthma with Drug B" ;
+    .
+
+dataset:entry_0187 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Alzheimer's with Vaccine X" ;
+    .
+
+dataset:entry_0188 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Asthma with Drug A" ;
+    .
+
+dataset:entry_0189 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Diabetes with Placebo" ;
+    .
+
+dataset:entry_0190 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on COVID-19 with Vaccine X" ;
+    .
+
+dataset:entry_0191 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Breast Cancer with Radiation Therapy" ;
+    .
+
+dataset:entry_0192 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on HIV with Vaccine X" ;
+    .
+
+dataset:entry_0193 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Breast Cancer with Drug B" ;
+    .
+
+dataset:entry_0194 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Asthma with Vaccine X" ;
+    .
+
+dataset:entry_0195 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on HIV with Drug A" ;
+    .
+
+dataset:entry_0196 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on COVID-19 with Drug B" ;
+    .
+
+dataset:entry_0197 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on HIV with Placebo" ;
+    .
+
+dataset:entry_0198 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Hypertension with Drug B" ;
+    .
+
+dataset:entry_0199 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Alzheimer's with Radiation Therapy" ;
+    .
+
+dataset:entry_0200 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Diabetes with Vaccine X" ;
+    .
+
+dataset:entry_0201 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on HIV with Insulin" ;
+    .
+
+dataset:entry_0202 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Alzheimer's with Drug B" ;
+    .
+
+dataset:entry_0203 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on HIV with Drug B" ;
+    .
+
+dataset:entry_0204 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Hypertension with Drug A" ;
+    .
+
+dataset:entry_0205 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Diabetes with Drug A" ;
+    .
+
+dataset:entry_0206 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Asthma with Placebo" ;
+    .
+
+dataset:entry_0207 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Diabetes with Radiation Therapy" ;
+    .
+
+dataset:entry_0208 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on COVID-19 with Drug A" ;
+    .
+
+dataset:entry_0209 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Diabetes with Insulin" ;
+    .
+
+dataset:entry_0210 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Hypertension with Radiation Therapy" ;
+    .
+
+dataset:entry_0211 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on COVID-19 with Placebo" ;
+    .
+
+dataset:entry_0212 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "title" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Study on Asthma with Insulin" ;
+    .
+
+dataset:entry_0213 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "condition" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "Diabetes" ;
+    catalog:normalizedConcept "44054006" ;
+    catalog:ontologySource snomed:44054006 ;
+    catalog:ontologySourceName "SNOMED CT" ;
+    .
+
+dataset:entry_0214 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "condition" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "COVID-19" ;
+    .
+
+dataset:entry_0215 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "condition" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "Hypertension" ;
+    catalog:normalizedConcept "38341003" ;
+    catalog:ontologySource snomed:38341003 ;
+    catalog:ontologySourceName "SNOMED CT" ;
+    .
+
+dataset:entry_0216 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "condition" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "Asthma" ;
+    catalog:normalizedConcept "195967001" ;
+    catalog:ontologySource snomed:195967001 ;
+    catalog:ontologySourceName "SNOMED CT" ;
+    .
+
+dataset:entry_0217 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "condition" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "Breast Cancer" ;
+    .
+
+dataset:entry_0218 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "condition" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "Alzheimer's" ;
+    .
+
+dataset:entry_0219 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "condition" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "HIV" ;
+    .
+
+dataset:entry_0220 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "intervention" ;
+    catalog:dublinCoreField "description" ;
+    catalog:sampleValue "Placebo" ;
+    .
+
+dataset:entry_0221 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "intervention" ;
+    catalog:dublinCoreField "description" ;
+    catalog:sampleValue "Vaccine X" ;
+    .
+
+dataset:entry_0222 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "intervention" ;
+    catalog:dublinCoreField "description" ;
+    catalog:sampleValue "Radiation Therapy" ;
+    .
+
+dataset:entry_0223 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "intervention" ;
+    catalog:dublinCoreField "description" ;
+    catalog:sampleValue "Drug B" ;
+    .
+
+dataset:entry_0224 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "intervention" ;
+    catalog:dublinCoreField "description" ;
+    catalog:sampleValue "Insulin" ;
+    catalog:normalizedConcept "28518" ;
+    catalog:ontologySource rxnorm:28518 ;
+    catalog:ontologySourceName "RxNorm" ;
+    .
+
+dataset:entry_0225 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "intervention" ;
+    catalog:dublinCoreField "description" ;
+    catalog:sampleValue "Drug A" ;
+    .
+
+dataset:entry_0226 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "phase" ;
+    catalog:dublinCoreField "type" ;
+    catalog:sampleValue "Phase IV" ;
+    .
+
+dataset:entry_0227 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "phase" ;
+    catalog:dublinCoreField "type" ;
+    catalog:sampleValue "Phase I" ;
+    .
+
+dataset:entry_0228 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "phase" ;
+    catalog:dublinCoreField "type" ;
+    catalog:sampleValue "Phase III" ;
+    .
+
+dataset:entry_0229 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "phase" ;
+    catalog:dublinCoreField "type" ;
+    catalog:sampleValue "Phase II" ;
+    .
+
+dataset:entry_0230 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "status" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Terminated" ;
+    .
+
+dataset:entry_0231 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "status" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Recruiting" ;
+    .
+
+dataset:entry_0232 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "status" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Active, not recruiting" ;
+    .
+
+dataset:entry_0233 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "status" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Completed" ;
+    .
+
+dataset:entry_0234 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2020-12-16"^^xsd:date ;
+    .
+
+dataset:entry_0235 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2020-03-19"^^xsd:date ;
+    .
+
+dataset:entry_0236 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2020-05-05"^^xsd:date ;
+    .
+
+dataset:entry_0237 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2023-01-31"^^xsd:date ;
+    .
+
+dataset:entry_0238 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2024-10-28"^^xsd:date ;
+    .
+
+dataset:entry_0239 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2019-05-18"^^xsd:date ;
+    .
+
+dataset:entry_0240 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2021-11-04"^^xsd:date ;
+    .
+
+dataset:entry_0241 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2014-04-23"^^xsd:date ;
+    .
+
+dataset:entry_0242 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2013-07-16"^^xsd:date ;
+    .
+
+dataset:entry_0243 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2017-10-10"^^xsd:date ;
+    .
+
+dataset:entry_0244 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2013-08-16"^^xsd:date ;
+    .
+
+dataset:entry_0245 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2014-01-20"^^xsd:date ;
+    .
+
+dataset:entry_0246 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2021-06-10"^^xsd:date ;
+    .
+
+dataset:entry_0247 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2011-12-21"^^xsd:date ;
+    .
+
+dataset:entry_0248 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2012-07-20"^^xsd:date ;
+    .
+
+dataset:entry_0249 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2016-03-27"^^xsd:date ;
+    .
+
+dataset:entry_0250 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2023-05-11"^^xsd:date ;
+    .
+
+dataset:entry_0251 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2021-08-05"^^xsd:date ;
+    .
+
+dataset:entry_0252 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2022-11-12"^^xsd:date ;
+    .
+
+dataset:entry_0253 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2024-02-24"^^xsd:date ;
+    .
+
+dataset:entry_0254 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2013-12-28"^^xsd:date ;
+    .
+
+dataset:entry_0255 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2010-03-26"^^xsd:date ;
+    .
+
+dataset:entry_0256 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2012-01-19"^^xsd:date ;
+    .
+
+dataset:entry_0257 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2018-02-08"^^xsd:date ;
+    .
+
+dataset:entry_0258 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2019-04-26"^^xsd:date ;
+    .
+
+dataset:entry_0259 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2022-06-19"^^xsd:date ;
+    .
+
+dataset:entry_0260 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2015-03-04"^^xsd:date ;
+    .
+
+dataset:entry_0261 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2021-11-03"^^xsd:date ;
+    .
+
+dataset:entry_0262 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2024-10-30"^^xsd:date ;
+    .
+
+dataset:entry_0263 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2016-08-28"^^xsd:date ;
+    .
+
+dataset:entry_0264 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2014-10-24"^^xsd:date ;
+    .
+
+dataset:entry_0265 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2011-04-02"^^xsd:date ;
+    .
+
+dataset:entry_0266 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2010-03-30"^^xsd:date ;
+    .
+
+dataset:entry_0267 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2013-12-13"^^xsd:date ;
+    .
+
+dataset:entry_0268 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2013-11-03"^^xsd:date ;
+    .
+
+dataset:entry_0269 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2010-09-13"^^xsd:date ;
+    .
+
+dataset:entry_0270 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2012-08-10"^^xsd:date ;
+    .
+
+dataset:entry_0271 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2012-11-15"^^xsd:date ;
+    .
+
+dataset:entry_0272 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2011-07-17"^^xsd:date ;
+    .
+
+dataset:entry_0273 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2015-09-23"^^xsd:date ;
+    .
+
+dataset:entry_0274 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2016-07-15"^^xsd:date ;
+    .
+
+dataset:entry_0275 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2017-01-18"^^xsd:date ;
+    .
+
+dataset:entry_0276 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2012-04-21"^^xsd:date ;
+    .
+
+dataset:entry_0277 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2017-06-23"^^xsd:date ;
+    .
+
+dataset:entry_0278 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2023-03-28"^^xsd:date ;
+    .
+
+dataset:entry_0279 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2018-11-07"^^xsd:date ;
+    .
+
+dataset:entry_0280 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2018-09-02"^^xsd:date ;
+    .
+
+dataset:entry_0281 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2018-04-13"^^xsd:date ;
+    .
+
+dataset:entry_0282 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2019-11-12"^^xsd:date ;
+    .
+
+dataset:entry_0283 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "start_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2021-07-27"^^xsd:date ;
+    .
+
+dataset:entry_0284 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2027-07-13"^^xsd:date ;
+    .
+
+dataset:entry_0285 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2030-03-30"^^xsd:date ;
+    .
+
+dataset:entry_0286 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2025-08-12"^^xsd:date ;
+    .
+
+dataset:entry_0287 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2030-09-19"^^xsd:date ;
+    .
+
+dataset:entry_0288 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2029-04-14"^^xsd:date ;
+    .
+
+dataset:entry_0289 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2030-07-07"^^xsd:date ;
+    .
+
+dataset:entry_0290 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2027-07-22"^^xsd:date ;
+    .
+
+dataset:entry_0291 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2030-01-08"^^xsd:date ;
+    .
+
+dataset:entry_0292 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2026-02-25"^^xsd:date ;
+    .
+
+dataset:entry_0293 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2025-01-29"^^xsd:date ;
+    .
+
+dataset:entry_0294 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2025-11-29"^^xsd:date ;
+    .
+
+dataset:entry_0295 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2027-03-06"^^xsd:date ;
+    .
+
+dataset:entry_0296 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2025-05-26"^^xsd:date ;
+    .
+
+dataset:entry_0297 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2030-06-18"^^xsd:date ;
+    .
+
+dataset:entry_0298 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2026-07-29"^^xsd:date ;
+    .
+
+dataset:entry_0299 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2030-09-27"^^xsd:date ;
+    .
+
+dataset:entry_0300 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2027-05-06"^^xsd:date ;
+    .
+
+dataset:entry_0301 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2029-10-06"^^xsd:date ;
+    .
+
+dataset:entry_0302 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2028-06-24"^^xsd:date ;
+    .
+
+dataset:entry_0303 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2027-04-11"^^xsd:date ;
+    .
+
+dataset:entry_0304 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2027-12-02"^^xsd:date ;
+    .
+
+dataset:entry_0305 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2028-06-11"^^xsd:date ;
+    .
+
+dataset:entry_0306 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2029-12-18"^^xsd:date ;
+    .
+
+dataset:entry_0307 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2028-06-05"^^xsd:date ;
+    .
+
+dataset:entry_0308 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2029-01-25"^^xsd:date ;
+    .
+
+dataset:entry_0309 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2026-06-14"^^xsd:date ;
+    .
+
+dataset:entry_0310 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2028-02-26"^^xsd:date ;
+    .
+
+dataset:entry_0311 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2028-02-10"^^xsd:date ;
+    .
+
+dataset:entry_0312 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2028-05-10"^^xsd:date ;
+    .
+
+dataset:entry_0313 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2027-05-19"^^xsd:date ;
+    .
+
+dataset:entry_0314 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2028-11-12"^^xsd:date ;
+    .
+
+dataset:entry_0315 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2025-04-29"^^xsd:date ;
+    .
+
+dataset:entry_0316 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2029-01-06"^^xsd:date ;
+    .
+
+dataset:entry_0317 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2029-04-26"^^xsd:date ;
+    .
+
+dataset:entry_0318 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2029-08-29"^^xsd:date ;
+    .
+
+dataset:entry_0319 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2026-12-05"^^xsd:date ;
+    .
+
+dataset:entry_0320 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2025-03-19"^^xsd:date ;
+    .
+
+dataset:entry_0321 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2027-08-26"^^xsd:date ;
+    .
+
+dataset:entry_0322 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2026-11-08"^^xsd:date ;
+    .
+
+dataset:entry_0323 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2027-07-28"^^xsd:date ;
+    .
+
+dataset:entry_0324 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2030-06-07"^^xsd:date ;
+    .
+
+dataset:entry_0325 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2026-09-17"^^xsd:date ;
+    .
+
+dataset:entry_0326 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2030-04-28"^^xsd:date ;
+    .
+
+dataset:entry_0327 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2026-09-05"^^xsd:date ;
+    .
+
+dataset:entry_0328 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2030-09-10"^^xsd:date ;
+    .
+
+dataset:entry_0329 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2029-04-06"^^xsd:date ;
+    .
+
+dataset:entry_0330 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2025-08-06"^^xsd:date ;
+    .
+
+dataset:entry_0331 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2025-08-07"^^xsd:date ;
+    .
+
+dataset:entry_0332 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2029-12-20"^^xsd:date ;
+    .
+
+dataset:entry_0333 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "end_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2025-12-08"^^xsd:date ;
+    .
+
+dataset:entry_0334 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "location" ;
+    catalog:dublinCoreField "coverage" ;
+    catalog:sampleValue "UK" ;
+    .
+
+dataset:entry_0335 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "location" ;
+    catalog:dublinCoreField "coverage" ;
+    catalog:sampleValue "Japan" ;
+    .
+
+dataset:entry_0336 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "location" ;
+    catalog:dublinCoreField "coverage" ;
+    catalog:sampleValue "USA" ;
+    .
+
+dataset:entry_0337 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "location" ;
+    catalog:dublinCoreField "coverage" ;
+    catalog:sampleValue "Germany" ;
+    .
+
+dataset:entry_0338 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "location" ;
+    catalog:dublinCoreField "coverage" ;
+    catalog:sampleValue "Brazil" ;
+    .
+
+dataset:entry_0339 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "location" ;
+    catalog:dublinCoreField "coverage" ;
+    catalog:sampleValue "Canada" ;
+    .
+
+dataset:entry_0340 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "location" ;
+    catalog:dublinCoreField "coverage" ;
+    catalog:sampleValue "India" ;
+    .
+
+dataset:entry_0341 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "sponsor" ;
+    catalog:dublinCoreField "contributor" ;
+    catalog:sampleValue "Novartis" ;
+    .
+
+dataset:entry_0342 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "sponsor" ;
+    catalog:dublinCoreField "contributor" ;
+    catalog:sampleValue "AstraZeneca" ;
+    .
+
+dataset:entry_0343 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "sponsor" ;
+    catalog:dublinCoreField "contributor" ;
+    catalog:sampleValue "Roche" ;
+    .
+
+dataset:entry_0344 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "sponsor" ;
+    catalog:dublinCoreField "contributor" ;
+    catalog:sampleValue "Pfizer" ;
+    .
+
+dataset:entry_0345 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "sponsor" ;
+    catalog:dublinCoreField "contributor" ;
+    catalog:sampleValue "NIH" ;
+    .
+
+dataset:entry_0346 a catalog:MetadataEntry ;
+    catalog:datasetType "Clinical Trials" ;
+    catalog:originalField "sponsor" ;
+    catalog:dublinCoreField "contributor" ;
+    catalog:sampleValue "WHO" ;
+    .
+
+dataset:entry_0347 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000001" ;
+    .
+
+dataset:entry_0348 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000002" ;
+    .
+
+dataset:entry_0349 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000003" ;
+    .
+
+dataset:entry_0350 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000004" ;
+    .
+
+dataset:entry_0351 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000005" ;
+    .
+
+dataset:entry_0352 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000006" ;
+    .
+
+dataset:entry_0353 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000007" ;
+    .
+
+dataset:entry_0354 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000008" ;
+    .
+
+dataset:entry_0355 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000009" ;
+    .
+
+dataset:entry_0356 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000010" ;
+    .
+
+dataset:entry_0357 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000011" ;
+    .
+
+dataset:entry_0358 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000012" ;
+    .
+
+dataset:entry_0359 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000013" ;
+    .
+
+dataset:entry_0360 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000014" ;
+    .
+
+dataset:entry_0361 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000015" ;
+    .
+
+dataset:entry_0362 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000016" ;
+    .
+
+dataset:entry_0363 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000017" ;
+    .
+
+dataset:entry_0364 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000018" ;
+    .
+
+dataset:entry_0365 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000019" ;
+    .
+
+dataset:entry_0366 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000020" ;
+    .
+
+dataset:entry_0367 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000021" ;
+    .
+
+dataset:entry_0368 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000022" ;
+    .
+
+dataset:entry_0369 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000023" ;
+    .
+
+dataset:entry_0370 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000024" ;
+    .
+
+dataset:entry_0371 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000025" ;
+    .
+
+dataset:entry_0372 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000026" ;
+    .
+
+dataset:entry_0373 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000027" ;
+    .
+
+dataset:entry_0374 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000028" ;
+    .
+
+dataset:entry_0375 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000029" ;
+    .
+
+dataset:entry_0376 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000030" ;
+    .
+
+dataset:entry_0377 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000031" ;
+    .
+
+dataset:entry_0378 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000032" ;
+    .
+
+dataset:entry_0379 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000033" ;
+    .
+
+dataset:entry_0380 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000034" ;
+    .
+
+dataset:entry_0381 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000035" ;
+    .
+
+dataset:entry_0382 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000036" ;
+    .
+
+dataset:entry_0383 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000037" ;
+    .
+
+dataset:entry_0384 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000038" ;
+    .
+
+dataset:entry_0385 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000039" ;
+    .
+
+dataset:entry_0386 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000040" ;
+    .
+
+dataset:entry_0387 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000041" ;
+    .
+
+dataset:entry_0388 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000042" ;
+    .
+
+dataset:entry_0389 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000043" ;
+    .
+
+dataset:entry_0390 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000044" ;
+    .
+
+dataset:entry_0391 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000045" ;
+    .
+
+dataset:entry_0392 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000046" ;
+    .
+
+dataset:entry_0393 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000047" ;
+    .
+
+dataset:entry_0394 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000048" ;
+    .
+
+dataset:entry_0395 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000049" ;
+    .
+
+dataset:entry_0396 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "RPT000050" ;
+    .
+
+dataset:entry_0397 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Paracetamol" ;
+    .
+
+dataset:entry_0398 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Atorvastatin" ;
+    catalog:normalizedConcept "83367" ;
+    catalog:ontologySource rxnorm:83367 ;
+    catalog:ontologySourceName "RxNorm" ;
+    .
+
+dataset:entry_0399 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Remdesivir" ;
+    .
+
+dataset:entry_0400 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Metformin" ;
+    catalog:normalizedConcept "860975" ;
+    catalog:ontologySource rxnorm:860975 ;
+    catalog:ontologySourceName "RxNorm" ;
+    .
+
+dataset:entry_0401 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Amlodipine" ;
+    .
+
+dataset:entry_0402 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Insulin" ;
+    catalog:normalizedConcept "28518" ;
+    catalog:ontologySource rxnorm:28518 ;
+    catalog:ontologySourceName "RxNorm" ;
+    .
+
+dataset:entry_0403 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Aspirin" ;
+    .
+
+dataset:entry_0404 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "adverse_event" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "Death" ;
+    .
+
+dataset:entry_0405 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "adverse_event" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "Liver Damage" ;
+    .
+
+dataset:entry_0406 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "adverse_event" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "Fatigue" ;
+    .
+
+dataset:entry_0407 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "adverse_event" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "Headache" ;
+    .
+
+dataset:entry_0408 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "adverse_event" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "Kidney Failure" ;
+    .
+
+dataset:entry_0409 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "adverse_event" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "Nausea" ;
+    .
+
+dataset:entry_0410 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "adverse_event" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "Seizure" ;
+    .
+
+dataset:entry_0411 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "adverse_event" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "Rash" ;
+    .
+
+dataset:entry_0412 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "serious" ;
+    catalog:dublinCoreField "type" ;
+    catalog:sampleValue "Yes" ;
+    .
+
+dataset:entry_0413 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "serious" ;
+    catalog:dublinCoreField "type" ;
+    catalog:sampleValue "No" ;
+    .
+
+dataset:entry_0414 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "outcome" ;
+    catalog:dublinCoreField "coverage" ;
+    catalog:sampleValue "Ongoing" ;
+    .
+
+dataset:entry_0415 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "outcome" ;
+    catalog:dublinCoreField "coverage" ;
+    catalog:sampleValue "Not Recovered" ;
+    .
+
+dataset:entry_0416 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "outcome" ;
+    catalog:dublinCoreField "coverage" ;
+    catalog:sampleValue "Fatal" ;
+    .
+
+dataset:entry_0417 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "outcome" ;
+    catalog:dublinCoreField "coverage" ;
+    catalog:sampleValue "Recovered" ;
+    .
+
+dataset:entry_0418 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "outcome" ;
+    catalog:dublinCoreField "coverage" ;
+    catalog:sampleValue "Unknown" ;
+    .
+
+dataset:entry_0419 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2020-04-28"^^xsd:date ;
+    .
+
+dataset:entry_0420 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2023-11-08"^^xsd:date ;
+    .
+
+dataset:entry_0421 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2019-01-10"^^xsd:date ;
+    .
+
+dataset:entry_0422 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2017-02-14"^^xsd:date ;
+    .
+
+dataset:entry_0423 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2010-05-24"^^xsd:date ;
+    .
+
+dataset:entry_0424 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2024-11-03"^^xsd:date ;
+    .
+
+dataset:entry_0425 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2014-02-12"^^xsd:date ;
+    .
+
+dataset:entry_0426 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2012-05-18"^^xsd:date ;
+    .
+
+dataset:entry_0427 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2015-10-13"^^xsd:date ;
+    .
+
+dataset:entry_0428 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2011-06-20"^^xsd:date ;
+    .
+
+dataset:entry_0429 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2016-05-12"^^xsd:date ;
+    .
+
+dataset:entry_0430 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2012-12-24"^^xsd:date ;
+    .
+
+dataset:entry_0431 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2022-12-06"^^xsd:date ;
+    .
+
+dataset:entry_0432 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2010-05-09"^^xsd:date ;
+    .
+
+dataset:entry_0433 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2018-04-21"^^xsd:date ;
+    .
+
+dataset:entry_0434 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2015-09-07"^^xsd:date ;
+    .
+
+dataset:entry_0435 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2023-04-26"^^xsd:date ;
+    .
+
+dataset:entry_0436 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2020-06-01"^^xsd:date ;
+    .
+
+dataset:entry_0437 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2021-05-09"^^xsd:date ;
+    .
+
+dataset:entry_0438 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2014-03-09"^^xsd:date ;
+    .
+
+dataset:entry_0439 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2022-11-17"^^xsd:date ;
+    .
+
+dataset:entry_0440 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2017-08-18"^^xsd:date ;
+    .
+
+dataset:entry_0441 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2021-03-30"^^xsd:date ;
+    .
+
+dataset:entry_0442 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2013-12-09"^^xsd:date ;
+    .
+
+dataset:entry_0443 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2017-07-04"^^xsd:date ;
+    .
+
+dataset:entry_0444 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2018-08-16"^^xsd:date ;
+    .
+
+dataset:entry_0445 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2018-12-23"^^xsd:date ;
+    .
+
+dataset:entry_0446 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2019-11-22"^^xsd:date ;
+    .
+
+dataset:entry_0447 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2024-02-06"^^xsd:date ;
+    .
+
+dataset:entry_0448 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2024-01-06"^^xsd:date ;
+    .
+
+dataset:entry_0449 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2015-10-22"^^xsd:date ;
+    .
+
+dataset:entry_0450 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2024-12-26"^^xsd:date ;
+    .
+
+dataset:entry_0451 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2021-11-08"^^xsd:date ;
+    .
+
+dataset:entry_0452 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2022-11-07"^^xsd:date ;
+    .
+
+dataset:entry_0453 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2015-03-01"^^xsd:date ;
+    .
+
+dataset:entry_0454 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2019-09-23"^^xsd:date ;
+    .
+
+dataset:entry_0455 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2023-11-04"^^xsd:date ;
+    .
+
+dataset:entry_0456 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2019-11-20"^^xsd:date ;
+    .
+
+dataset:entry_0457 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2023-10-28"^^xsd:date ;
+    .
+
+dataset:entry_0458 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2014-01-08"^^xsd:date ;
+    .
+
+dataset:entry_0459 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2024-03-01"^^xsd:date ;
+    .
+
+dataset:entry_0460 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2013-07-03"^^xsd:date ;
+    .
+
+dataset:entry_0461 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2024-01-17"^^xsd:date ;
+    .
+
+dataset:entry_0462 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2019-09-18"^^xsd:date ;
+    .
+
+dataset:entry_0463 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2020-07-09"^^xsd:date ;
+    .
+
+dataset:entry_0464 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2013-04-17"^^xsd:date ;
+    .
+
+dataset:entry_0465 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2011-08-05"^^xsd:date ;
+    .
+
+dataset:entry_0466 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2012-10-18"^^xsd:date ;
+    .
+
+dataset:entry_0467 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2018-07-26"^^xsd:date ;
+    .
+
+dataset:entry_0468 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "report_date" ;
+    catalog:dublinCoreField "date" ;
+    catalog:sampleValue "2012-01-06"^^xsd:date ;
+    .
+
+dataset:entry_0469 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "country" ;
+    catalog:dublinCoreField "coverage" ;
+    catalog:sampleValue "USA" ;
+    .
+
+dataset:entry_0470 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "country" ;
+    catalog:dublinCoreField "coverage" ;
+    catalog:sampleValue "UK" ;
+    .
+
+dataset:entry_0471 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "country" ;
+    catalog:dublinCoreField "coverage" ;
+    catalog:sampleValue "France" ;
+    .
+
+dataset:entry_0472 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "country" ;
+    catalog:dublinCoreField "coverage" ;
+    catalog:sampleValue "Germany" ;
+    .
+
+dataset:entry_0473 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "country" ;
+    catalog:dublinCoreField "coverage" ;
+    catalog:sampleValue "India" ;
+    .
+
+dataset:entry_0474 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "country" ;
+    catalog:dublinCoreField "coverage" ;
+    catalog:sampleValue "Canada" ;
+    .
+
+dataset:entry_0475 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "country" ;
+    catalog:dublinCoreField "coverage" ;
+    catalog:sampleValue "Brazil" ;
+    .
+
+dataset:entry_0476 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "country" ;
+    catalog:dublinCoreField "coverage" ;
+    catalog:sampleValue "Japan" ;
+    .
+
+dataset:entry_0477 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "source" ;
+    catalog:dublinCoreField "creator" ;
+    catalog:sampleValue "Regulator" ;
+    .
+
+dataset:entry_0478 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "source" ;
+    catalog:dublinCoreField "creator" ;
+    catalog:sampleValue "Pharmacist" ;
+    .
+
+dataset:entry_0479 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "source" ;
+    catalog:dublinCoreField "creator" ;
+    catalog:sampleValue "Consumer" ;
+    .
+
+dataset:entry_0480 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Safety" ;
+    catalog:originalField "source" ;
+    catalog:dublinCoreField "creator" ;
+    catalog:sampleValue "Physician" ;
+    .
+
+dataset:entry_0481 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10000" ;
+    .
+
+dataset:entry_0482 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10001" ;
+    .
+
+dataset:entry_0483 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10002" ;
+    .
+
+dataset:entry_0484 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10003" ;
+    .
+
+dataset:entry_0485 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10004" ;
+    .
+
+dataset:entry_0486 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10005" ;
+    .
+
+dataset:entry_0487 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10006" ;
+    .
+
+dataset:entry_0488 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10007" ;
+    .
+
+dataset:entry_0489 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10008" ;
+    .
+
+dataset:entry_0490 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10009" ;
+    .
+
+dataset:entry_0491 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10010" ;
+    .
+
+dataset:entry_0492 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10011" ;
+    .
+
+dataset:entry_0493 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10012" ;
+    .
+
+dataset:entry_0494 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10013" ;
+    .
+
+dataset:entry_0495 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10014" ;
+    .
+
+dataset:entry_0496 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10015" ;
+    .
+
+dataset:entry_0497 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10016" ;
+    .
+
+dataset:entry_0498 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10017" ;
+    .
+
+dataset:entry_0499 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10018" ;
+    .
+
+dataset:entry_0500 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10019" ;
+    .
+
+dataset:entry_0501 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10020" ;
+    .
+
+dataset:entry_0502 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10021" ;
+    .
+
+dataset:entry_0503 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10022" ;
+    .
+
+dataset:entry_0504 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10023" ;
+    .
+
+dataset:entry_0505 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10024" ;
+    .
+
+dataset:entry_0506 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10025" ;
+    .
+
+dataset:entry_0507 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10026" ;
+    .
+
+dataset:entry_0508 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10027" ;
+    .
+
+dataset:entry_0509 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10028" ;
+    .
+
+dataset:entry_0510 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10029" ;
+    .
+
+dataset:entry_0511 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10030" ;
+    .
+
+dataset:entry_0512 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10031" ;
+    .
+
+dataset:entry_0513 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10032" ;
+    .
+
+dataset:entry_0514 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10033" ;
+    .
+
+dataset:entry_0515 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10034" ;
+    .
+
+dataset:entry_0516 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10035" ;
+    .
+
+dataset:entry_0517 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10036" ;
+    .
+
+dataset:entry_0518 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10037" ;
+    .
+
+dataset:entry_0519 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10038" ;
+    .
+
+dataset:entry_0520 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10039" ;
+    .
+
+dataset:entry_0521 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10040" ;
+    .
+
+dataset:entry_0522 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10041" ;
+    .
+
+dataset:entry_0523 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10042" ;
+    .
+
+dataset:entry_0524 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10043" ;
+    .
+
+dataset:entry_0525 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10044" ;
+    .
+
+dataset:entry_0526 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10045" ;
+    .
+
+dataset:entry_0527 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10046" ;
+    .
+
+dataset:entry_0528 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10047" ;
+    .
+
+dataset:entry_0529 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10048" ;
+    .
+
+dataset:entry_0530 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_id" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "DB10049" ;
+    .
+
+dataset:entry_0531 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_1" ;
+    .
+
+dataset:entry_0532 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_2" ;
+    .
+
+dataset:entry_0533 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_3" ;
+    .
+
+dataset:entry_0534 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_4" ;
+    .
+
+dataset:entry_0535 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_5" ;
+    .
+
+dataset:entry_0536 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_6" ;
+    .
+
+dataset:entry_0537 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_7" ;
+    .
+
+dataset:entry_0538 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_8" ;
+    .
+
+dataset:entry_0539 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_9" ;
+    .
+
+dataset:entry_0540 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_10" ;
+    .
+
+dataset:entry_0541 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_11" ;
+    .
+
+dataset:entry_0542 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_12" ;
+    .
+
+dataset:entry_0543 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_13" ;
+    .
+
+dataset:entry_0544 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_14" ;
+    .
+
+dataset:entry_0545 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_15" ;
+    .
+
+dataset:entry_0546 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_16" ;
+    .
+
+dataset:entry_0547 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_17" ;
+    .
+
+dataset:entry_0548 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_18" ;
+    .
+
+dataset:entry_0549 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_19" ;
+    .
+
+dataset:entry_0550 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_20" ;
+    .
+
+dataset:entry_0551 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_21" ;
+    .
+
+dataset:entry_0552 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_22" ;
+    .
+
+dataset:entry_0553 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_23" ;
+    .
+
+dataset:entry_0554 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_24" ;
+    .
+
+dataset:entry_0555 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_25" ;
+    .
+
+dataset:entry_0556 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_26" ;
+    .
+
+dataset:entry_0557 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_27" ;
+    .
+
+dataset:entry_0558 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_28" ;
+    .
+
+dataset:entry_0559 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_29" ;
+    .
+
+dataset:entry_0560 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_30" ;
+    .
+
+dataset:entry_0561 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_31" ;
+    .
+
+dataset:entry_0562 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_32" ;
+    .
+
+dataset:entry_0563 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_33" ;
+    .
+
+dataset:entry_0564 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_34" ;
+    .
+
+dataset:entry_0565 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_35" ;
+    .
+
+dataset:entry_0566 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_36" ;
+    .
+
+dataset:entry_0567 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_37" ;
+    .
+
+dataset:entry_0568 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_38" ;
+    .
+
+dataset:entry_0569 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_39" ;
+    .
+
+dataset:entry_0570 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_40" ;
+    .
+
+dataset:entry_0571 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_41" ;
+    .
+
+dataset:entry_0572 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_42" ;
+    .
+
+dataset:entry_0573 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_43" ;
+    .
+
+dataset:entry_0574 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_44" ;
+    .
+
+dataset:entry_0575 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_45" ;
+    .
+
+dataset:entry_0576 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_46" ;
+    .
+
+dataset:entry_0577 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_47" ;
+    .
+
+dataset:entry_0578 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_48" ;
+    .
+
+dataset:entry_0579 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_49" ;
+    .
+
+dataset:entry_0580 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_name" ;
+    catalog:dublinCoreField "title" ;
+    catalog:sampleValue "Drug_50" ;
+    .
+
+dataset:entry_0581 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "generic_name" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "Remdesivir" ;
+    .
+
+dataset:entry_0582 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "generic_name" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "Paracetamol" ;
+    .
+
+dataset:entry_0583 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "generic_name" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "Atorvastatin" ;
+    catalog:normalizedConcept "83367" ;
+    catalog:ontologySource rxnorm:83367 ;
+    catalog:ontologySourceName "RxNorm" ;
+    .
+
+dataset:entry_0584 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "generic_name" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "Metformin" ;
+    catalog:normalizedConcept "860975" ;
+    catalog:ontologySource rxnorm:860975 ;
+    catalog:ontologySourceName "RxNorm" ;
+    .
+
+dataset:entry_0585 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "generic_name" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "Amlodipine" ;
+    .
+
+dataset:entry_0586 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "generic_name" ;
+    catalog:dublinCoreField "subject" ;
+    catalog:sampleValue "Insulin" ;
+    catalog:normalizedConcept "28518" ;
+    catalog:ontologySource rxnorm:28518 ;
+    catalog:ontologySourceName "RxNorm" ;
+    .
+
+dataset:entry_0587 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_class" ;
+    catalog:dublinCoreField "type" ;
+    catalog:sampleValue "Chemotherapy" ;
+    .
+
+dataset:entry_0588 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_class" ;
+    catalog:dublinCoreField "type" ;
+    catalog:sampleValue "Antiviral" ;
+    .
+
+dataset:entry_0589 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_class" ;
+    catalog:dublinCoreField "type" ;
+    catalog:sampleValue "Antibiotic" ;
+    .
+
+dataset:entry_0590 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_class" ;
+    catalog:dublinCoreField "type" ;
+    catalog:sampleValue "Statin" ;
+    .
+
+dataset:entry_0591 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_class" ;
+    catalog:dublinCoreField "type" ;
+    catalog:sampleValue "Analgesic" ;
+    .
+
+dataset:entry_0592 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_class" ;
+    catalog:dublinCoreField "type" ;
+    catalog:sampleValue "Antidiabetic" ;
+    .
+
+dataset:entry_0593 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "drug_class" ;
+    catalog:dublinCoreField "type" ;
+    catalog:sampleValue "Antihypertensive" ;
+    .
+
+dataset:entry_0594 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "mechanism_of_action" ;
+    catalog:dublinCoreField "description" ;
+    catalog:sampleValue "Beta Blocker" ;
+    .
+
+dataset:entry_0595 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "mechanism_of_action" ;
+    catalog:dublinCoreField "description" ;
+    catalog:sampleValue "HMG-CoA Reductase Inhibitor" ;
+    .
+
+dataset:entry_0596 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "mechanism_of_action" ;
+    catalog:dublinCoreField "description" ;
+    catalog:sampleValue "Insulin Sensitizer" ;
+    .
+
+dataset:entry_0597 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "mechanism_of_action" ;
+    catalog:dublinCoreField "description" ;
+    catalog:sampleValue "Protease Inhibitor" ;
+    .
+
+dataset:entry_0598 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "mechanism_of_action" ;
+    catalog:dublinCoreField "description" ;
+    catalog:sampleValue "COX Inhibitor" ;
+    .
+
+dataset:entry_0599 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "mechanism_of_action" ;
+    catalog:dublinCoreField "description" ;
+    catalog:sampleValue "ACE Inhibitor" ;
+    .
+
+dataset:entry_0600 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "mechanism_of_action" ;
+    catalog:dublinCoreField "description" ;
+    catalog:sampleValue "DNA Synthesis Inhibitor" ;
+    .
+
+dataset:entry_0601 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "route_of_administration" ;
+    catalog:dublinCoreField "format" ;
+    catalog:sampleValue "Topical" ;
+    .
+
+dataset:entry_0602 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "route_of_administration" ;
+    catalog:dublinCoreField "format" ;
+    catalog:sampleValue "Injection" ;
+    .
+
+dataset:entry_0603 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "route_of_administration" ;
+    catalog:dublinCoreField "format" ;
+    catalog:sampleValue "IV" ;
+    .
+
+dataset:entry_0604 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "route_of_administration" ;
+    catalog:dublinCoreField "format" ;
+    catalog:sampleValue "Oral" ;
+    .
+
+dataset:entry_0605 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00001" ;
+    .
+
+dataset:entry_0606 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00002" ;
+    .
+
+dataset:entry_0607 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00003" ;
+    .
+
+dataset:entry_0608 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00004" ;
+    .
+
+dataset:entry_0609 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00005" ;
+    .
+
+dataset:entry_0610 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00006" ;
+    .
+
+dataset:entry_0611 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00007" ;
+    .
+
+dataset:entry_0612 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00008" ;
+    .
+
+dataset:entry_0613 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00009" ;
+    .
+
+dataset:entry_0614 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00010" ;
+    .
+
+dataset:entry_0615 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00011" ;
+    .
+
+dataset:entry_0616 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00012" ;
+    .
+
+dataset:entry_0617 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00013" ;
+    .
+
+dataset:entry_0618 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00014" ;
+    .
+
+dataset:entry_0619 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00015" ;
+    .
+
+dataset:entry_0620 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00016" ;
+    .
+
+dataset:entry_0621 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00017" ;
+    .
+
+dataset:entry_0622 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00018" ;
+    .
+
+dataset:entry_0623 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00019" ;
+    .
+
+dataset:entry_0624 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00020" ;
+    .
+
+dataset:entry_0625 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00021" ;
+    .
+
+dataset:entry_0626 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00022" ;
+    .
+
+dataset:entry_0627 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00023" ;
+    .
+
+dataset:entry_0628 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00024" ;
+    .
+
+dataset:entry_0629 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00025" ;
+    .
+
+dataset:entry_0630 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00026" ;
+    .
+
+dataset:entry_0631 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00027" ;
+    .
+
+dataset:entry_0632 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00028" ;
+    .
+
+dataset:entry_0633 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00029" ;
+    .
+
+dataset:entry_0634 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00030" ;
+    .
+
+dataset:entry_0635 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00031" ;
+    .
+
+dataset:entry_0636 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00032" ;
+    .
+
+dataset:entry_0637 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00033" ;
+    .
+
+dataset:entry_0638 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00034" ;
+    .
+
+dataset:entry_0639 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00035" ;
+    .
+
+dataset:entry_0640 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00036" ;
+    .
+
+dataset:entry_0641 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00037" ;
+    .
+
+dataset:entry_0642 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00038" ;
+    .
+
+dataset:entry_0643 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00039" ;
+    .
+
+dataset:entry_0644 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00040" ;
+    .
+
+dataset:entry_0645 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00041" ;
+    .
+
+dataset:entry_0646 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00042" ;
+    .
+
+dataset:entry_0647 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00043" ;
+    .
+
+dataset:entry_0648 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00044" ;
+    .
+
+dataset:entry_0649 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00045" ;
+    .
+
+dataset:entry_0650 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00046" ;
+    .
+
+dataset:entry_0651 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00047" ;
+    .
+
+dataset:entry_0652 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00048" ;
+    .
+
+dataset:entry_0653 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00049" ;
+    .
+
+dataset:entry_0654 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "atc_code" ;
+    catalog:dublinCoreField "identifier" ;
+    catalog:sampleValue "ATC00050" ;
+    .
+
+dataset:entry_0655 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "approved" ;
+    catalog:dublinCoreField "rights" ;
+    catalog:sampleValue "Yes" ;
+    .
+
+dataset:entry_0656 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "approved" ;
+    catalog:dublinCoreField "rights" ;
+    catalog:sampleValue "No" ;
+    .
+
+dataset:entry_0657 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med5|Med2|Med4" ;
+    .
+
+dataset:entry_0658 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med3|Med5|Med4" ;
+    .
+
+dataset:entry_0659 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med4|Med2|Med5" ;
+    .
+
+dataset:entry_0660 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med2|Med3|Med5" ;
+    .
+
+dataset:entry_0661 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med3|Med2|Med4" ;
+    .
+
+dataset:entry_0662 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med3|Med4|Med2" ;
+    .
+
+dataset:entry_0663 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med1|Med3|Med5" ;
+    .
+
+dataset:entry_0664 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med3|Med5|Med2" ;
+    .
+
+dataset:entry_0665 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med5|Med1|Med3" ;
+    .
+
+dataset:entry_0666 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med2|Med3|Med1" ;
+    .
+
+dataset:entry_0667 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med1|Med4|Med5" ;
+    .
+
+dataset:entry_0668 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med1|Med3|Med4" ;
+    .
+
+dataset:entry_0669 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med2|Med5|Med4" ;
+    .
+
+dataset:entry_0670 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med5|Med4|Med3" ;
+    .
+
+dataset:entry_0671 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med2|Med5|Med1" ;
+    .
+
+dataset:entry_0672 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med1|Med4|Med2" ;
+    .
+
+dataset:entry_0673 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med3|Med5|Med1" ;
+    .
+
+dataset:entry_0674 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med5|Med3|Med4" ;
+    .
+
+dataset:entry_0675 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med4|Med3|Med2" ;
+    .
+
+dataset:entry_0676 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med2|Med1|Med5" ;
+    .
+
+dataset:entry_0677 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med5|Med2|Med3" ;
+    .
+
+dataset:entry_0678 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med5|Med4|Med1" ;
+    .
+
+dataset:entry_0679 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med5|Med4|Med2" ;
+    .
+
+dataset:entry_0680 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med2|Med1|Med4" ;
+    .
+
+dataset:entry_0681 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med2|Med1|Med3" ;
+    .
+
+dataset:entry_0682 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med4|Med3|Med1" ;
+    .
+
+dataset:entry_0683 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med4|Med1|Med5" ;
+    .
+
+dataset:entry_0684 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med3|Med2|Med5" ;
+    .
+
+dataset:entry_0685 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med4|Med3|Med5" ;
+    .
+
+dataset:entry_0686 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med5|Med1|Med4" ;
+    .
+
+dataset:entry_0687 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med3|Med1|Med4" ;
+    .
+
+dataset:entry_0688 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med1|Med3|Med2" ;
+    .
+
+dataset:entry_0689 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med4|Med5|Med2" ;
+    .
+
+dataset:entry_0690 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med4|Med2|Med3" ;
+    .
+
+dataset:entry_0691 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med3|Med1|Med2" ;
+    .
+
+dataset:entry_0692 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med3|Med4|Med1" ;
+    .
+
+dataset:entry_0693 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med1|Med5|Med3" ;
+    .
+
+dataset:entry_0694 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med3|Med1|Med5" ;
+    .
+
+dataset:entry_0695 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med3|Med4|Med5" ;
+    .
+
+dataset:entry_0696 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med1|Med2|Med3" ;
+    .
+
+dataset:entry_0697 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med5|Med1|Med2" ;
+    .
+
+dataset:entry_0698 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med2|Med4|Med5" ;
+    .
+
+dataset:entry_0699 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med5|Med3|Med1" ;
+    .
+
+dataset:entry_0700 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med5|Med3|Med2" ;
+    .
+
+dataset:entry_0701 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med4|Med2|Med1" ;
+    .
+
+dataset:entry_0702 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med1|Med5|Med4" ;
+    .
+
+dataset:entry_0703 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med1|Med2|Med4" ;
+    .
+
+dataset:entry_0704 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med1|Med5|Med2" ;
+    .
+
+dataset:entry_0705 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med2|Med5|Med3" ;
+    .
+
+dataset:entry_0706 a catalog:MetadataEntry ;
+    catalog:datasetType "Drug Ontology" ;
+    catalog:originalField "synonyms" ;
+    catalog:dublinCoreField "relation" ;
+    catalog:sampleValue "Med4|Med1|Med2" ;
+    .
+

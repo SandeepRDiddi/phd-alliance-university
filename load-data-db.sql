@@ -152,13 +152,13 @@ UNION ALL
 SELECT 'synthetic_ehr' as table_name, COUNT(*) as record_count FROM synthetic_ehr;
 
 -- Check for data quality issues
-SELECT 'clinical_trials_null_trial_id' as check_name, COUNT(*) as issue_count 
+SELECT 'clinical_trials_null_trial_id' as check_name, COUNT(*) as issue_count
 FROM clinical_trials WHERE trial_id IS NULL
 UNION ALL
-SELECT 'drug_safety_invalid_age' as check_name, COUNT(*) as issue_count 
+SELECT 'drug_safety_invalid_age' as check_name, COUNT(*) as issue_count
 FROM drug_safety WHERE age < 0 OR age > 150
 UNION ALL
-SELECT 'synthetic_ehr_null_patient_id' as check_name, COUNT(*) as issue_count 
+SELECT 'synthetic_ehr_null_patient_id' as check_name, COUNT(*) as issue_count
 FROM synthetic_ehr WHERE patient_id IS NULL;
 
 -- =====================================================
@@ -166,34 +166,34 @@ FROM synthetic_ehr WHERE patient_id IS NULL;
 -- =====================================================
 
 -- Clinical trials by phase
-SELECT phase, COUNT(*) as trial_count 
-FROM clinical_trials 
-WHERE phase IS NOT NULL 
-GROUP BY phase 
+SELECT phase, COUNT(*) as trial_count
+FROM clinical_trials
+WHERE phase IS NOT NULL
+GROUP BY phase
 ORDER BY trial_count DESC;
 
 -- Drug safety reports by severity
-SELECT serious, COUNT(*) as report_count 
-FROM drug_safety 
+SELECT serious, COUNT(*) as report_count
+FROM drug_safety
 GROUP BY serious;
 
 -- Most common drug classes
-SELECT drug_class, COUNT(*) as drug_count 
-FROM drug_ontology 
-WHERE drug_class IS NOT NULL 
-GROUP BY drug_class 
-ORDER BY drug_count DESC 
+SELECT drug_class, COUNT(*) as drug_count
+FROM drug_ontology
+WHERE drug_class IS NOT NULL
+GROUP BY drug_class
+ORDER BY drug_count DESC
 LIMIT 10;
 
 -- EHR visits by age group
-SELECT 
-    CASE 
+SELECT
+    CASE
         WHEN age < 18 THEN 'Pediatric'
         WHEN age BETWEEN 18 AND 65 THEN 'Adult'
         ELSE 'Elderly'
     END as age_group,
     COUNT(*) as visit_count
-FROM synthetic_ehr 
+FROM synthetic_ehr
 WHERE age IS NOT NULL
 GROUP BY age_group;
 
@@ -204,8 +204,8 @@ GROUP BY age_group;
 -- If you want to establish relationships between tables, uncomment these:
 
 -- Add foreign key from drug_safety to drug_ontology
--- ALTER TABLE drug_safety 
--- ADD CONSTRAINT fk_drug_safety_drug_name 
+-- ALTER TABLE drug_safety
+-- ADD CONSTRAINT fk_drug_safety_drug_name
 -- FOREIGN KEY (drug_name) REFERENCES drug_ontology(drug_name);
 
 -- Note: This assumes drug names match exactly between tables

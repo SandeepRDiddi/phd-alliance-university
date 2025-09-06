@@ -1,0 +1,2837 @@
+id,name,type
+dataset_0,EHR,Dataset
+field_0,patient_id,Field
+dcfield_0,identifier,DublinCore
+value_0,P000001,Value
+dataset_1,EHR,Dataset
+field_1,patient_id,Field
+dcfield_1,identifier,DublinCore
+value_1,P000002,Value
+dataset_2,EHR,Dataset
+field_2,patient_id,Field
+dcfield_2,identifier,DublinCore
+value_2,P000003,Value
+dataset_3,EHR,Dataset
+field_3,patient_id,Field
+dcfield_3,identifier,DublinCore
+value_3,P000004,Value
+dataset_4,EHR,Dataset
+field_4,patient_id,Field
+dcfield_4,identifier,DublinCore
+value_4,P000005,Value
+dataset_5,EHR,Dataset
+field_5,patient_id,Field
+dcfield_5,identifier,DublinCore
+value_5,P000006,Value
+dataset_6,EHR,Dataset
+field_6,patient_id,Field
+dcfield_6,identifier,DublinCore
+value_6,P000007,Value
+dataset_7,EHR,Dataset
+field_7,patient_id,Field
+dcfield_7,identifier,DublinCore
+value_7,P000008,Value
+dataset_8,EHR,Dataset
+field_8,patient_id,Field
+dcfield_8,identifier,DublinCore
+value_8,P000009,Value
+dataset_9,EHR,Dataset
+field_9,patient_id,Field
+dcfield_9,identifier,DublinCore
+value_9,P000010,Value
+dataset_10,EHR,Dataset
+field_10,patient_id,Field
+dcfield_10,identifier,DublinCore
+value_10,P000011,Value
+dataset_11,EHR,Dataset
+field_11,patient_id,Field
+dcfield_11,identifier,DublinCore
+value_11,P000012,Value
+dataset_12,EHR,Dataset
+field_12,patient_id,Field
+dcfield_12,identifier,DublinCore
+value_12,P000013,Value
+dataset_13,EHR,Dataset
+field_13,patient_id,Field
+dcfield_13,identifier,DublinCore
+value_13,P000014,Value
+dataset_14,EHR,Dataset
+field_14,patient_id,Field
+dcfield_14,identifier,DublinCore
+value_14,P000015,Value
+dataset_15,EHR,Dataset
+field_15,patient_id,Field
+dcfield_15,identifier,DublinCore
+value_15,P000016,Value
+dataset_16,EHR,Dataset
+field_16,patient_id,Field
+dcfield_16,identifier,DublinCore
+value_16,P000017,Value
+dataset_17,EHR,Dataset
+field_17,patient_id,Field
+dcfield_17,identifier,DublinCore
+value_17,P000018,Value
+dataset_18,EHR,Dataset
+field_18,patient_id,Field
+dcfield_18,identifier,DublinCore
+value_18,P000019,Value
+dataset_19,EHR,Dataset
+field_19,patient_id,Field
+dcfield_19,identifier,DublinCore
+value_19,P000020,Value
+dataset_20,EHR,Dataset
+field_20,patient_id,Field
+dcfield_20,identifier,DublinCore
+value_20,P000021,Value
+dataset_21,EHR,Dataset
+field_21,patient_id,Field
+dcfield_21,identifier,DublinCore
+value_21,P000022,Value
+dataset_22,EHR,Dataset
+field_22,patient_id,Field
+dcfield_22,identifier,DublinCore
+value_22,P000023,Value
+dataset_23,EHR,Dataset
+field_23,patient_id,Field
+dcfield_23,identifier,DublinCore
+value_23,P000024,Value
+dataset_24,EHR,Dataset
+field_24,patient_id,Field
+dcfield_24,identifier,DublinCore
+value_24,P000025,Value
+dataset_25,EHR,Dataset
+field_25,patient_id,Field
+dcfield_25,identifier,DublinCore
+value_25,P000026,Value
+dataset_26,EHR,Dataset
+field_26,patient_id,Field
+dcfield_26,identifier,DublinCore
+value_26,P000027,Value
+dataset_27,EHR,Dataset
+field_27,patient_id,Field
+dcfield_27,identifier,DublinCore
+value_27,P000028,Value
+dataset_28,EHR,Dataset
+field_28,patient_id,Field
+dcfield_28,identifier,DublinCore
+value_28,P000029,Value
+dataset_29,EHR,Dataset
+field_29,patient_id,Field
+dcfield_29,identifier,DublinCore
+value_29,P000030,Value
+dataset_30,EHR,Dataset
+field_30,patient_id,Field
+dcfield_30,identifier,DublinCore
+value_30,P000031,Value
+dataset_31,EHR,Dataset
+field_31,patient_id,Field
+dcfield_31,identifier,DublinCore
+value_31,P000032,Value
+dataset_32,EHR,Dataset
+field_32,patient_id,Field
+dcfield_32,identifier,DublinCore
+value_32,P000033,Value
+dataset_33,EHR,Dataset
+field_33,patient_id,Field
+dcfield_33,identifier,DublinCore
+value_33,P000034,Value
+dataset_34,EHR,Dataset
+field_34,patient_id,Field
+dcfield_34,identifier,DublinCore
+value_34,P000035,Value
+dataset_35,EHR,Dataset
+field_35,patient_id,Field
+dcfield_35,identifier,DublinCore
+value_35,P000036,Value
+dataset_36,EHR,Dataset
+field_36,patient_id,Field
+dcfield_36,identifier,DublinCore
+value_36,P000037,Value
+dataset_37,EHR,Dataset
+field_37,patient_id,Field
+dcfield_37,identifier,DublinCore
+value_37,P000038,Value
+dataset_38,EHR,Dataset
+field_38,patient_id,Field
+dcfield_38,identifier,DublinCore
+value_38,P000039,Value
+dataset_39,EHR,Dataset
+field_39,patient_id,Field
+dcfield_39,identifier,DublinCore
+value_39,P000040,Value
+dataset_40,EHR,Dataset
+field_40,patient_id,Field
+dcfield_40,identifier,DublinCore
+value_40,P000041,Value
+dataset_41,EHR,Dataset
+field_41,patient_id,Field
+dcfield_41,identifier,DublinCore
+value_41,P000042,Value
+dataset_42,EHR,Dataset
+field_42,patient_id,Field
+dcfield_42,identifier,DublinCore
+value_42,P000043,Value
+dataset_43,EHR,Dataset
+field_43,patient_id,Field
+dcfield_43,identifier,DublinCore
+value_43,P000044,Value
+dataset_44,EHR,Dataset
+field_44,patient_id,Field
+dcfield_44,identifier,DublinCore
+value_44,P000045,Value
+dataset_45,EHR,Dataset
+field_45,patient_id,Field
+dcfield_45,identifier,DublinCore
+value_45,P000046,Value
+dataset_46,EHR,Dataset
+field_46,patient_id,Field
+dcfield_46,identifier,DublinCore
+value_46,P000047,Value
+dataset_47,EHR,Dataset
+field_47,patient_id,Field
+dcfield_47,identifier,DublinCore
+value_47,P000048,Value
+dataset_48,EHR,Dataset
+field_48,patient_id,Field
+dcfield_48,identifier,DublinCore
+value_48,P000049,Value
+dataset_49,EHR,Dataset
+field_49,patient_id,Field
+dcfield_49,identifier,DublinCore
+value_49,P000050,Value
+dataset_50,EHR,Dataset
+field_50,diagnosis,Field
+dcfield_50,subject,DublinCore
+value_50,Diabetes,Value
+concept_50,44054006.0,Concept
+dataset_51,EHR,Dataset
+field_51,diagnosis,Field
+dcfield_51,subject,DublinCore
+value_51,Cancer,Value
+concept_51,363346000.0,Concept
+dataset_52,EHR,Dataset
+field_52,diagnosis,Field
+dcfield_52,subject,DublinCore
+value_52,Hypertension,Value
+concept_52,38341003.0,Concept
+dataset_53,EHR,Dataset
+field_53,diagnosis,Field
+dcfield_53,subject,DublinCore
+value_53,Heart Failure,Value
+dataset_54,EHR,Dataset
+field_54,diagnosis,Field
+dcfield_54,subject,DublinCore
+value_54,COPD,Value
+dataset_55,EHR,Dataset
+field_55,diagnosis,Field
+dcfield_55,subject,DublinCore
+value_55,Stroke,Value
+dataset_56,EHR,Dataset
+field_56,diagnosis,Field
+dcfield_56,subject,DublinCore
+value_56,Asthma,Value
+concept_56,195967001.0,Concept
+dataset_57,EHR,Dataset
+field_57,treatment,Field
+dcfield_57,description,DublinCore
+value_57,Metformin,Value
+concept_57,860975.0,Concept
+dataset_58,EHR,Dataset
+field_58,treatment,Field
+dcfield_58,description,DublinCore
+value_58,Beta Blocker,Value
+dataset_59,EHR,Dataset
+field_59,treatment,Field
+dcfield_59,description,DublinCore
+value_59,Chemotherapy,Value
+dataset_60,EHR,Dataset
+field_60,treatment,Field
+dcfield_60,description,DublinCore
+value_60,Amlodipine,Value
+dataset_61,EHR,Dataset
+field_61,treatment,Field
+dcfield_61,description,DublinCore
+value_61,Insulin,Value
+concept_61,28518.0,Concept
+dataset_62,EHR,Dataset
+field_62,treatment,Field
+dcfield_62,description,DublinCore
+value_62,Inhaler,Value
+dataset_63,EHR,Dataset
+field_63,treatment,Field
+dcfield_63,description,DublinCore
+value_63,Radiation Therapy,Value
+dataset_64,EHR,Dataset
+field_64,visit_date,Field
+dcfield_64,date,DublinCore
+value_64,2020-03-11,Value
+dataset_65,EHR,Dataset
+field_65,visit_date,Field
+dcfield_65,date,DublinCore
+value_65,2023-12-05,Value
+dataset_66,EHR,Dataset
+field_66,visit_date,Field
+dcfield_66,date,DublinCore
+value_66,2015-01-07,Value
+dataset_67,EHR,Dataset
+field_67,visit_date,Field
+dcfield_67,date,DublinCore
+value_67,2023-02-02,Value
+dataset_68,EHR,Dataset
+field_68,visit_date,Field
+dcfield_68,date,DublinCore
+value_68,2016-03-26,Value
+dataset_69,EHR,Dataset
+field_69,visit_date,Field
+dcfield_69,date,DublinCore
+value_69,2022-07-20,Value
+dataset_70,EHR,Dataset
+field_70,visit_date,Field
+dcfield_70,date,DublinCore
+value_70,2017-06-04,Value
+dataset_71,EHR,Dataset
+field_71,visit_date,Field
+dcfield_71,date,DublinCore
+value_71,2021-05-02,Value
+dataset_72,EHR,Dataset
+field_72,visit_date,Field
+dcfield_72,date,DublinCore
+value_72,2016-09-10,Value
+dataset_73,EHR,Dataset
+field_73,visit_date,Field
+dcfield_73,date,DublinCore
+value_73,2019-08-26,Value
+dataset_74,EHR,Dataset
+field_74,visit_date,Field
+dcfield_74,date,DublinCore
+value_74,2022-09-18,Value
+dataset_75,EHR,Dataset
+field_75,visit_date,Field
+dcfield_75,date,DublinCore
+value_75,2021-07-17,Value
+dataset_76,EHR,Dataset
+field_76,visit_date,Field
+dcfield_76,date,DublinCore
+value_76,2024-06-04,Value
+dataset_77,EHR,Dataset
+field_77,visit_date,Field
+dcfield_77,date,DublinCore
+value_77,2021-10-27,Value
+dataset_78,EHR,Dataset
+field_78,visit_date,Field
+dcfield_78,date,DublinCore
+value_78,2017-05-15,Value
+dataset_79,EHR,Dataset
+field_79,visit_date,Field
+dcfield_79,date,DublinCore
+value_79,2015-09-24,Value
+dataset_80,EHR,Dataset
+field_80,visit_date,Field
+dcfield_80,date,DublinCore
+value_80,2023-05-20,Value
+dataset_81,EHR,Dataset
+field_81,visit_date,Field
+dcfield_81,date,DublinCore
+value_81,2016-03-27,Value
+dataset_82,EHR,Dataset
+field_82,visit_date,Field
+dcfield_82,date,DublinCore
+value_82,2019-12-24,Value
+dataset_83,EHR,Dataset
+field_83,visit_date,Field
+dcfield_83,date,DublinCore
+value_83,2017-07-07,Value
+dataset_84,EHR,Dataset
+field_84,visit_date,Field
+dcfield_84,date,DublinCore
+value_84,2015-02-28,Value
+dataset_85,EHR,Dataset
+field_85,visit_date,Field
+dcfield_85,date,DublinCore
+value_85,2019-01-14,Value
+dataset_86,EHR,Dataset
+field_86,visit_date,Field
+dcfield_86,date,DublinCore
+value_86,2020-03-25,Value
+dataset_87,EHR,Dataset
+field_87,visit_date,Field
+dcfield_87,date,DublinCore
+value_87,2024-08-05,Value
+dataset_88,EHR,Dataset
+field_88,visit_date,Field
+dcfield_88,date,DublinCore
+value_88,2024-06-01,Value
+dataset_89,EHR,Dataset
+field_89,visit_date,Field
+dcfield_89,date,DublinCore
+value_89,2016-05-22,Value
+dataset_90,EHR,Dataset
+field_90,visit_date,Field
+dcfield_90,date,DublinCore
+value_90,2023-08-03,Value
+dataset_91,EHR,Dataset
+field_91,visit_date,Field
+dcfield_91,date,DublinCore
+value_91,2024-08-10,Value
+dataset_92,EHR,Dataset
+field_92,visit_date,Field
+dcfield_92,date,DublinCore
+value_92,2018-07-08,Value
+dataset_93,EHR,Dataset
+field_93,visit_date,Field
+dcfield_93,date,DublinCore
+value_93,2020-02-09,Value
+dataset_94,EHR,Dataset
+field_94,visit_date,Field
+dcfield_94,date,DublinCore
+value_94,2018-11-01,Value
+dataset_95,EHR,Dataset
+field_95,visit_date,Field
+dcfield_95,date,DublinCore
+value_95,2023-01-17,Value
+dataset_96,EHR,Dataset
+field_96,visit_date,Field
+dcfield_96,date,DublinCore
+value_96,2015-05-07,Value
+dataset_97,EHR,Dataset
+field_97,visit_date,Field
+dcfield_97,date,DublinCore
+value_97,2015-04-24,Value
+dataset_98,EHR,Dataset
+field_98,visit_date,Field
+dcfield_98,date,DublinCore
+value_98,2016-09-19,Value
+dataset_99,EHR,Dataset
+field_99,visit_date,Field
+dcfield_99,date,DublinCore
+value_99,2021-01-10,Value
+dataset_100,EHR,Dataset
+field_100,visit_date,Field
+dcfield_100,date,DublinCore
+value_100,2019-12-20,Value
+dataset_101,EHR,Dataset
+field_101,visit_date,Field
+dcfield_101,date,DublinCore
+value_101,2015-10-21,Value
+dataset_102,EHR,Dataset
+field_102,visit_date,Field
+dcfield_102,date,DublinCore
+value_102,2024-05-21,Value
+dataset_103,EHR,Dataset
+field_103,visit_date,Field
+dcfield_103,date,DublinCore
+value_103,2020-11-13,Value
+dataset_104,EHR,Dataset
+field_104,visit_date,Field
+dcfield_104,date,DublinCore
+value_104,2024-05-29,Value
+dataset_105,EHR,Dataset
+field_105,visit_date,Field
+dcfield_105,date,DublinCore
+value_105,2021-04-30,Value
+dataset_106,EHR,Dataset
+field_106,visit_date,Field
+dcfield_106,date,DublinCore
+value_106,2021-10-07,Value
+dataset_107,EHR,Dataset
+field_107,visit_date,Field
+dcfield_107,date,DublinCore
+value_107,2020-02-14,Value
+dataset_108,EHR,Dataset
+field_108,visit_date,Field
+dcfield_108,date,DublinCore
+value_108,2022-12-13,Value
+dataset_109,EHR,Dataset
+field_109,visit_date,Field
+dcfield_109,date,DublinCore
+value_109,2018-07-31,Value
+dataset_110,EHR,Dataset
+field_110,visit_date,Field
+dcfield_110,date,DublinCore
+value_110,2016-03-31,Value
+dataset_111,EHR,Dataset
+field_111,visit_date,Field
+dcfield_111,date,DublinCore
+value_111,2017-03-10,Value
+dataset_112,EHR,Dataset
+field_112,visit_date,Field
+dcfield_112,date,DublinCore
+value_112,2016-08-25,Value
+dataset_113,EHR,Dataset
+field_113,visit_date,Field
+dcfield_113,date,DublinCore
+value_113,2022-04-14,Value
+dataset_114,EHR,Dataset
+field_114,outcome,Field
+dcfield_114,coverage,DublinCore
+value_114,Recovered,Value
+dataset_115,EHR,Dataset
+field_115,outcome,Field
+dcfield_115,coverage,DublinCore
+value_115,Improved,Value
+dataset_116,EHR,Dataset
+field_116,outcome,Field
+dcfield_116,coverage,DublinCore
+value_116,Deceased,Value
+dataset_117,EHR,Dataset
+field_117,outcome,Field
+dcfield_117,coverage,DublinCore
+value_117,Stable,Value
+dataset_118,EHR,Dataset
+field_118,outcome,Field
+dcfield_118,coverage,DublinCore
+value_118,Deteriorated,Value
+dataset_119,Clinical Trials,Dataset
+field_119,trial_id,Field
+dcfield_119,identifier,DublinCore
+value_119,NCT100000,Value
+dataset_120,Clinical Trials,Dataset
+field_120,trial_id,Field
+dcfield_120,identifier,DublinCore
+value_120,NCT100001,Value
+dataset_121,Clinical Trials,Dataset
+field_121,trial_id,Field
+dcfield_121,identifier,DublinCore
+value_121,NCT100002,Value
+dataset_122,Clinical Trials,Dataset
+field_122,trial_id,Field
+dcfield_122,identifier,DublinCore
+value_122,NCT100003,Value
+dataset_123,Clinical Trials,Dataset
+field_123,trial_id,Field
+dcfield_123,identifier,DublinCore
+value_123,NCT100004,Value
+dataset_124,Clinical Trials,Dataset
+field_124,trial_id,Field
+dcfield_124,identifier,DublinCore
+value_124,NCT100005,Value
+dataset_125,Clinical Trials,Dataset
+field_125,trial_id,Field
+dcfield_125,identifier,DublinCore
+value_125,NCT100006,Value
+dataset_126,Clinical Trials,Dataset
+field_126,trial_id,Field
+dcfield_126,identifier,DublinCore
+value_126,NCT100007,Value
+dataset_127,Clinical Trials,Dataset
+field_127,trial_id,Field
+dcfield_127,identifier,DublinCore
+value_127,NCT100008,Value
+dataset_128,Clinical Trials,Dataset
+field_128,trial_id,Field
+dcfield_128,identifier,DublinCore
+value_128,NCT100009,Value
+dataset_129,Clinical Trials,Dataset
+field_129,trial_id,Field
+dcfield_129,identifier,DublinCore
+value_129,NCT100010,Value
+dataset_130,Clinical Trials,Dataset
+field_130,trial_id,Field
+dcfield_130,identifier,DublinCore
+value_130,NCT100011,Value
+dataset_131,Clinical Trials,Dataset
+field_131,trial_id,Field
+dcfield_131,identifier,DublinCore
+value_131,NCT100012,Value
+dataset_132,Clinical Trials,Dataset
+field_132,trial_id,Field
+dcfield_132,identifier,DublinCore
+value_132,NCT100013,Value
+dataset_133,Clinical Trials,Dataset
+field_133,trial_id,Field
+dcfield_133,identifier,DublinCore
+value_133,NCT100014,Value
+dataset_134,Clinical Trials,Dataset
+field_134,trial_id,Field
+dcfield_134,identifier,DublinCore
+value_134,NCT100015,Value
+dataset_135,Clinical Trials,Dataset
+field_135,trial_id,Field
+dcfield_135,identifier,DublinCore
+value_135,NCT100016,Value
+dataset_136,Clinical Trials,Dataset
+field_136,trial_id,Field
+dcfield_136,identifier,DublinCore
+value_136,NCT100017,Value
+dataset_137,Clinical Trials,Dataset
+field_137,trial_id,Field
+dcfield_137,identifier,DublinCore
+value_137,NCT100018,Value
+dataset_138,Clinical Trials,Dataset
+field_138,trial_id,Field
+dcfield_138,identifier,DublinCore
+value_138,NCT100019,Value
+dataset_139,Clinical Trials,Dataset
+field_139,trial_id,Field
+dcfield_139,identifier,DublinCore
+value_139,NCT100020,Value
+dataset_140,Clinical Trials,Dataset
+field_140,trial_id,Field
+dcfield_140,identifier,DublinCore
+value_140,NCT100021,Value
+dataset_141,Clinical Trials,Dataset
+field_141,trial_id,Field
+dcfield_141,identifier,DublinCore
+value_141,NCT100022,Value
+dataset_142,Clinical Trials,Dataset
+field_142,trial_id,Field
+dcfield_142,identifier,DublinCore
+value_142,NCT100023,Value
+dataset_143,Clinical Trials,Dataset
+field_143,trial_id,Field
+dcfield_143,identifier,DublinCore
+value_143,NCT100024,Value
+dataset_144,Clinical Trials,Dataset
+field_144,trial_id,Field
+dcfield_144,identifier,DublinCore
+value_144,NCT100025,Value
+dataset_145,Clinical Trials,Dataset
+field_145,trial_id,Field
+dcfield_145,identifier,DublinCore
+value_145,NCT100026,Value
+dataset_146,Clinical Trials,Dataset
+field_146,trial_id,Field
+dcfield_146,identifier,DublinCore
+value_146,NCT100027,Value
+dataset_147,Clinical Trials,Dataset
+field_147,trial_id,Field
+dcfield_147,identifier,DublinCore
+value_147,NCT100028,Value
+dataset_148,Clinical Trials,Dataset
+field_148,trial_id,Field
+dcfield_148,identifier,DublinCore
+value_148,NCT100029,Value
+dataset_149,Clinical Trials,Dataset
+field_149,trial_id,Field
+dcfield_149,identifier,DublinCore
+value_149,NCT100030,Value
+dataset_150,Clinical Trials,Dataset
+field_150,trial_id,Field
+dcfield_150,identifier,DublinCore
+value_150,NCT100031,Value
+dataset_151,Clinical Trials,Dataset
+field_151,trial_id,Field
+dcfield_151,identifier,DublinCore
+value_151,NCT100032,Value
+dataset_152,Clinical Trials,Dataset
+field_152,trial_id,Field
+dcfield_152,identifier,DublinCore
+value_152,NCT100033,Value
+dataset_153,Clinical Trials,Dataset
+field_153,trial_id,Field
+dcfield_153,identifier,DublinCore
+value_153,NCT100034,Value
+dataset_154,Clinical Trials,Dataset
+field_154,trial_id,Field
+dcfield_154,identifier,DublinCore
+value_154,NCT100035,Value
+dataset_155,Clinical Trials,Dataset
+field_155,trial_id,Field
+dcfield_155,identifier,DublinCore
+value_155,NCT100036,Value
+dataset_156,Clinical Trials,Dataset
+field_156,trial_id,Field
+dcfield_156,identifier,DublinCore
+value_156,NCT100037,Value
+dataset_157,Clinical Trials,Dataset
+field_157,trial_id,Field
+dcfield_157,identifier,DublinCore
+value_157,NCT100038,Value
+dataset_158,Clinical Trials,Dataset
+field_158,trial_id,Field
+dcfield_158,identifier,DublinCore
+value_158,NCT100039,Value
+dataset_159,Clinical Trials,Dataset
+field_159,trial_id,Field
+dcfield_159,identifier,DublinCore
+value_159,NCT100040,Value
+dataset_160,Clinical Trials,Dataset
+field_160,trial_id,Field
+dcfield_160,identifier,DublinCore
+value_160,NCT100041,Value
+dataset_161,Clinical Trials,Dataset
+field_161,trial_id,Field
+dcfield_161,identifier,DublinCore
+value_161,NCT100042,Value
+dataset_162,Clinical Trials,Dataset
+field_162,trial_id,Field
+dcfield_162,identifier,DublinCore
+value_162,NCT100043,Value
+dataset_163,Clinical Trials,Dataset
+field_163,trial_id,Field
+dcfield_163,identifier,DublinCore
+value_163,NCT100044,Value
+dataset_164,Clinical Trials,Dataset
+field_164,trial_id,Field
+dcfield_164,identifier,DublinCore
+value_164,NCT100045,Value
+dataset_165,Clinical Trials,Dataset
+field_165,trial_id,Field
+dcfield_165,identifier,DublinCore
+value_165,NCT100046,Value
+dataset_166,Clinical Trials,Dataset
+field_166,trial_id,Field
+dcfield_166,identifier,DublinCore
+value_166,NCT100047,Value
+dataset_167,Clinical Trials,Dataset
+field_167,trial_id,Field
+dcfield_167,identifier,DublinCore
+value_167,NCT100048,Value
+dataset_168,Clinical Trials,Dataset
+field_168,trial_id,Field
+dcfield_168,identifier,DublinCore
+value_168,NCT100049,Value
+dataset_169,Clinical Trials,Dataset
+field_169,title,Field
+dcfield_169,title,DublinCore
+value_169,Study on Breast Cancer with Vaccine X,Value
+dataset_170,Clinical Trials,Dataset
+field_170,title,Field
+dcfield_170,title,DublinCore
+value_170,Study on Alzheimer's with Drug A,Value
+dataset_171,Clinical Trials,Dataset
+field_171,title,Field
+dcfield_171,title,DublinCore
+value_171,Study on Breast Cancer with Drug A,Value
+dataset_172,Clinical Trials,Dataset
+field_172,title,Field
+dcfield_172,title,DublinCore
+value_172,Study on Breast Cancer with Placebo,Value
+dataset_173,Clinical Trials,Dataset
+field_173,title,Field
+dcfield_173,title,DublinCore
+value_173,Study on Alzheimer's with Insulin,Value
+dataset_174,Clinical Trials,Dataset
+field_174,title,Field
+dcfield_174,title,DublinCore
+value_174,Study on Hypertension with Insulin,Value
+dataset_175,Clinical Trials,Dataset
+field_175,title,Field
+dcfield_175,title,DublinCore
+value_175,Study on COVID-19 with Insulin,Value
+dataset_176,Clinical Trials,Dataset
+field_176,title,Field
+dcfield_176,title,DublinCore
+value_176,Study on Asthma with Radiation Therapy,Value
+dataset_177,Clinical Trials,Dataset
+field_177,title,Field
+dcfield_177,title,DublinCore
+value_177,Study on Hypertension with Vaccine X,Value
+dataset_178,Clinical Trials,Dataset
+field_178,title,Field
+dcfield_178,title,DublinCore
+value_178,Study on Alzheimer's with Placebo,Value
+dataset_179,Clinical Trials,Dataset
+field_179,title,Field
+dcfield_179,title,DublinCore
+value_179,Study on Diabetes with Drug B,Value
+dataset_180,Clinical Trials,Dataset
+field_180,title,Field
+dcfield_180,title,DublinCore
+value_180,Study on COVID-19 with Radiation Therapy,Value
+dataset_181,Clinical Trials,Dataset
+field_181,title,Field
+dcfield_181,title,DublinCore
+value_181,Study on HIV with Radiation Therapy,Value
+dataset_182,Clinical Trials,Dataset
+field_182,title,Field
+dcfield_182,title,DublinCore
+value_182,Study on Breast Cancer with Insulin,Value
+dataset_183,Clinical Trials,Dataset
+field_183,title,Field
+dcfield_183,title,DublinCore
+value_183,Study on Hypertension with Placebo,Value
+dataset_184,Clinical Trials,Dataset
+field_184,title,Field
+dcfield_184,title,DublinCore
+value_184,Study on Asthma with Drug B,Value
+dataset_185,Clinical Trials,Dataset
+field_185,title,Field
+dcfield_185,title,DublinCore
+value_185,Study on Alzheimer's with Vaccine X,Value
+dataset_186,Clinical Trials,Dataset
+field_186,title,Field
+dcfield_186,title,DublinCore
+value_186,Study on Asthma with Drug A,Value
+dataset_187,Clinical Trials,Dataset
+field_187,title,Field
+dcfield_187,title,DublinCore
+value_187,Study on Diabetes with Placebo,Value
+dataset_188,Clinical Trials,Dataset
+field_188,title,Field
+dcfield_188,title,DublinCore
+value_188,Study on COVID-19 with Vaccine X,Value
+dataset_189,Clinical Trials,Dataset
+field_189,title,Field
+dcfield_189,title,DublinCore
+value_189,Study on Breast Cancer with Radiation Therapy,Value
+dataset_190,Clinical Trials,Dataset
+field_190,title,Field
+dcfield_190,title,DublinCore
+value_190,Study on HIV with Vaccine X,Value
+dataset_191,Clinical Trials,Dataset
+field_191,title,Field
+dcfield_191,title,DublinCore
+value_191,Study on Breast Cancer with Drug B,Value
+dataset_192,Clinical Trials,Dataset
+field_192,title,Field
+dcfield_192,title,DublinCore
+value_192,Study on Asthma with Vaccine X,Value
+dataset_193,Clinical Trials,Dataset
+field_193,title,Field
+dcfield_193,title,DublinCore
+value_193,Study on HIV with Drug A,Value
+dataset_194,Clinical Trials,Dataset
+field_194,title,Field
+dcfield_194,title,DublinCore
+value_194,Study on COVID-19 with Drug B,Value
+dataset_195,Clinical Trials,Dataset
+field_195,title,Field
+dcfield_195,title,DublinCore
+value_195,Study on HIV with Placebo,Value
+dataset_196,Clinical Trials,Dataset
+field_196,title,Field
+dcfield_196,title,DublinCore
+value_196,Study on Hypertension with Drug B,Value
+dataset_197,Clinical Trials,Dataset
+field_197,title,Field
+dcfield_197,title,DublinCore
+value_197,Study on Alzheimer's with Radiation Therapy,Value
+dataset_198,Clinical Trials,Dataset
+field_198,title,Field
+dcfield_198,title,DublinCore
+value_198,Study on Diabetes with Vaccine X,Value
+dataset_199,Clinical Trials,Dataset
+field_199,title,Field
+dcfield_199,title,DublinCore
+value_199,Study on HIV with Insulin,Value
+dataset_200,Clinical Trials,Dataset
+field_200,title,Field
+dcfield_200,title,DublinCore
+value_200,Study on Alzheimer's with Drug B,Value
+dataset_201,Clinical Trials,Dataset
+field_201,title,Field
+dcfield_201,title,DublinCore
+value_201,Study on HIV with Drug B,Value
+dataset_202,Clinical Trials,Dataset
+field_202,title,Field
+dcfield_202,title,DublinCore
+value_202,Study on Hypertension with Drug A,Value
+dataset_203,Clinical Trials,Dataset
+field_203,title,Field
+dcfield_203,title,DublinCore
+value_203,Study on Diabetes with Drug A,Value
+dataset_204,Clinical Trials,Dataset
+field_204,title,Field
+dcfield_204,title,DublinCore
+value_204,Study on Asthma with Placebo,Value
+dataset_205,Clinical Trials,Dataset
+field_205,title,Field
+dcfield_205,title,DublinCore
+value_205,Study on Diabetes with Radiation Therapy,Value
+dataset_206,Clinical Trials,Dataset
+field_206,title,Field
+dcfield_206,title,DublinCore
+value_206,Study on COVID-19 with Drug A,Value
+dataset_207,Clinical Trials,Dataset
+field_207,title,Field
+dcfield_207,title,DublinCore
+value_207,Study on Diabetes with Insulin,Value
+dataset_208,Clinical Trials,Dataset
+field_208,title,Field
+dcfield_208,title,DublinCore
+value_208,Study on Hypertension with Radiation Therapy,Value
+dataset_209,Clinical Trials,Dataset
+field_209,title,Field
+dcfield_209,title,DublinCore
+value_209,Study on COVID-19 with Placebo,Value
+dataset_210,Clinical Trials,Dataset
+field_210,title,Field
+dcfield_210,title,DublinCore
+value_210,Study on Asthma with Insulin,Value
+dataset_211,Clinical Trials,Dataset
+field_211,condition,Field
+dcfield_211,subject,DublinCore
+value_211,Diabetes,Value
+concept_211,44054006.0,Concept
+dataset_212,Clinical Trials,Dataset
+field_212,condition,Field
+dcfield_212,subject,DublinCore
+value_212,COVID-19,Value
+dataset_213,Clinical Trials,Dataset
+field_213,condition,Field
+dcfield_213,subject,DublinCore
+value_213,Hypertension,Value
+concept_213,38341003.0,Concept
+dataset_214,Clinical Trials,Dataset
+field_214,condition,Field
+dcfield_214,subject,DublinCore
+value_214,Asthma,Value
+concept_214,195967001.0,Concept
+dataset_215,Clinical Trials,Dataset
+field_215,condition,Field
+dcfield_215,subject,DublinCore
+value_215,Breast Cancer,Value
+dataset_216,Clinical Trials,Dataset
+field_216,condition,Field
+dcfield_216,subject,DublinCore
+value_216,Alzheimer's,Value
+dataset_217,Clinical Trials,Dataset
+field_217,condition,Field
+dcfield_217,subject,DublinCore
+value_217,HIV,Value
+dataset_218,Clinical Trials,Dataset
+field_218,intervention,Field
+dcfield_218,description,DublinCore
+value_218,Placebo,Value
+dataset_219,Clinical Trials,Dataset
+field_219,intervention,Field
+dcfield_219,description,DublinCore
+value_219,Vaccine X,Value
+dataset_220,Clinical Trials,Dataset
+field_220,intervention,Field
+dcfield_220,description,DublinCore
+value_220,Radiation Therapy,Value
+dataset_221,Clinical Trials,Dataset
+field_221,intervention,Field
+dcfield_221,description,DublinCore
+value_221,Drug B,Value
+dataset_222,Clinical Trials,Dataset
+field_222,intervention,Field
+dcfield_222,description,DublinCore
+value_222,Insulin,Value
+concept_222,28518.0,Concept
+dataset_223,Clinical Trials,Dataset
+field_223,intervention,Field
+dcfield_223,description,DublinCore
+value_223,Drug A,Value
+dataset_224,Clinical Trials,Dataset
+field_224,phase,Field
+dcfield_224,type,DublinCore
+value_224,Phase IV,Value
+dataset_225,Clinical Trials,Dataset
+field_225,phase,Field
+dcfield_225,type,DublinCore
+value_225,Phase I,Value
+dataset_226,Clinical Trials,Dataset
+field_226,phase,Field
+dcfield_226,type,DublinCore
+value_226,Phase III,Value
+dataset_227,Clinical Trials,Dataset
+field_227,phase,Field
+dcfield_227,type,DublinCore
+value_227,Phase II,Value
+dataset_228,Clinical Trials,Dataset
+field_228,status,Field
+dcfield_228,relation,DublinCore
+value_228,Terminated,Value
+dataset_229,Clinical Trials,Dataset
+field_229,status,Field
+dcfield_229,relation,DublinCore
+value_229,Recruiting,Value
+dataset_230,Clinical Trials,Dataset
+field_230,status,Field
+dcfield_230,relation,DublinCore
+value_230,"Active, not recruiting",Value
+dataset_231,Clinical Trials,Dataset
+field_231,status,Field
+dcfield_231,relation,DublinCore
+value_231,Completed,Value
+dataset_232,Clinical Trials,Dataset
+field_232,start_date,Field
+dcfield_232,date,DublinCore
+value_232,2020-12-16,Value
+dataset_233,Clinical Trials,Dataset
+field_233,start_date,Field
+dcfield_233,date,DublinCore
+value_233,2020-03-19,Value
+dataset_234,Clinical Trials,Dataset
+field_234,start_date,Field
+dcfield_234,date,DublinCore
+value_234,2020-05-05,Value
+dataset_235,Clinical Trials,Dataset
+field_235,start_date,Field
+dcfield_235,date,DublinCore
+value_235,2023-01-31,Value
+dataset_236,Clinical Trials,Dataset
+field_236,start_date,Field
+dcfield_236,date,DublinCore
+value_236,2024-10-28,Value
+dataset_237,Clinical Trials,Dataset
+field_237,start_date,Field
+dcfield_237,date,DublinCore
+value_237,2019-05-18,Value
+dataset_238,Clinical Trials,Dataset
+field_238,start_date,Field
+dcfield_238,date,DublinCore
+value_238,2021-11-04,Value
+dataset_239,Clinical Trials,Dataset
+field_239,start_date,Field
+dcfield_239,date,DublinCore
+value_239,2014-04-23,Value
+dataset_240,Clinical Trials,Dataset
+field_240,start_date,Field
+dcfield_240,date,DublinCore
+value_240,2013-07-16,Value
+dataset_241,Clinical Trials,Dataset
+field_241,start_date,Field
+dcfield_241,date,DublinCore
+value_241,2017-10-10,Value
+dataset_242,Clinical Trials,Dataset
+field_242,start_date,Field
+dcfield_242,date,DublinCore
+value_242,2013-08-16,Value
+dataset_243,Clinical Trials,Dataset
+field_243,start_date,Field
+dcfield_243,date,DublinCore
+value_243,2014-01-20,Value
+dataset_244,Clinical Trials,Dataset
+field_244,start_date,Field
+dcfield_244,date,DublinCore
+value_244,2021-06-10,Value
+dataset_245,Clinical Trials,Dataset
+field_245,start_date,Field
+dcfield_245,date,DublinCore
+value_245,2011-12-21,Value
+dataset_246,Clinical Trials,Dataset
+field_246,start_date,Field
+dcfield_246,date,DublinCore
+value_246,2012-07-20,Value
+dataset_247,Clinical Trials,Dataset
+field_247,start_date,Field
+dcfield_247,date,DublinCore
+value_247,2016-03-27,Value
+dataset_248,Clinical Trials,Dataset
+field_248,start_date,Field
+dcfield_248,date,DublinCore
+value_248,2023-05-11,Value
+dataset_249,Clinical Trials,Dataset
+field_249,start_date,Field
+dcfield_249,date,DublinCore
+value_249,2021-08-05,Value
+dataset_250,Clinical Trials,Dataset
+field_250,start_date,Field
+dcfield_250,date,DublinCore
+value_250,2022-11-12,Value
+dataset_251,Clinical Trials,Dataset
+field_251,start_date,Field
+dcfield_251,date,DublinCore
+value_251,2024-02-24,Value
+dataset_252,Clinical Trials,Dataset
+field_252,start_date,Field
+dcfield_252,date,DublinCore
+value_252,2013-12-28,Value
+dataset_253,Clinical Trials,Dataset
+field_253,start_date,Field
+dcfield_253,date,DublinCore
+value_253,2010-03-26,Value
+dataset_254,Clinical Trials,Dataset
+field_254,start_date,Field
+dcfield_254,date,DublinCore
+value_254,2012-01-19,Value
+dataset_255,Clinical Trials,Dataset
+field_255,start_date,Field
+dcfield_255,date,DublinCore
+value_255,2018-02-08,Value
+dataset_256,Clinical Trials,Dataset
+field_256,start_date,Field
+dcfield_256,date,DublinCore
+value_256,2019-04-26,Value
+dataset_257,Clinical Trials,Dataset
+field_257,start_date,Field
+dcfield_257,date,DublinCore
+value_257,2022-06-19,Value
+dataset_258,Clinical Trials,Dataset
+field_258,start_date,Field
+dcfield_258,date,DublinCore
+value_258,2015-03-04,Value
+dataset_259,Clinical Trials,Dataset
+field_259,start_date,Field
+dcfield_259,date,DublinCore
+value_259,2021-11-03,Value
+dataset_260,Clinical Trials,Dataset
+field_260,start_date,Field
+dcfield_260,date,DublinCore
+value_260,2024-10-30,Value
+dataset_261,Clinical Trials,Dataset
+field_261,start_date,Field
+dcfield_261,date,DublinCore
+value_261,2016-08-28,Value
+dataset_262,Clinical Trials,Dataset
+field_262,start_date,Field
+dcfield_262,date,DublinCore
+value_262,2014-10-24,Value
+dataset_263,Clinical Trials,Dataset
+field_263,start_date,Field
+dcfield_263,date,DublinCore
+value_263,2011-04-02,Value
+dataset_264,Clinical Trials,Dataset
+field_264,start_date,Field
+dcfield_264,date,DublinCore
+value_264,2010-03-30,Value
+dataset_265,Clinical Trials,Dataset
+field_265,start_date,Field
+dcfield_265,date,DublinCore
+value_265,2013-12-13,Value
+dataset_266,Clinical Trials,Dataset
+field_266,start_date,Field
+dcfield_266,date,DublinCore
+value_266,2013-11-03,Value
+dataset_267,Clinical Trials,Dataset
+field_267,start_date,Field
+dcfield_267,date,DublinCore
+value_267,2010-09-13,Value
+dataset_268,Clinical Trials,Dataset
+field_268,start_date,Field
+dcfield_268,date,DublinCore
+value_268,2012-08-10,Value
+dataset_269,Clinical Trials,Dataset
+field_269,start_date,Field
+dcfield_269,date,DublinCore
+value_269,2012-11-15,Value
+dataset_270,Clinical Trials,Dataset
+field_270,start_date,Field
+dcfield_270,date,DublinCore
+value_270,2011-07-17,Value
+dataset_271,Clinical Trials,Dataset
+field_271,start_date,Field
+dcfield_271,date,DublinCore
+value_271,2015-09-23,Value
+dataset_272,Clinical Trials,Dataset
+field_272,start_date,Field
+dcfield_272,date,DublinCore
+value_272,2016-07-15,Value
+dataset_273,Clinical Trials,Dataset
+field_273,start_date,Field
+dcfield_273,date,DublinCore
+value_273,2017-01-18,Value
+dataset_274,Clinical Trials,Dataset
+field_274,start_date,Field
+dcfield_274,date,DublinCore
+value_274,2012-04-21,Value
+dataset_275,Clinical Trials,Dataset
+field_275,start_date,Field
+dcfield_275,date,DublinCore
+value_275,2017-06-23,Value
+dataset_276,Clinical Trials,Dataset
+field_276,start_date,Field
+dcfield_276,date,DublinCore
+value_276,2023-03-28,Value
+dataset_277,Clinical Trials,Dataset
+field_277,start_date,Field
+dcfield_277,date,DublinCore
+value_277,2018-11-07,Value
+dataset_278,Clinical Trials,Dataset
+field_278,start_date,Field
+dcfield_278,date,DublinCore
+value_278,2018-09-02,Value
+dataset_279,Clinical Trials,Dataset
+field_279,start_date,Field
+dcfield_279,date,DublinCore
+value_279,2018-04-13,Value
+dataset_280,Clinical Trials,Dataset
+field_280,start_date,Field
+dcfield_280,date,DublinCore
+value_280,2019-11-12,Value
+dataset_281,Clinical Trials,Dataset
+field_281,start_date,Field
+dcfield_281,date,DublinCore
+value_281,2021-07-27,Value
+dataset_282,Clinical Trials,Dataset
+field_282,end_date,Field
+dcfield_282,date,DublinCore
+value_282,2027-07-13,Value
+dataset_283,Clinical Trials,Dataset
+field_283,end_date,Field
+dcfield_283,date,DublinCore
+value_283,2030-03-30,Value
+dataset_284,Clinical Trials,Dataset
+field_284,end_date,Field
+dcfield_284,date,DublinCore
+value_284,2025-08-12,Value
+dataset_285,Clinical Trials,Dataset
+field_285,end_date,Field
+dcfield_285,date,DublinCore
+value_285,2030-09-19,Value
+dataset_286,Clinical Trials,Dataset
+field_286,end_date,Field
+dcfield_286,date,DublinCore
+value_286,2029-04-14,Value
+dataset_287,Clinical Trials,Dataset
+field_287,end_date,Field
+dcfield_287,date,DublinCore
+value_287,2030-07-07,Value
+dataset_288,Clinical Trials,Dataset
+field_288,end_date,Field
+dcfield_288,date,DublinCore
+value_288,2027-07-22,Value
+dataset_289,Clinical Trials,Dataset
+field_289,end_date,Field
+dcfield_289,date,DublinCore
+value_289,2030-01-08,Value
+dataset_290,Clinical Trials,Dataset
+field_290,end_date,Field
+dcfield_290,date,DublinCore
+value_290,2026-02-25,Value
+dataset_291,Clinical Trials,Dataset
+field_291,end_date,Field
+dcfield_291,date,DublinCore
+value_291,2025-01-29,Value
+dataset_292,Clinical Trials,Dataset
+field_292,end_date,Field
+dcfield_292,date,DublinCore
+value_292,2025-11-29,Value
+dataset_293,Clinical Trials,Dataset
+field_293,end_date,Field
+dcfield_293,date,DublinCore
+value_293,2027-03-06,Value
+dataset_294,Clinical Trials,Dataset
+field_294,end_date,Field
+dcfield_294,date,DublinCore
+value_294,2025-05-26,Value
+dataset_295,Clinical Trials,Dataset
+field_295,end_date,Field
+dcfield_295,date,DublinCore
+value_295,2030-06-18,Value
+dataset_296,Clinical Trials,Dataset
+field_296,end_date,Field
+dcfield_296,date,DublinCore
+value_296,2026-07-29,Value
+dataset_297,Clinical Trials,Dataset
+field_297,end_date,Field
+dcfield_297,date,DublinCore
+value_297,2030-09-27,Value
+dataset_298,Clinical Trials,Dataset
+field_298,end_date,Field
+dcfield_298,date,DublinCore
+value_298,2027-05-06,Value
+dataset_299,Clinical Trials,Dataset
+field_299,end_date,Field
+dcfield_299,date,DublinCore
+value_299,2029-10-06,Value
+dataset_300,Clinical Trials,Dataset
+field_300,end_date,Field
+dcfield_300,date,DublinCore
+value_300,2028-06-24,Value
+dataset_301,Clinical Trials,Dataset
+field_301,end_date,Field
+dcfield_301,date,DublinCore
+value_301,2027-04-11,Value
+dataset_302,Clinical Trials,Dataset
+field_302,end_date,Field
+dcfield_302,date,DublinCore
+value_302,2027-12-02,Value
+dataset_303,Clinical Trials,Dataset
+field_303,end_date,Field
+dcfield_303,date,DublinCore
+value_303,2028-06-11,Value
+dataset_304,Clinical Trials,Dataset
+field_304,end_date,Field
+dcfield_304,date,DublinCore
+value_304,2029-12-18,Value
+dataset_305,Clinical Trials,Dataset
+field_305,end_date,Field
+dcfield_305,date,DublinCore
+value_305,2028-06-05,Value
+dataset_306,Clinical Trials,Dataset
+field_306,end_date,Field
+dcfield_306,date,DublinCore
+value_306,2029-01-25,Value
+dataset_307,Clinical Trials,Dataset
+field_307,end_date,Field
+dcfield_307,date,DublinCore
+value_307,2026-06-14,Value
+dataset_308,Clinical Trials,Dataset
+field_308,end_date,Field
+dcfield_308,date,DublinCore
+value_308,2028-02-26,Value
+dataset_309,Clinical Trials,Dataset
+field_309,end_date,Field
+dcfield_309,date,DublinCore
+value_309,2028-02-10,Value
+dataset_310,Clinical Trials,Dataset
+field_310,end_date,Field
+dcfield_310,date,DublinCore
+value_310,2028-05-10,Value
+dataset_311,Clinical Trials,Dataset
+field_311,end_date,Field
+dcfield_311,date,DublinCore
+value_311,2027-05-19,Value
+dataset_312,Clinical Trials,Dataset
+field_312,end_date,Field
+dcfield_312,date,DublinCore
+value_312,2028-11-12,Value
+dataset_313,Clinical Trials,Dataset
+field_313,end_date,Field
+dcfield_313,date,DublinCore
+value_313,2025-04-29,Value
+dataset_314,Clinical Trials,Dataset
+field_314,end_date,Field
+dcfield_314,date,DublinCore
+value_314,2029-01-06,Value
+dataset_315,Clinical Trials,Dataset
+field_315,end_date,Field
+dcfield_315,date,DublinCore
+value_315,2029-04-26,Value
+dataset_316,Clinical Trials,Dataset
+field_316,end_date,Field
+dcfield_316,date,DublinCore
+value_316,2029-08-29,Value
+dataset_317,Clinical Trials,Dataset
+field_317,end_date,Field
+dcfield_317,date,DublinCore
+value_317,2026-12-05,Value
+dataset_318,Clinical Trials,Dataset
+field_318,end_date,Field
+dcfield_318,date,DublinCore
+value_318,2025-03-19,Value
+dataset_319,Clinical Trials,Dataset
+field_319,end_date,Field
+dcfield_319,date,DublinCore
+value_319,2027-08-26,Value
+dataset_320,Clinical Trials,Dataset
+field_320,end_date,Field
+dcfield_320,date,DublinCore
+value_320,2026-11-08,Value
+dataset_321,Clinical Trials,Dataset
+field_321,end_date,Field
+dcfield_321,date,DublinCore
+value_321,2027-07-28,Value
+dataset_322,Clinical Trials,Dataset
+field_322,end_date,Field
+dcfield_322,date,DublinCore
+value_322,2030-06-07,Value
+dataset_323,Clinical Trials,Dataset
+field_323,end_date,Field
+dcfield_323,date,DublinCore
+value_323,2026-09-17,Value
+dataset_324,Clinical Trials,Dataset
+field_324,end_date,Field
+dcfield_324,date,DublinCore
+value_324,2030-04-28,Value
+dataset_325,Clinical Trials,Dataset
+field_325,end_date,Field
+dcfield_325,date,DublinCore
+value_325,2026-09-05,Value
+dataset_326,Clinical Trials,Dataset
+field_326,end_date,Field
+dcfield_326,date,DublinCore
+value_326,2030-09-10,Value
+dataset_327,Clinical Trials,Dataset
+field_327,end_date,Field
+dcfield_327,date,DublinCore
+value_327,2029-04-06,Value
+dataset_328,Clinical Trials,Dataset
+field_328,end_date,Field
+dcfield_328,date,DublinCore
+value_328,2025-08-06,Value
+dataset_329,Clinical Trials,Dataset
+field_329,end_date,Field
+dcfield_329,date,DublinCore
+value_329,2025-08-07,Value
+dataset_330,Clinical Trials,Dataset
+field_330,end_date,Field
+dcfield_330,date,DublinCore
+value_330,2029-12-20,Value
+dataset_331,Clinical Trials,Dataset
+field_331,end_date,Field
+dcfield_331,date,DublinCore
+value_331,2025-12-08,Value
+dataset_332,Clinical Trials,Dataset
+field_332,location,Field
+dcfield_332,coverage,DublinCore
+value_332,UK,Value
+dataset_333,Clinical Trials,Dataset
+field_333,location,Field
+dcfield_333,coverage,DublinCore
+value_333,Japan,Value
+dataset_334,Clinical Trials,Dataset
+field_334,location,Field
+dcfield_334,coverage,DublinCore
+value_334,USA,Value
+dataset_335,Clinical Trials,Dataset
+field_335,location,Field
+dcfield_335,coverage,DublinCore
+value_335,Germany,Value
+dataset_336,Clinical Trials,Dataset
+field_336,location,Field
+dcfield_336,coverage,DublinCore
+value_336,Brazil,Value
+dataset_337,Clinical Trials,Dataset
+field_337,location,Field
+dcfield_337,coverage,DublinCore
+value_337,Canada,Value
+dataset_338,Clinical Trials,Dataset
+field_338,location,Field
+dcfield_338,coverage,DublinCore
+value_338,India,Value
+dataset_339,Clinical Trials,Dataset
+field_339,sponsor,Field
+dcfield_339,contributor,DublinCore
+value_339,Novartis,Value
+dataset_340,Clinical Trials,Dataset
+field_340,sponsor,Field
+dcfield_340,contributor,DublinCore
+value_340,AstraZeneca,Value
+dataset_341,Clinical Trials,Dataset
+field_341,sponsor,Field
+dcfield_341,contributor,DublinCore
+value_341,Roche,Value
+dataset_342,Clinical Trials,Dataset
+field_342,sponsor,Field
+dcfield_342,contributor,DublinCore
+value_342,Pfizer,Value
+dataset_343,Clinical Trials,Dataset
+field_343,sponsor,Field
+dcfield_343,contributor,DublinCore
+value_343,NIH,Value
+dataset_344,Clinical Trials,Dataset
+field_344,sponsor,Field
+dcfield_344,contributor,DublinCore
+value_344,WHO,Value
+dataset_345,Drug Safety,Dataset
+field_345,report_id,Field
+dcfield_345,identifier,DublinCore
+value_345,RPT000001,Value
+dataset_346,Drug Safety,Dataset
+field_346,report_id,Field
+dcfield_346,identifier,DublinCore
+value_346,RPT000002,Value
+dataset_347,Drug Safety,Dataset
+field_347,report_id,Field
+dcfield_347,identifier,DublinCore
+value_347,RPT000003,Value
+dataset_348,Drug Safety,Dataset
+field_348,report_id,Field
+dcfield_348,identifier,DublinCore
+value_348,RPT000004,Value
+dataset_349,Drug Safety,Dataset
+field_349,report_id,Field
+dcfield_349,identifier,DublinCore
+value_349,RPT000005,Value
+dataset_350,Drug Safety,Dataset
+field_350,report_id,Field
+dcfield_350,identifier,DublinCore
+value_350,RPT000006,Value
+dataset_351,Drug Safety,Dataset
+field_351,report_id,Field
+dcfield_351,identifier,DublinCore
+value_351,RPT000007,Value
+dataset_352,Drug Safety,Dataset
+field_352,report_id,Field
+dcfield_352,identifier,DublinCore
+value_352,RPT000008,Value
+dataset_353,Drug Safety,Dataset
+field_353,report_id,Field
+dcfield_353,identifier,DublinCore
+value_353,RPT000009,Value
+dataset_354,Drug Safety,Dataset
+field_354,report_id,Field
+dcfield_354,identifier,DublinCore
+value_354,RPT000010,Value
+dataset_355,Drug Safety,Dataset
+field_355,report_id,Field
+dcfield_355,identifier,DublinCore
+value_355,RPT000011,Value
+dataset_356,Drug Safety,Dataset
+field_356,report_id,Field
+dcfield_356,identifier,DublinCore
+value_356,RPT000012,Value
+dataset_357,Drug Safety,Dataset
+field_357,report_id,Field
+dcfield_357,identifier,DublinCore
+value_357,RPT000013,Value
+dataset_358,Drug Safety,Dataset
+field_358,report_id,Field
+dcfield_358,identifier,DublinCore
+value_358,RPT000014,Value
+dataset_359,Drug Safety,Dataset
+field_359,report_id,Field
+dcfield_359,identifier,DublinCore
+value_359,RPT000015,Value
+dataset_360,Drug Safety,Dataset
+field_360,report_id,Field
+dcfield_360,identifier,DublinCore
+value_360,RPT000016,Value
+dataset_361,Drug Safety,Dataset
+field_361,report_id,Field
+dcfield_361,identifier,DublinCore
+value_361,RPT000017,Value
+dataset_362,Drug Safety,Dataset
+field_362,report_id,Field
+dcfield_362,identifier,DublinCore
+value_362,RPT000018,Value
+dataset_363,Drug Safety,Dataset
+field_363,report_id,Field
+dcfield_363,identifier,DublinCore
+value_363,RPT000019,Value
+dataset_364,Drug Safety,Dataset
+field_364,report_id,Field
+dcfield_364,identifier,DublinCore
+value_364,RPT000020,Value
+dataset_365,Drug Safety,Dataset
+field_365,report_id,Field
+dcfield_365,identifier,DublinCore
+value_365,RPT000021,Value
+dataset_366,Drug Safety,Dataset
+field_366,report_id,Field
+dcfield_366,identifier,DublinCore
+value_366,RPT000022,Value
+dataset_367,Drug Safety,Dataset
+field_367,report_id,Field
+dcfield_367,identifier,DublinCore
+value_367,RPT000023,Value
+dataset_368,Drug Safety,Dataset
+field_368,report_id,Field
+dcfield_368,identifier,DublinCore
+value_368,RPT000024,Value
+dataset_369,Drug Safety,Dataset
+field_369,report_id,Field
+dcfield_369,identifier,DublinCore
+value_369,RPT000025,Value
+dataset_370,Drug Safety,Dataset
+field_370,report_id,Field
+dcfield_370,identifier,DublinCore
+value_370,RPT000026,Value
+dataset_371,Drug Safety,Dataset
+field_371,report_id,Field
+dcfield_371,identifier,DublinCore
+value_371,RPT000027,Value
+dataset_372,Drug Safety,Dataset
+field_372,report_id,Field
+dcfield_372,identifier,DublinCore
+value_372,RPT000028,Value
+dataset_373,Drug Safety,Dataset
+field_373,report_id,Field
+dcfield_373,identifier,DublinCore
+value_373,RPT000029,Value
+dataset_374,Drug Safety,Dataset
+field_374,report_id,Field
+dcfield_374,identifier,DublinCore
+value_374,RPT000030,Value
+dataset_375,Drug Safety,Dataset
+field_375,report_id,Field
+dcfield_375,identifier,DublinCore
+value_375,RPT000031,Value
+dataset_376,Drug Safety,Dataset
+field_376,report_id,Field
+dcfield_376,identifier,DublinCore
+value_376,RPT000032,Value
+dataset_377,Drug Safety,Dataset
+field_377,report_id,Field
+dcfield_377,identifier,DublinCore
+value_377,RPT000033,Value
+dataset_378,Drug Safety,Dataset
+field_378,report_id,Field
+dcfield_378,identifier,DublinCore
+value_378,RPT000034,Value
+dataset_379,Drug Safety,Dataset
+field_379,report_id,Field
+dcfield_379,identifier,DublinCore
+value_379,RPT000035,Value
+dataset_380,Drug Safety,Dataset
+field_380,report_id,Field
+dcfield_380,identifier,DublinCore
+value_380,RPT000036,Value
+dataset_381,Drug Safety,Dataset
+field_381,report_id,Field
+dcfield_381,identifier,DublinCore
+value_381,RPT000037,Value
+dataset_382,Drug Safety,Dataset
+field_382,report_id,Field
+dcfield_382,identifier,DublinCore
+value_382,RPT000038,Value
+dataset_383,Drug Safety,Dataset
+field_383,report_id,Field
+dcfield_383,identifier,DublinCore
+value_383,RPT000039,Value
+dataset_384,Drug Safety,Dataset
+field_384,report_id,Field
+dcfield_384,identifier,DublinCore
+value_384,RPT000040,Value
+dataset_385,Drug Safety,Dataset
+field_385,report_id,Field
+dcfield_385,identifier,DublinCore
+value_385,RPT000041,Value
+dataset_386,Drug Safety,Dataset
+field_386,report_id,Field
+dcfield_386,identifier,DublinCore
+value_386,RPT000042,Value
+dataset_387,Drug Safety,Dataset
+field_387,report_id,Field
+dcfield_387,identifier,DublinCore
+value_387,RPT000043,Value
+dataset_388,Drug Safety,Dataset
+field_388,report_id,Field
+dcfield_388,identifier,DublinCore
+value_388,RPT000044,Value
+dataset_389,Drug Safety,Dataset
+field_389,report_id,Field
+dcfield_389,identifier,DublinCore
+value_389,RPT000045,Value
+dataset_390,Drug Safety,Dataset
+field_390,report_id,Field
+dcfield_390,identifier,DublinCore
+value_390,RPT000046,Value
+dataset_391,Drug Safety,Dataset
+field_391,report_id,Field
+dcfield_391,identifier,DublinCore
+value_391,RPT000047,Value
+dataset_392,Drug Safety,Dataset
+field_392,report_id,Field
+dcfield_392,identifier,DublinCore
+value_392,RPT000048,Value
+dataset_393,Drug Safety,Dataset
+field_393,report_id,Field
+dcfield_393,identifier,DublinCore
+value_393,RPT000049,Value
+dataset_394,Drug Safety,Dataset
+field_394,report_id,Field
+dcfield_394,identifier,DublinCore
+value_394,RPT000050,Value
+dataset_395,Drug Safety,Dataset
+field_395,drug_name,Field
+dcfield_395,title,DublinCore
+value_395,Paracetamol,Value
+dataset_396,Drug Safety,Dataset
+field_396,drug_name,Field
+dcfield_396,title,DublinCore
+value_396,Atorvastatin,Value
+concept_396,83367.0,Concept
+dataset_397,Drug Safety,Dataset
+field_397,drug_name,Field
+dcfield_397,title,DublinCore
+value_397,Remdesivir,Value
+dataset_398,Drug Safety,Dataset
+field_398,drug_name,Field
+dcfield_398,title,DublinCore
+value_398,Metformin,Value
+concept_398,860975.0,Concept
+dataset_399,Drug Safety,Dataset
+field_399,drug_name,Field
+dcfield_399,title,DublinCore
+value_399,Amlodipine,Value
+dataset_400,Drug Safety,Dataset
+field_400,drug_name,Field
+dcfield_400,title,DublinCore
+value_400,Insulin,Value
+concept_400,28518.0,Concept
+dataset_401,Drug Safety,Dataset
+field_401,drug_name,Field
+dcfield_401,title,DublinCore
+value_401,Aspirin,Value
+dataset_402,Drug Safety,Dataset
+field_402,adverse_event,Field
+dcfield_402,subject,DublinCore
+value_402,Death,Value
+dataset_403,Drug Safety,Dataset
+field_403,adverse_event,Field
+dcfield_403,subject,DublinCore
+value_403,Liver Damage,Value
+dataset_404,Drug Safety,Dataset
+field_404,adverse_event,Field
+dcfield_404,subject,DublinCore
+value_404,Fatigue,Value
+dataset_405,Drug Safety,Dataset
+field_405,adverse_event,Field
+dcfield_405,subject,DublinCore
+value_405,Headache,Value
+dataset_406,Drug Safety,Dataset
+field_406,adverse_event,Field
+dcfield_406,subject,DublinCore
+value_406,Kidney Failure,Value
+dataset_407,Drug Safety,Dataset
+field_407,adverse_event,Field
+dcfield_407,subject,DublinCore
+value_407,Nausea,Value
+dataset_408,Drug Safety,Dataset
+field_408,adverse_event,Field
+dcfield_408,subject,DublinCore
+value_408,Seizure,Value
+dataset_409,Drug Safety,Dataset
+field_409,adverse_event,Field
+dcfield_409,subject,DublinCore
+value_409,Rash,Value
+dataset_410,Drug Safety,Dataset
+field_410,serious,Field
+dcfield_410,type,DublinCore
+value_410,Yes,Value
+dataset_411,Drug Safety,Dataset
+field_411,serious,Field
+dcfield_411,type,DublinCore
+value_411,No,Value
+dataset_412,Drug Safety,Dataset
+field_412,outcome,Field
+dcfield_412,coverage,DublinCore
+value_412,Ongoing,Value
+dataset_413,Drug Safety,Dataset
+field_413,outcome,Field
+dcfield_413,coverage,DublinCore
+value_413,Not Recovered,Value
+dataset_414,Drug Safety,Dataset
+field_414,outcome,Field
+dcfield_414,coverage,DublinCore
+value_414,Fatal,Value
+dataset_415,Drug Safety,Dataset
+field_415,outcome,Field
+dcfield_415,coverage,DublinCore
+value_415,Recovered,Value
+dataset_416,Drug Safety,Dataset
+field_416,outcome,Field
+dcfield_416,coverage,DublinCore
+value_416,Unknown,Value
+dataset_417,Drug Safety,Dataset
+field_417,report_date,Field
+dcfield_417,date,DublinCore
+value_417,2020-04-28,Value
+dataset_418,Drug Safety,Dataset
+field_418,report_date,Field
+dcfield_418,date,DublinCore
+value_418,2023-11-08,Value
+dataset_419,Drug Safety,Dataset
+field_419,report_date,Field
+dcfield_419,date,DublinCore
+value_419,2019-01-10,Value
+dataset_420,Drug Safety,Dataset
+field_420,report_date,Field
+dcfield_420,date,DublinCore
+value_420,2017-02-14,Value
+dataset_421,Drug Safety,Dataset
+field_421,report_date,Field
+dcfield_421,date,DublinCore
+value_421,2010-05-24,Value
+dataset_422,Drug Safety,Dataset
+field_422,report_date,Field
+dcfield_422,date,DublinCore
+value_422,2024-11-03,Value
+dataset_423,Drug Safety,Dataset
+field_423,report_date,Field
+dcfield_423,date,DublinCore
+value_423,2014-02-12,Value
+dataset_424,Drug Safety,Dataset
+field_424,report_date,Field
+dcfield_424,date,DublinCore
+value_424,2012-05-18,Value
+dataset_425,Drug Safety,Dataset
+field_425,report_date,Field
+dcfield_425,date,DublinCore
+value_425,2015-10-13,Value
+dataset_426,Drug Safety,Dataset
+field_426,report_date,Field
+dcfield_426,date,DublinCore
+value_426,2011-06-20,Value
+dataset_427,Drug Safety,Dataset
+field_427,report_date,Field
+dcfield_427,date,DublinCore
+value_427,2016-05-12,Value
+dataset_428,Drug Safety,Dataset
+field_428,report_date,Field
+dcfield_428,date,DublinCore
+value_428,2012-12-24,Value
+dataset_429,Drug Safety,Dataset
+field_429,report_date,Field
+dcfield_429,date,DublinCore
+value_429,2022-12-06,Value
+dataset_430,Drug Safety,Dataset
+field_430,report_date,Field
+dcfield_430,date,DublinCore
+value_430,2010-05-09,Value
+dataset_431,Drug Safety,Dataset
+field_431,report_date,Field
+dcfield_431,date,DublinCore
+value_431,2018-04-21,Value
+dataset_432,Drug Safety,Dataset
+field_432,report_date,Field
+dcfield_432,date,DublinCore
+value_432,2015-09-07,Value
+dataset_433,Drug Safety,Dataset
+field_433,report_date,Field
+dcfield_433,date,DublinCore
+value_433,2023-04-26,Value
+dataset_434,Drug Safety,Dataset
+field_434,report_date,Field
+dcfield_434,date,DublinCore
+value_434,2020-06-01,Value
+dataset_435,Drug Safety,Dataset
+field_435,report_date,Field
+dcfield_435,date,DublinCore
+value_435,2021-05-09,Value
+dataset_436,Drug Safety,Dataset
+field_436,report_date,Field
+dcfield_436,date,DublinCore
+value_436,2014-03-09,Value
+dataset_437,Drug Safety,Dataset
+field_437,report_date,Field
+dcfield_437,date,DublinCore
+value_437,2022-11-17,Value
+dataset_438,Drug Safety,Dataset
+field_438,report_date,Field
+dcfield_438,date,DublinCore
+value_438,2017-08-18,Value
+dataset_439,Drug Safety,Dataset
+field_439,report_date,Field
+dcfield_439,date,DublinCore
+value_439,2021-03-30,Value
+dataset_440,Drug Safety,Dataset
+field_440,report_date,Field
+dcfield_440,date,DublinCore
+value_440,2013-12-09,Value
+dataset_441,Drug Safety,Dataset
+field_441,report_date,Field
+dcfield_441,date,DublinCore
+value_441,2017-07-04,Value
+dataset_442,Drug Safety,Dataset
+field_442,report_date,Field
+dcfield_442,date,DublinCore
+value_442,2018-08-16,Value
+dataset_443,Drug Safety,Dataset
+field_443,report_date,Field
+dcfield_443,date,DublinCore
+value_443,2018-12-23,Value
+dataset_444,Drug Safety,Dataset
+field_444,report_date,Field
+dcfield_444,date,DublinCore
+value_444,2019-11-22,Value
+dataset_445,Drug Safety,Dataset
+field_445,report_date,Field
+dcfield_445,date,DublinCore
+value_445,2024-02-06,Value
+dataset_446,Drug Safety,Dataset
+field_446,report_date,Field
+dcfield_446,date,DublinCore
+value_446,2024-01-06,Value
+dataset_447,Drug Safety,Dataset
+field_447,report_date,Field
+dcfield_447,date,DublinCore
+value_447,2015-10-22,Value
+dataset_448,Drug Safety,Dataset
+field_448,report_date,Field
+dcfield_448,date,DublinCore
+value_448,2024-12-26,Value
+dataset_449,Drug Safety,Dataset
+field_449,report_date,Field
+dcfield_449,date,DublinCore
+value_449,2021-11-08,Value
+dataset_450,Drug Safety,Dataset
+field_450,report_date,Field
+dcfield_450,date,DublinCore
+value_450,2022-11-07,Value
+dataset_451,Drug Safety,Dataset
+field_451,report_date,Field
+dcfield_451,date,DublinCore
+value_451,2015-03-01,Value
+dataset_452,Drug Safety,Dataset
+field_452,report_date,Field
+dcfield_452,date,DublinCore
+value_452,2019-09-23,Value
+dataset_453,Drug Safety,Dataset
+field_453,report_date,Field
+dcfield_453,date,DublinCore
+value_453,2023-11-04,Value
+dataset_454,Drug Safety,Dataset
+field_454,report_date,Field
+dcfield_454,date,DublinCore
+value_454,2019-11-20,Value
+dataset_455,Drug Safety,Dataset
+field_455,report_date,Field
+dcfield_455,date,DublinCore
+value_455,2023-10-28,Value
+dataset_456,Drug Safety,Dataset
+field_456,report_date,Field
+dcfield_456,date,DublinCore
+value_456,2014-01-08,Value
+dataset_457,Drug Safety,Dataset
+field_457,report_date,Field
+dcfield_457,date,DublinCore
+value_457,2024-03-01,Value
+dataset_458,Drug Safety,Dataset
+field_458,report_date,Field
+dcfield_458,date,DublinCore
+value_458,2013-07-03,Value
+dataset_459,Drug Safety,Dataset
+field_459,report_date,Field
+dcfield_459,date,DublinCore
+value_459,2024-01-17,Value
+dataset_460,Drug Safety,Dataset
+field_460,report_date,Field
+dcfield_460,date,DublinCore
+value_460,2019-09-18,Value
+dataset_461,Drug Safety,Dataset
+field_461,report_date,Field
+dcfield_461,date,DublinCore
+value_461,2020-07-09,Value
+dataset_462,Drug Safety,Dataset
+field_462,report_date,Field
+dcfield_462,date,DublinCore
+value_462,2013-04-17,Value
+dataset_463,Drug Safety,Dataset
+field_463,report_date,Field
+dcfield_463,date,DublinCore
+value_463,2011-08-05,Value
+dataset_464,Drug Safety,Dataset
+field_464,report_date,Field
+dcfield_464,date,DublinCore
+value_464,2012-10-18,Value
+dataset_465,Drug Safety,Dataset
+field_465,report_date,Field
+dcfield_465,date,DublinCore
+value_465,2018-07-26,Value
+dataset_466,Drug Safety,Dataset
+field_466,report_date,Field
+dcfield_466,date,DublinCore
+value_466,2012-01-06,Value
+dataset_467,Drug Safety,Dataset
+field_467,country,Field
+dcfield_467,coverage,DublinCore
+value_467,USA,Value
+dataset_468,Drug Safety,Dataset
+field_468,country,Field
+dcfield_468,coverage,DublinCore
+value_468,UK,Value
+dataset_469,Drug Safety,Dataset
+field_469,country,Field
+dcfield_469,coverage,DublinCore
+value_469,France,Value
+dataset_470,Drug Safety,Dataset
+field_470,country,Field
+dcfield_470,coverage,DublinCore
+value_470,Germany,Value
+dataset_471,Drug Safety,Dataset
+field_471,country,Field
+dcfield_471,coverage,DublinCore
+value_471,India,Value
+dataset_472,Drug Safety,Dataset
+field_472,country,Field
+dcfield_472,coverage,DublinCore
+value_472,Canada,Value
+dataset_473,Drug Safety,Dataset
+field_473,country,Field
+dcfield_473,coverage,DublinCore
+value_473,Brazil,Value
+dataset_474,Drug Safety,Dataset
+field_474,country,Field
+dcfield_474,coverage,DublinCore
+value_474,Japan,Value
+dataset_475,Drug Safety,Dataset
+field_475,source,Field
+dcfield_475,creator,DublinCore
+value_475,Regulator,Value
+dataset_476,Drug Safety,Dataset
+field_476,source,Field
+dcfield_476,creator,DublinCore
+value_476,Pharmacist,Value
+dataset_477,Drug Safety,Dataset
+field_477,source,Field
+dcfield_477,creator,DublinCore
+value_477,Consumer,Value
+dataset_478,Drug Safety,Dataset
+field_478,source,Field
+dcfield_478,creator,DublinCore
+value_478,Physician,Value
+dataset_479,Drug Ontology,Dataset
+field_479,drug_id,Field
+dcfield_479,identifier,DublinCore
+value_479,DB10000,Value
+dataset_480,Drug Ontology,Dataset
+field_480,drug_id,Field
+dcfield_480,identifier,DublinCore
+value_480,DB10001,Value
+dataset_481,Drug Ontology,Dataset
+field_481,drug_id,Field
+dcfield_481,identifier,DublinCore
+value_481,DB10002,Value
+dataset_482,Drug Ontology,Dataset
+field_482,drug_id,Field
+dcfield_482,identifier,DublinCore
+value_482,DB10003,Value
+dataset_483,Drug Ontology,Dataset
+field_483,drug_id,Field
+dcfield_483,identifier,DublinCore
+value_483,DB10004,Value
+dataset_484,Drug Ontology,Dataset
+field_484,drug_id,Field
+dcfield_484,identifier,DublinCore
+value_484,DB10005,Value
+dataset_485,Drug Ontology,Dataset
+field_485,drug_id,Field
+dcfield_485,identifier,DublinCore
+value_485,DB10006,Value
+dataset_486,Drug Ontology,Dataset
+field_486,drug_id,Field
+dcfield_486,identifier,DublinCore
+value_486,DB10007,Value
+dataset_487,Drug Ontology,Dataset
+field_487,drug_id,Field
+dcfield_487,identifier,DublinCore
+value_487,DB10008,Value
+dataset_488,Drug Ontology,Dataset
+field_488,drug_id,Field
+dcfield_488,identifier,DublinCore
+value_488,DB10009,Value
+dataset_489,Drug Ontology,Dataset
+field_489,drug_id,Field
+dcfield_489,identifier,DublinCore
+value_489,DB10010,Value
+dataset_490,Drug Ontology,Dataset
+field_490,drug_id,Field
+dcfield_490,identifier,DublinCore
+value_490,DB10011,Value
+dataset_491,Drug Ontology,Dataset
+field_491,drug_id,Field
+dcfield_491,identifier,DublinCore
+value_491,DB10012,Value
+dataset_492,Drug Ontology,Dataset
+field_492,drug_id,Field
+dcfield_492,identifier,DublinCore
+value_492,DB10013,Value
+dataset_493,Drug Ontology,Dataset
+field_493,drug_id,Field
+dcfield_493,identifier,DublinCore
+value_493,DB10014,Value
+dataset_494,Drug Ontology,Dataset
+field_494,drug_id,Field
+dcfield_494,identifier,DublinCore
+value_494,DB10015,Value
+dataset_495,Drug Ontology,Dataset
+field_495,drug_id,Field
+dcfield_495,identifier,DublinCore
+value_495,DB10016,Value
+dataset_496,Drug Ontology,Dataset
+field_496,drug_id,Field
+dcfield_496,identifier,DublinCore
+value_496,DB10017,Value
+dataset_497,Drug Ontology,Dataset
+field_497,drug_id,Field
+dcfield_497,identifier,DublinCore
+value_497,DB10018,Value
+dataset_498,Drug Ontology,Dataset
+field_498,drug_id,Field
+dcfield_498,identifier,DublinCore
+value_498,DB10019,Value
+dataset_499,Drug Ontology,Dataset
+field_499,drug_id,Field
+dcfield_499,identifier,DublinCore
+value_499,DB10020,Value
+dataset_500,Drug Ontology,Dataset
+field_500,drug_id,Field
+dcfield_500,identifier,DublinCore
+value_500,DB10021,Value
+dataset_501,Drug Ontology,Dataset
+field_501,drug_id,Field
+dcfield_501,identifier,DublinCore
+value_501,DB10022,Value
+dataset_502,Drug Ontology,Dataset
+field_502,drug_id,Field
+dcfield_502,identifier,DublinCore
+value_502,DB10023,Value
+dataset_503,Drug Ontology,Dataset
+field_503,drug_id,Field
+dcfield_503,identifier,DublinCore
+value_503,DB10024,Value
+dataset_504,Drug Ontology,Dataset
+field_504,drug_id,Field
+dcfield_504,identifier,DublinCore
+value_504,DB10025,Value
+dataset_505,Drug Ontology,Dataset
+field_505,drug_id,Field
+dcfield_505,identifier,DublinCore
+value_505,DB10026,Value
+dataset_506,Drug Ontology,Dataset
+field_506,drug_id,Field
+dcfield_506,identifier,DublinCore
+value_506,DB10027,Value
+dataset_507,Drug Ontology,Dataset
+field_507,drug_id,Field
+dcfield_507,identifier,DublinCore
+value_507,DB10028,Value
+dataset_508,Drug Ontology,Dataset
+field_508,drug_id,Field
+dcfield_508,identifier,DublinCore
+value_508,DB10029,Value
+dataset_509,Drug Ontology,Dataset
+field_509,drug_id,Field
+dcfield_509,identifier,DublinCore
+value_509,DB10030,Value
+dataset_510,Drug Ontology,Dataset
+field_510,drug_id,Field
+dcfield_510,identifier,DublinCore
+value_510,DB10031,Value
+dataset_511,Drug Ontology,Dataset
+field_511,drug_id,Field
+dcfield_511,identifier,DublinCore
+value_511,DB10032,Value
+dataset_512,Drug Ontology,Dataset
+field_512,drug_id,Field
+dcfield_512,identifier,DublinCore
+value_512,DB10033,Value
+dataset_513,Drug Ontology,Dataset
+field_513,drug_id,Field
+dcfield_513,identifier,DublinCore
+value_513,DB10034,Value
+dataset_514,Drug Ontology,Dataset
+field_514,drug_id,Field
+dcfield_514,identifier,DublinCore
+value_514,DB10035,Value
+dataset_515,Drug Ontology,Dataset
+field_515,drug_id,Field
+dcfield_515,identifier,DublinCore
+value_515,DB10036,Value
+dataset_516,Drug Ontology,Dataset
+field_516,drug_id,Field
+dcfield_516,identifier,DublinCore
+value_516,DB10037,Value
+dataset_517,Drug Ontology,Dataset
+field_517,drug_id,Field
+dcfield_517,identifier,DublinCore
+value_517,DB10038,Value
+dataset_518,Drug Ontology,Dataset
+field_518,drug_id,Field
+dcfield_518,identifier,DublinCore
+value_518,DB10039,Value
+dataset_519,Drug Ontology,Dataset
+field_519,drug_id,Field
+dcfield_519,identifier,DublinCore
+value_519,DB10040,Value
+dataset_520,Drug Ontology,Dataset
+field_520,drug_id,Field
+dcfield_520,identifier,DublinCore
+value_520,DB10041,Value
+dataset_521,Drug Ontology,Dataset
+field_521,drug_id,Field
+dcfield_521,identifier,DublinCore
+value_521,DB10042,Value
+dataset_522,Drug Ontology,Dataset
+field_522,drug_id,Field
+dcfield_522,identifier,DublinCore
+value_522,DB10043,Value
+dataset_523,Drug Ontology,Dataset
+field_523,drug_id,Field
+dcfield_523,identifier,DublinCore
+value_523,DB10044,Value
+dataset_524,Drug Ontology,Dataset
+field_524,drug_id,Field
+dcfield_524,identifier,DublinCore
+value_524,DB10045,Value
+dataset_525,Drug Ontology,Dataset
+field_525,drug_id,Field
+dcfield_525,identifier,DublinCore
+value_525,DB10046,Value
+dataset_526,Drug Ontology,Dataset
+field_526,drug_id,Field
+dcfield_526,identifier,DublinCore
+value_526,DB10047,Value
+dataset_527,Drug Ontology,Dataset
+field_527,drug_id,Field
+dcfield_527,identifier,DublinCore
+value_527,DB10048,Value
+dataset_528,Drug Ontology,Dataset
+field_528,drug_id,Field
+dcfield_528,identifier,DublinCore
+value_528,DB10049,Value
+dataset_529,Drug Ontology,Dataset
+field_529,drug_name,Field
+dcfield_529,title,DublinCore
+value_529,Drug_1,Value
+dataset_530,Drug Ontology,Dataset
+field_530,drug_name,Field
+dcfield_530,title,DublinCore
+value_530,Drug_2,Value
+dataset_531,Drug Ontology,Dataset
+field_531,drug_name,Field
+dcfield_531,title,DublinCore
+value_531,Drug_3,Value
+dataset_532,Drug Ontology,Dataset
+field_532,drug_name,Field
+dcfield_532,title,DublinCore
+value_532,Drug_4,Value
+dataset_533,Drug Ontology,Dataset
+field_533,drug_name,Field
+dcfield_533,title,DublinCore
+value_533,Drug_5,Value
+dataset_534,Drug Ontology,Dataset
+field_534,drug_name,Field
+dcfield_534,title,DublinCore
+value_534,Drug_6,Value
+dataset_535,Drug Ontology,Dataset
+field_535,drug_name,Field
+dcfield_535,title,DublinCore
+value_535,Drug_7,Value
+dataset_536,Drug Ontology,Dataset
+field_536,drug_name,Field
+dcfield_536,title,DublinCore
+value_536,Drug_8,Value
+dataset_537,Drug Ontology,Dataset
+field_537,drug_name,Field
+dcfield_537,title,DublinCore
+value_537,Drug_9,Value
+dataset_538,Drug Ontology,Dataset
+field_538,drug_name,Field
+dcfield_538,title,DublinCore
+value_538,Drug_10,Value
+dataset_539,Drug Ontology,Dataset
+field_539,drug_name,Field
+dcfield_539,title,DublinCore
+value_539,Drug_11,Value
+dataset_540,Drug Ontology,Dataset
+field_540,drug_name,Field
+dcfield_540,title,DublinCore
+value_540,Drug_12,Value
+dataset_541,Drug Ontology,Dataset
+field_541,drug_name,Field
+dcfield_541,title,DublinCore
+value_541,Drug_13,Value
+dataset_542,Drug Ontology,Dataset
+field_542,drug_name,Field
+dcfield_542,title,DublinCore
+value_542,Drug_14,Value
+dataset_543,Drug Ontology,Dataset
+field_543,drug_name,Field
+dcfield_543,title,DublinCore
+value_543,Drug_15,Value
+dataset_544,Drug Ontology,Dataset
+field_544,drug_name,Field
+dcfield_544,title,DublinCore
+value_544,Drug_16,Value
+dataset_545,Drug Ontology,Dataset
+field_545,drug_name,Field
+dcfield_545,title,DublinCore
+value_545,Drug_17,Value
+dataset_546,Drug Ontology,Dataset
+field_546,drug_name,Field
+dcfield_546,title,DublinCore
+value_546,Drug_18,Value
+dataset_547,Drug Ontology,Dataset
+field_547,drug_name,Field
+dcfield_547,title,DublinCore
+value_547,Drug_19,Value
+dataset_548,Drug Ontology,Dataset
+field_548,drug_name,Field
+dcfield_548,title,DublinCore
+value_548,Drug_20,Value
+dataset_549,Drug Ontology,Dataset
+field_549,drug_name,Field
+dcfield_549,title,DublinCore
+value_549,Drug_21,Value
+dataset_550,Drug Ontology,Dataset
+field_550,drug_name,Field
+dcfield_550,title,DublinCore
+value_550,Drug_22,Value
+dataset_551,Drug Ontology,Dataset
+field_551,drug_name,Field
+dcfield_551,title,DublinCore
+value_551,Drug_23,Value
+dataset_552,Drug Ontology,Dataset
+field_552,drug_name,Field
+dcfield_552,title,DublinCore
+value_552,Drug_24,Value
+dataset_553,Drug Ontology,Dataset
+field_553,drug_name,Field
+dcfield_553,title,DublinCore
+value_553,Drug_25,Value
+dataset_554,Drug Ontology,Dataset
+field_554,drug_name,Field
+dcfield_554,title,DublinCore
+value_554,Drug_26,Value
+dataset_555,Drug Ontology,Dataset
+field_555,drug_name,Field
+dcfield_555,title,DublinCore
+value_555,Drug_27,Value
+dataset_556,Drug Ontology,Dataset
+field_556,drug_name,Field
+dcfield_556,title,DublinCore
+value_556,Drug_28,Value
+dataset_557,Drug Ontology,Dataset
+field_557,drug_name,Field
+dcfield_557,title,DublinCore
+value_557,Drug_29,Value
+dataset_558,Drug Ontology,Dataset
+field_558,drug_name,Field
+dcfield_558,title,DublinCore
+value_558,Drug_30,Value
+dataset_559,Drug Ontology,Dataset
+field_559,drug_name,Field
+dcfield_559,title,DublinCore
+value_559,Drug_31,Value
+dataset_560,Drug Ontology,Dataset
+field_560,drug_name,Field
+dcfield_560,title,DublinCore
+value_560,Drug_32,Value
+dataset_561,Drug Ontology,Dataset
+field_561,drug_name,Field
+dcfield_561,title,DublinCore
+value_561,Drug_33,Value
+dataset_562,Drug Ontology,Dataset
+field_562,drug_name,Field
+dcfield_562,title,DublinCore
+value_562,Drug_34,Value
+dataset_563,Drug Ontology,Dataset
+field_563,drug_name,Field
+dcfield_563,title,DublinCore
+value_563,Drug_35,Value
+dataset_564,Drug Ontology,Dataset
+field_564,drug_name,Field
+dcfield_564,title,DublinCore
+value_564,Drug_36,Value
+dataset_565,Drug Ontology,Dataset
+field_565,drug_name,Field
+dcfield_565,title,DublinCore
+value_565,Drug_37,Value
+dataset_566,Drug Ontology,Dataset
+field_566,drug_name,Field
+dcfield_566,title,DublinCore
+value_566,Drug_38,Value
+dataset_567,Drug Ontology,Dataset
+field_567,drug_name,Field
+dcfield_567,title,DublinCore
+value_567,Drug_39,Value
+dataset_568,Drug Ontology,Dataset
+field_568,drug_name,Field
+dcfield_568,title,DublinCore
+value_568,Drug_40,Value
+dataset_569,Drug Ontology,Dataset
+field_569,drug_name,Field
+dcfield_569,title,DublinCore
+value_569,Drug_41,Value
+dataset_570,Drug Ontology,Dataset
+field_570,drug_name,Field
+dcfield_570,title,DublinCore
+value_570,Drug_42,Value
+dataset_571,Drug Ontology,Dataset
+field_571,drug_name,Field
+dcfield_571,title,DublinCore
+value_571,Drug_43,Value
+dataset_572,Drug Ontology,Dataset
+field_572,drug_name,Field
+dcfield_572,title,DublinCore
+value_572,Drug_44,Value
+dataset_573,Drug Ontology,Dataset
+field_573,drug_name,Field
+dcfield_573,title,DublinCore
+value_573,Drug_45,Value
+dataset_574,Drug Ontology,Dataset
+field_574,drug_name,Field
+dcfield_574,title,DublinCore
+value_574,Drug_46,Value
+dataset_575,Drug Ontology,Dataset
+field_575,drug_name,Field
+dcfield_575,title,DublinCore
+value_575,Drug_47,Value
+dataset_576,Drug Ontology,Dataset
+field_576,drug_name,Field
+dcfield_576,title,DublinCore
+value_576,Drug_48,Value
+dataset_577,Drug Ontology,Dataset
+field_577,drug_name,Field
+dcfield_577,title,DublinCore
+value_577,Drug_49,Value
+dataset_578,Drug Ontology,Dataset
+field_578,drug_name,Field
+dcfield_578,title,DublinCore
+value_578,Drug_50,Value
+dataset_579,Drug Ontology,Dataset
+field_579,generic_name,Field
+dcfield_579,subject,DublinCore
+value_579,Remdesivir,Value
+dataset_580,Drug Ontology,Dataset
+field_580,generic_name,Field
+dcfield_580,subject,DublinCore
+value_580,Paracetamol,Value
+dataset_581,Drug Ontology,Dataset
+field_581,generic_name,Field
+dcfield_581,subject,DublinCore
+value_581,Atorvastatin,Value
+concept_581,83367.0,Concept
+dataset_582,Drug Ontology,Dataset
+field_582,generic_name,Field
+dcfield_582,subject,DublinCore
+value_582,Metformin,Value
+concept_582,860975.0,Concept
+dataset_583,Drug Ontology,Dataset
+field_583,generic_name,Field
+dcfield_583,subject,DublinCore
+value_583,Amlodipine,Value
+dataset_584,Drug Ontology,Dataset
+field_584,generic_name,Field
+dcfield_584,subject,DublinCore
+value_584,Insulin,Value
+concept_584,28518.0,Concept
+dataset_585,Drug Ontology,Dataset
+field_585,drug_class,Field
+dcfield_585,type,DublinCore
+value_585,Chemotherapy,Value
+dataset_586,Drug Ontology,Dataset
+field_586,drug_class,Field
+dcfield_586,type,DublinCore
+value_586,Antiviral,Value
+dataset_587,Drug Ontology,Dataset
+field_587,drug_class,Field
+dcfield_587,type,DublinCore
+value_587,Antibiotic,Value
+dataset_588,Drug Ontology,Dataset
+field_588,drug_class,Field
+dcfield_588,type,DublinCore
+value_588,Statin,Value
+dataset_589,Drug Ontology,Dataset
+field_589,drug_class,Field
+dcfield_589,type,DublinCore
+value_589,Analgesic,Value
+dataset_590,Drug Ontology,Dataset
+field_590,drug_class,Field
+dcfield_590,type,DublinCore
+value_590,Antidiabetic,Value
+dataset_591,Drug Ontology,Dataset
+field_591,drug_class,Field
+dcfield_591,type,DublinCore
+value_591,Antihypertensive,Value
+dataset_592,Drug Ontology,Dataset
+field_592,mechanism_of_action,Field
+dcfield_592,description,DublinCore
+value_592,Beta Blocker,Value
+dataset_593,Drug Ontology,Dataset
+field_593,mechanism_of_action,Field
+dcfield_593,description,DublinCore
+value_593,HMG-CoA Reductase Inhibitor,Value
+dataset_594,Drug Ontology,Dataset
+field_594,mechanism_of_action,Field
+dcfield_594,description,DublinCore
+value_594,Insulin Sensitizer,Value
+dataset_595,Drug Ontology,Dataset
+field_595,mechanism_of_action,Field
+dcfield_595,description,DublinCore
+value_595,Protease Inhibitor,Value
+dataset_596,Drug Ontology,Dataset
+field_596,mechanism_of_action,Field
+dcfield_596,description,DublinCore
+value_596,COX Inhibitor,Value
+dataset_597,Drug Ontology,Dataset
+field_597,mechanism_of_action,Field
+dcfield_597,description,DublinCore
+value_597,ACE Inhibitor,Value
+dataset_598,Drug Ontology,Dataset
+field_598,mechanism_of_action,Field
+dcfield_598,description,DublinCore
+value_598,DNA Synthesis Inhibitor,Value
+dataset_599,Drug Ontology,Dataset
+field_599,route_of_administration,Field
+dcfield_599,format,DublinCore
+value_599,Topical,Value
+dataset_600,Drug Ontology,Dataset
+field_600,route_of_administration,Field
+dcfield_600,format,DublinCore
+value_600,Injection,Value
+dataset_601,Drug Ontology,Dataset
+field_601,route_of_administration,Field
+dcfield_601,format,DublinCore
+value_601,IV,Value
+dataset_602,Drug Ontology,Dataset
+field_602,route_of_administration,Field
+dcfield_602,format,DublinCore
+value_602,Oral,Value
+dataset_603,Drug Ontology,Dataset
+field_603,atc_code,Field
+dcfield_603,identifier,DublinCore
+value_603,ATC00001,Value
+dataset_604,Drug Ontology,Dataset
+field_604,atc_code,Field
+dcfield_604,identifier,DublinCore
+value_604,ATC00002,Value
+dataset_605,Drug Ontology,Dataset
+field_605,atc_code,Field
+dcfield_605,identifier,DublinCore
+value_605,ATC00003,Value
+dataset_606,Drug Ontology,Dataset
+field_606,atc_code,Field
+dcfield_606,identifier,DublinCore
+value_606,ATC00004,Value
+dataset_607,Drug Ontology,Dataset
+field_607,atc_code,Field
+dcfield_607,identifier,DublinCore
+value_607,ATC00005,Value
+dataset_608,Drug Ontology,Dataset
+field_608,atc_code,Field
+dcfield_608,identifier,DublinCore
+value_608,ATC00006,Value
+dataset_609,Drug Ontology,Dataset
+field_609,atc_code,Field
+dcfield_609,identifier,DublinCore
+value_609,ATC00007,Value
+dataset_610,Drug Ontology,Dataset
+field_610,atc_code,Field
+dcfield_610,identifier,DublinCore
+value_610,ATC00008,Value
+dataset_611,Drug Ontology,Dataset
+field_611,atc_code,Field
+dcfield_611,identifier,DublinCore
+value_611,ATC00009,Value
+dataset_612,Drug Ontology,Dataset
+field_612,atc_code,Field
+dcfield_612,identifier,DublinCore
+value_612,ATC00010,Value
+dataset_613,Drug Ontology,Dataset
+field_613,atc_code,Field
+dcfield_613,identifier,DublinCore
+value_613,ATC00011,Value
+dataset_614,Drug Ontology,Dataset
+field_614,atc_code,Field
+dcfield_614,identifier,DublinCore
+value_614,ATC00012,Value
+dataset_615,Drug Ontology,Dataset
+field_615,atc_code,Field
+dcfield_615,identifier,DublinCore
+value_615,ATC00013,Value
+dataset_616,Drug Ontology,Dataset
+field_616,atc_code,Field
+dcfield_616,identifier,DublinCore
+value_616,ATC00014,Value
+dataset_617,Drug Ontology,Dataset
+field_617,atc_code,Field
+dcfield_617,identifier,DublinCore
+value_617,ATC00015,Value
+dataset_618,Drug Ontology,Dataset
+field_618,atc_code,Field
+dcfield_618,identifier,DublinCore
+value_618,ATC00016,Value
+dataset_619,Drug Ontology,Dataset
+field_619,atc_code,Field
+dcfield_619,identifier,DublinCore
+value_619,ATC00017,Value
+dataset_620,Drug Ontology,Dataset
+field_620,atc_code,Field
+dcfield_620,identifier,DublinCore
+value_620,ATC00018,Value
+dataset_621,Drug Ontology,Dataset
+field_621,atc_code,Field
+dcfield_621,identifier,DublinCore
+value_621,ATC00019,Value
+dataset_622,Drug Ontology,Dataset
+field_622,atc_code,Field
+dcfield_622,identifier,DublinCore
+value_622,ATC00020,Value
+dataset_623,Drug Ontology,Dataset
+field_623,atc_code,Field
+dcfield_623,identifier,DublinCore
+value_623,ATC00021,Value
+dataset_624,Drug Ontology,Dataset
+field_624,atc_code,Field
+dcfield_624,identifier,DublinCore
+value_624,ATC00022,Value
+dataset_625,Drug Ontology,Dataset
+field_625,atc_code,Field
+dcfield_625,identifier,DublinCore
+value_625,ATC00023,Value
+dataset_626,Drug Ontology,Dataset
+field_626,atc_code,Field
+dcfield_626,identifier,DublinCore
+value_626,ATC00024,Value
+dataset_627,Drug Ontology,Dataset
+field_627,atc_code,Field
+dcfield_627,identifier,DublinCore
+value_627,ATC00025,Value
+dataset_628,Drug Ontology,Dataset
+field_628,atc_code,Field
+dcfield_628,identifier,DublinCore
+value_628,ATC00026,Value
+dataset_629,Drug Ontology,Dataset
+field_629,atc_code,Field
+dcfield_629,identifier,DublinCore
+value_629,ATC00027,Value
+dataset_630,Drug Ontology,Dataset
+field_630,atc_code,Field
+dcfield_630,identifier,DublinCore
+value_630,ATC00028,Value
+dataset_631,Drug Ontology,Dataset
+field_631,atc_code,Field
+dcfield_631,identifier,DublinCore
+value_631,ATC00029,Value
+dataset_632,Drug Ontology,Dataset
+field_632,atc_code,Field
+dcfield_632,identifier,DublinCore
+value_632,ATC00030,Value
+dataset_633,Drug Ontology,Dataset
+field_633,atc_code,Field
+dcfield_633,identifier,DublinCore
+value_633,ATC00031,Value
+dataset_634,Drug Ontology,Dataset
+field_634,atc_code,Field
+dcfield_634,identifier,DublinCore
+value_634,ATC00032,Value
+dataset_635,Drug Ontology,Dataset
+field_635,atc_code,Field
+dcfield_635,identifier,DublinCore
+value_635,ATC00033,Value
+dataset_636,Drug Ontology,Dataset
+field_636,atc_code,Field
+dcfield_636,identifier,DublinCore
+value_636,ATC00034,Value
+dataset_637,Drug Ontology,Dataset
+field_637,atc_code,Field
+dcfield_637,identifier,DublinCore
+value_637,ATC00035,Value
+dataset_638,Drug Ontology,Dataset
+field_638,atc_code,Field
+dcfield_638,identifier,DublinCore
+value_638,ATC00036,Value
+dataset_639,Drug Ontology,Dataset
+field_639,atc_code,Field
+dcfield_639,identifier,DublinCore
+value_639,ATC00037,Value
+dataset_640,Drug Ontology,Dataset
+field_640,atc_code,Field
+dcfield_640,identifier,DublinCore
+value_640,ATC00038,Value
+dataset_641,Drug Ontology,Dataset
+field_641,atc_code,Field
+dcfield_641,identifier,DublinCore
+value_641,ATC00039,Value
+dataset_642,Drug Ontology,Dataset
+field_642,atc_code,Field
+dcfield_642,identifier,DublinCore
+value_642,ATC00040,Value
+dataset_643,Drug Ontology,Dataset
+field_643,atc_code,Field
+dcfield_643,identifier,DublinCore
+value_643,ATC00041,Value
+dataset_644,Drug Ontology,Dataset
+field_644,atc_code,Field
+dcfield_644,identifier,DublinCore
+value_644,ATC00042,Value
+dataset_645,Drug Ontology,Dataset
+field_645,atc_code,Field
+dcfield_645,identifier,DublinCore
+value_645,ATC00043,Value
+dataset_646,Drug Ontology,Dataset
+field_646,atc_code,Field
+dcfield_646,identifier,DublinCore
+value_646,ATC00044,Value
+dataset_647,Drug Ontology,Dataset
+field_647,atc_code,Field
+dcfield_647,identifier,DublinCore
+value_647,ATC00045,Value
+dataset_648,Drug Ontology,Dataset
+field_648,atc_code,Field
+dcfield_648,identifier,DublinCore
+value_648,ATC00046,Value
+dataset_649,Drug Ontology,Dataset
+field_649,atc_code,Field
+dcfield_649,identifier,DublinCore
+value_649,ATC00047,Value
+dataset_650,Drug Ontology,Dataset
+field_650,atc_code,Field
+dcfield_650,identifier,DublinCore
+value_650,ATC00048,Value
+dataset_651,Drug Ontology,Dataset
+field_651,atc_code,Field
+dcfield_651,identifier,DublinCore
+value_651,ATC00049,Value
+dataset_652,Drug Ontology,Dataset
+field_652,atc_code,Field
+dcfield_652,identifier,DublinCore
+value_652,ATC00050,Value
+dataset_653,Drug Ontology,Dataset
+field_653,approved,Field
+dcfield_653,rights,DublinCore
+value_653,Yes,Value
+dataset_654,Drug Ontology,Dataset
+field_654,approved,Field
+dcfield_654,rights,DublinCore
+value_654,No,Value
+dataset_655,Drug Ontology,Dataset
+field_655,synonyms,Field
+dcfield_655,relation,DublinCore
+value_655,Med5|Med2|Med4,Value
+dataset_656,Drug Ontology,Dataset
+field_656,synonyms,Field
+dcfield_656,relation,DublinCore
+value_656,Med3|Med5|Med4,Value
+dataset_657,Drug Ontology,Dataset
+field_657,synonyms,Field
+dcfield_657,relation,DublinCore
+value_657,Med4|Med2|Med5,Value
+dataset_658,Drug Ontology,Dataset
+field_658,synonyms,Field
+dcfield_658,relation,DublinCore
+value_658,Med2|Med3|Med5,Value
+dataset_659,Drug Ontology,Dataset
+field_659,synonyms,Field
+dcfield_659,relation,DublinCore
+value_659,Med3|Med2|Med4,Value
+dataset_660,Drug Ontology,Dataset
+field_660,synonyms,Field
+dcfield_660,relation,DublinCore
+value_660,Med3|Med4|Med2,Value
+dataset_661,Drug Ontology,Dataset
+field_661,synonyms,Field
+dcfield_661,relation,DublinCore
+value_661,Med1|Med3|Med5,Value
+dataset_662,Drug Ontology,Dataset
+field_662,synonyms,Field
+dcfield_662,relation,DublinCore
+value_662,Med3|Med5|Med2,Value
+dataset_663,Drug Ontology,Dataset
+field_663,synonyms,Field
+dcfield_663,relation,DublinCore
+value_663,Med5|Med1|Med3,Value
+dataset_664,Drug Ontology,Dataset
+field_664,synonyms,Field
+dcfield_664,relation,DublinCore
+value_664,Med2|Med3|Med1,Value
+dataset_665,Drug Ontology,Dataset
+field_665,synonyms,Field
+dcfield_665,relation,DublinCore
+value_665,Med1|Med4|Med5,Value
+dataset_666,Drug Ontology,Dataset
+field_666,synonyms,Field
+dcfield_666,relation,DublinCore
+value_666,Med1|Med3|Med4,Value
+dataset_667,Drug Ontology,Dataset
+field_667,synonyms,Field
+dcfield_667,relation,DublinCore
+value_667,Med2|Med5|Med4,Value
+dataset_668,Drug Ontology,Dataset
+field_668,synonyms,Field
+dcfield_668,relation,DublinCore
+value_668,Med5|Med4|Med3,Value
+dataset_669,Drug Ontology,Dataset
+field_669,synonyms,Field
+dcfield_669,relation,DublinCore
+value_669,Med2|Med5|Med1,Value
+dataset_670,Drug Ontology,Dataset
+field_670,synonyms,Field
+dcfield_670,relation,DublinCore
+value_670,Med1|Med4|Med2,Value
+dataset_671,Drug Ontology,Dataset
+field_671,synonyms,Field
+dcfield_671,relation,DublinCore
+value_671,Med3|Med5|Med1,Value
+dataset_672,Drug Ontology,Dataset
+field_672,synonyms,Field
+dcfield_672,relation,DublinCore
+value_672,Med5|Med3|Med4,Value
+dataset_673,Drug Ontology,Dataset
+field_673,synonyms,Field
+dcfield_673,relation,DublinCore
+value_673,Med4|Med3|Med2,Value
+dataset_674,Drug Ontology,Dataset
+field_674,synonyms,Field
+dcfield_674,relation,DublinCore
+value_674,Med2|Med1|Med5,Value
+dataset_675,Drug Ontology,Dataset
+field_675,synonyms,Field
+dcfield_675,relation,DublinCore
+value_675,Med5|Med2|Med3,Value
+dataset_676,Drug Ontology,Dataset
+field_676,synonyms,Field
+dcfield_676,relation,DublinCore
+value_676,Med5|Med4|Med1,Value
+dataset_677,Drug Ontology,Dataset
+field_677,synonyms,Field
+dcfield_677,relation,DublinCore
+value_677,Med5|Med4|Med2,Value
+dataset_678,Drug Ontology,Dataset
+field_678,synonyms,Field
+dcfield_678,relation,DublinCore
+value_678,Med2|Med1|Med4,Value
+dataset_679,Drug Ontology,Dataset
+field_679,synonyms,Field
+dcfield_679,relation,DublinCore
+value_679,Med2|Med1|Med3,Value
+dataset_680,Drug Ontology,Dataset
+field_680,synonyms,Field
+dcfield_680,relation,DublinCore
+value_680,Med4|Med3|Med1,Value
+dataset_681,Drug Ontology,Dataset
+field_681,synonyms,Field
+dcfield_681,relation,DublinCore
+value_681,Med4|Med1|Med5,Value
+dataset_682,Drug Ontology,Dataset
+field_682,synonyms,Field
+dcfield_682,relation,DublinCore
+value_682,Med3|Med2|Med5,Value
+dataset_683,Drug Ontology,Dataset
+field_683,synonyms,Field
+dcfield_683,relation,DublinCore
+value_683,Med4|Med3|Med5,Value
+dataset_684,Drug Ontology,Dataset
+field_684,synonyms,Field
+dcfield_684,relation,DublinCore
+value_684,Med5|Med1|Med4,Value
+dataset_685,Drug Ontology,Dataset
+field_685,synonyms,Field
+dcfield_685,relation,DublinCore
+value_685,Med3|Med1|Med4,Value
+dataset_686,Drug Ontology,Dataset
+field_686,synonyms,Field
+dcfield_686,relation,DublinCore
+value_686,Med1|Med3|Med2,Value
+dataset_687,Drug Ontology,Dataset
+field_687,synonyms,Field
+dcfield_687,relation,DublinCore
+value_687,Med4|Med5|Med2,Value
+dataset_688,Drug Ontology,Dataset
+field_688,synonyms,Field
+dcfield_688,relation,DublinCore
+value_688,Med4|Med2|Med3,Value
+dataset_689,Drug Ontology,Dataset
+field_689,synonyms,Field
+dcfield_689,relation,DublinCore
+value_689,Med3|Med1|Med2,Value
+dataset_690,Drug Ontology,Dataset
+field_690,synonyms,Field
+dcfield_690,relation,DublinCore
+value_690,Med3|Med4|Med1,Value
+dataset_691,Drug Ontology,Dataset
+field_691,synonyms,Field
+dcfield_691,relation,DublinCore
+value_691,Med1|Med5|Med3,Value
+dataset_692,Drug Ontology,Dataset
+field_692,synonyms,Field
+dcfield_692,relation,DublinCore
+value_692,Med3|Med1|Med5,Value
+dataset_693,Drug Ontology,Dataset
+field_693,synonyms,Field
+dcfield_693,relation,DublinCore
+value_693,Med3|Med4|Med5,Value
+dataset_694,Drug Ontology,Dataset
+field_694,synonyms,Field
+dcfield_694,relation,DublinCore
+value_694,Med1|Med2|Med3,Value
+dataset_695,Drug Ontology,Dataset
+field_695,synonyms,Field
+dcfield_695,relation,DublinCore
+value_695,Med5|Med1|Med2,Value
+dataset_696,Drug Ontology,Dataset
+field_696,synonyms,Field
+dcfield_696,relation,DublinCore
+value_696,Med2|Med4|Med5,Value
+dataset_697,Drug Ontology,Dataset
+field_697,synonyms,Field
+dcfield_697,relation,DublinCore
+value_697,Med5|Med3|Med1,Value
+dataset_698,Drug Ontology,Dataset
+field_698,synonyms,Field
+dcfield_698,relation,DublinCore
+value_698,Med5|Med3|Med2,Value
+dataset_699,Drug Ontology,Dataset
+field_699,synonyms,Field
+dcfield_699,relation,DublinCore
+value_699,Med4|Med2|Med1,Value
+dataset_700,Drug Ontology,Dataset
+field_700,synonyms,Field
+dcfield_700,relation,DublinCore
+value_700,Med1|Med5|Med4,Value
+dataset_701,Drug Ontology,Dataset
+field_701,synonyms,Field
+dcfield_701,relation,DublinCore
+value_701,Med1|Med2|Med4,Value
+dataset_702,Drug Ontology,Dataset
+field_702,synonyms,Field
+dcfield_702,relation,DublinCore
+value_702,Med1|Med5|Med2,Value
+dataset_703,Drug Ontology,Dataset
+field_703,synonyms,Field
+dcfield_703,relation,DublinCore
+value_703,Med2|Med5|Med3,Value
+dataset_704,Drug Ontology,Dataset
+field_704,synonyms,Field
+dcfield_704,relation,DublinCore
+value_704,Med4|Med1|Med2,Value

@@ -11,15 +11,43 @@
   --dark-color: #343a40;
 }
 
+/* Base Styles */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f5f7fa;
 }
 
+/* Navigation */
 .navbar {
   box-shadow: 0 2px 4px rgba(0,0,0,.1);
 }
 
+/* Section Titles */
+.section-title {
+  border-bottom: 3px solid var(--primary-color);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: var(--dark-color);
+  font-weight: 600;
+}
+
+/* Cards */
+.card {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.card-header {
+  background-color: white;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  border-radius: 10px 10px 0 0 !important;
+  font-weight: 600;
+  color: var(--dark-color);
+}
+
+/* KPI Cards */
 .kpi-card {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -54,46 +82,7 @@ body {
   letter-spacing: 1px;
 }
 
-.chart-container {
-  position: relative;
-  height: 300px;
-  width: 100%;
-  margin: 15px 0;
-}
-
-.section-title {
-  border-bottom: 3px solid var(--primary-color);
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-  color: var(--dark-color);
-  font-weight: 600;
-}
-
-.table-responsive {
-  max-height: 400px;
-  overflow-y: auto;
-  border-radius: 5px;
-}
-
-.table th {
-  background-color: var(--primary-color);
-  color: white;
-  position: sticky;
-  top: 0;
-}
-
-.status-badge {
-  font-size: 0.8rem;
-  padding: 5px 10px;
-}
-
-footer {
-  background-color: var(--dark-color);
-  color: white;
-  padding: 20px 0;
-  margin-top: 40px;
-}
-
+/* Metric Cards (unused but kept for consistency) */
 .metric-card {
   background: white;
   border-radius: 8px;
@@ -114,11 +103,49 @@ footer {
   color: var(--primary-color);
 }
 
+/* Progress Bars */
 .progress {
   height: 10px;
   margin-top: 10px;
 }
 
+/* Charts */
+.chart-container {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  margin: 15px 0;
+}
+
+/* Tables */
+.table-responsive {
+  max-height: 400px;
+  overflow-y: auto;
+  border-radius: 5px;
+}
+
+.table th {
+  background-color: var(--primary-color);
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+/* Status Badges */
+.status-badge {
+  font-size: 0.8rem;
+  padding: 5px 10px;
+}
+
+/* Footer */
+footer {
+  background-color: var(--dark-color);
+  color: white;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+/* Color Utilities */
 .text-primary { color: var(--primary-color); }
 .text-success { color: var(--success-color); }
 .text-warning { color: var(--warning-color); }
@@ -131,7 +158,17 @@ footer {
 .bg-danger { background-color: var(--danger-color); }
 .bg-info { background-color: var(--info-color); }
 
-/* Responsive adjustments */
+/* Animations */
+.fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive Adjustments */
 @media (max-width: 768px) {
   .kpi-value {
     font-size: 1.5rem;
@@ -144,29 +181,4 @@ footer {
   .table-responsive {
     max-height: 300px;
   }
-}
-
-/* Animation for loading */
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-.fade-in {
-  animation: fadeIn 0.5s ease-out;
-}
-
-.card {
-  border-radius: 10px;
-  border: none;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  margin-bottom: 20px;
-}
-
-.card-header {
-  background-color: white;
-  border-bottom: 1px solid rgba(0,0,0,0.1);
-  border-radius: 10px 10px 0 0 !important;
-  font-weight: 600;
-  color: var(--dark-color);
 }

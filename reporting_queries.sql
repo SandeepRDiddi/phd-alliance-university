@@ -1,5 +1,5 @@
 -- Query 1: Drug Safety Analysis by Drug Class
-SELECT 
+SELECT
     'Drug Safety by Class' as report_name,
     don.drug_class,
     COUNT(*) as total_reports,
@@ -13,7 +13,7 @@ GROUP BY don.drug_class
 ORDER BY total_reports DESC;
 
 -- Query 2: Top Adverse Events by Condition Category
-SELECT 
+SELECT
     'Top Adverse Events by Condition' as report_name,
     c.category as condition_category,
     ds.adverse_event,
@@ -26,10 +26,10 @@ GROUP BY c.category, ds.adverse_event
 HAVING COUNT(*) > 50
 ORDER BY c.category, event_count DESC;
 
-
+-- Query 3: Missing (gap in numbering)
 
 -- Query 4: Treatment Effectiveness Analysis
-SELECT 
+SELECT
     'Treatment Effectiveness' as report_name,
     c.category as condition_category,
     don.drug_class,
@@ -44,7 +44,7 @@ GROUP BY c.category, don.drug_class, se.outcome
 ORDER BY c.category, don.drug_class, patient_count DESC;
 
 -- Query 5: Drug Safety Red Flags (High-Risk Combinations)
-SELECT 
+SELECT
     'Drug Safety Red Flags' as report_name,
     ds.drug_name,
     don.drug_class,
@@ -63,7 +63,7 @@ HAVING COUNT(*) > 10
 ORDER BY occurrence_count DESC;
 
 -- Query 6: Comprehensive Drug Portfolio Analysis
-SELECT 
+SELECT
     'Drug Portfolio Analysis' as report_name,
     don.drug_class,
     COUNT(DISTINCT don.drug_name) as total_drugs,
@@ -76,18 +76,18 @@ LEFT JOIN drug_safety ds ON don.drug_id = ds.drug_id
 LEFT JOIN synthetic_ehr se ON don.drug_id = se.drug_id
 LEFT JOIN (
     SELECT drug_id, COUNT(*) as avg_reports
-    FROM drug_safety 
+    FROM drug_safety
     GROUP BY drug_id
 ) safety_stats ON don.drug_id = safety_stats.drug_id
 GROUP BY don.drug_class
 ORDER BY total_drugs DESC;
 
 -- Query 7: Patient Demographics and Outcomes by Condition
-SELECT 
+SELECT
     'Patient Demographics Analysis' as report_name,
     c.condition_name,
     se.gender,
-    CASE 
+    CASE
         WHEN se.age < 18 THEN 'Pediatric'
         WHEN se.age BETWEEN 18 AND 65 THEN 'Adult'
         ELSE 'Elderly'
@@ -102,7 +102,7 @@ GROUP BY c.condition_name, se.gender, age_group
 ORDER BY c.condition_name, patient_count DESC;
 
 -- Query 8: Time-based Trend Analysis
-SELECT 
+SELECT
     'Temporal Trends Analysis' as report_name,
     EXTRACT(YEAR FROM ds.report_date) as report_year,
     EXTRACT(QUARTER FROM ds.report_date) as report_quarter,
@@ -112,7 +112,7 @@ SELECT
     COUNT(CASE WHEN ds.serious = true THEN 1 END) as serious_events
 FROM drug_safety ds
 INNER JOIN conditions c ON ds.condition_id = c.condition_id
-WHERE ds.report_date IS NOT NULL 
+WHERE ds.report_date IS NOT NULL
     AND ds.report_date >= '2020-01-01'
 GROUP BY report_year, report_quarter, c.category
 ORDER BY report_year DESC, report_quarter DESC, safety_reports DESC;
@@ -122,7 +122,7 @@ ORDER BY report_year DESC, report_quarter DESC, safety_reports DESC;
 -- =====================================================
 
 -- Data Quality Report
-SELECT 
+SELECT
     'Data Quality Report' as report_name,
     'drug_safety' as table_name,
     COUNT(*) as total_records,
@@ -130,7 +130,7 @@ SELECT
     COUNT(CASE WHEN condition_id IS NULL THEN 1 END) as missing_condition_links
 FROM drug_safety
 UNION ALL
-SELECT 
+SELECT
     'Data Quality Report',
     'synthetic_ehr',
     COUNT(*),
@@ -138,7 +138,7 @@ SELECT
     COUNT(CASE WHEN condition_id IS NULL THEN 1 END)
 FROM synthetic_ehr
 UNION ALL
-SELECT 
+SELECT
     'Data Quality Report',
     'clinical_trials',
     COUNT(*),
@@ -151,7 +151,7 @@ FROM clinical_trials;
 -- =====================================================
 
 -- Query to check relationship integrity
-SELECT 
+SELECT
     'Relationship Integrity Check' as check_name,
     'drug_safety -> drug_ontology' as relationship,
     COUNT(*) as total_records,
@@ -159,7 +159,7 @@ SELECT
     ROUND(COUNT(drug_id) * 100.0 / COUNT(*), 2) as link_percentage
 FROM drug_safety
 UNION ALL
-SELECT 
+SELECT
     'Relationship Integrity Check',
     'synthetic_ehr -> drug_ontology',
     COUNT(*),
@@ -167,7 +167,7 @@ SELECT
     ROUND(COUNT(drug_id) * 100.0 / COUNT(*), 2)
 FROM synthetic_ehr
 UNION ALL
-SELECT 
+SELECT
     'Relationship Integrity Check',
     'clinical_trials -> conditions',
     COUNT(*),
