@@ -1,32 +1,33 @@
 //////////////////////////////////////////////////////////////////////////
-// OntoPharmSearch Reload Script (with APOC)
-// 1. Clears DB
-// 2. Loads all nodes (forces IDs, properties, synonyms)
-// 3. Loads all relationships
+// OntoPharmSearch – Full Reload Script
+// Clears DB, loads nodes + relationships from CSV
 //////////////////////////////////////////////////////////////////////////
 
-// === Step 1: Clear existing graph ===
+// === STEP 1: Clear existing graph ===
 MATCH (n) DETACH DELETE n;
 
 //////////////////////////////////////////////////////////////////////////
-// Step 2: Load all nodes
+// === STEP 2: Load nodes (with APOC) ===
 //////////////////////////////////////////////////////////////////////////
 LOAD CSV WITH HEADERS FROM 'file:///ontopharmsearch_nodes_clean.csv' AS row
-CALL apoc.create.node([row.label], {id: row.id, name: row.name}) YIELD node
-SET node.id = row.id,
-    node.prefLabel = row.prefLabel,
-    node.ontology  = row.ontology,
-    node.uri       = row.uri,
-    node.synonyms  = CASE 
-                        WHEN row.synonyms IS NULL OR row.synonyms = "" 
-                        THEN [] 
-                        ELSE split(row.synonyms, "|") 
-                     END;
+CALL apoc.create.node([row.label], {
+  id: row.id,
+  name: row.name,
+  label: row.label,
+  ontology: row.ontology,
+  code: row.code,
+  uri: row.uri,
+  synonyms: CASE
+              WHEN row.synonyms IS NULL OR row.synonyms = '' THEN []
+              ELSE split(row.synonyms, '|')
+            END
+}) YIELD node
+RETURN count(node);
 
 //////////////////////////////////////////////////////////////////////////
-// Step 3: Load relationships
+// === STEP 3: Load relationships (with APOC) ===
 //////////////////////////////////////////////////////////////////////////
 LOAD CSV WITH HEADERS FROM 'file:///ontopharmsearch_edges_clean.csv' AS row
-MATCH (a {id: row.source}), (b {id: row.target})
-CALL apoc.create.relationship(a, row.relation, {}, b) YIELD rel
+MATCH (s {id: row.source}), (t {id: row.target})
+CALL apoc.create.relationship(s, row.relation, {}, t) YIELD rel
 RETURN count(rel);
